@@ -1,0 +1,33 @@
+.rootClassName {
+    border-radius: 4px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    & svg {
+        height:24px;
+        width: auto;
+        color: var(--svgColor);
+    }
+}
+
+.accent {
+    background: var(--headingText);
+    color: white;
+    padding: 16px 36px;
+    border-radius: 8px;
+}

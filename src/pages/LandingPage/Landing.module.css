@@ -1,0 +1,104 @@
+.heading {
+  color: var(--headingText);
+  font-size: 84px;
+  & span {
+    color: var(--pinkText);
+  }
+}
+
+.heading2 {
+  color: var(--heading2Text);
+  font-size: 28px;
+  text-align: center;
+}
+
+.herosec {
+  min-height: max(700px, calc(100vh - 90px));
+  padding: 80px 0;
+
+  & .heroWrapper {
+    & > :not(:last-child) {
+      margin-bottom: 45px;
+    }
+  }
+
+  & .treePos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  & .flowerPos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  & .imgCont {
+    width: 100%;
+    max-width: 512px;
+    height: 100%;
+    max-height: 420px;
+    margin: 0 auto;
+    user-select: none;
+
+    & .heroImg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  & .cta {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    padding: 60px 0 20px 0;
+    min-height: max(700px, calc(100vh - 60px));
+
+    & .headingSec {
+      padding: 0 10px;
+
+      & .heading {
+        font-size: 42px;
+
+        & span {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      & .heading2 {
+        font-size: 18px;
+      }
+    }
+
+    & .treePos {
+      width: 35%;
+    }
+
+    & .flowerPos {
+      width: 45%;
+    }
+
+    & .ctaBtn {
+      font-family: "Geist", sans-serif;
+      font-size: 18px;
+
+      & svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+& .ctaBtn {
+  font-family: "Geist", sans-serif;
+  font-size: 22px;
+}
