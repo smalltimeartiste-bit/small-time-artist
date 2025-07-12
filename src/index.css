@@ -16,6 +16,9 @@ html {
   --font-body: 'Roboto', sans-serif;
   --maxWidth: 1400px;
 
+  --primaryBlack: #0F010E;
+  --subSecondaryBlack: #837E7E;
+
   /* Buttons */
 
   --textColor: #523010;
@@ -33,6 +36,12 @@ html {
 
 body {
   background-color: var(--bodyBg);
+  /* overflow-y: auto; */
+}
+
+#root {
+  height: 100dvh;
+  overflow-y: auto;
 }
 
 ul {

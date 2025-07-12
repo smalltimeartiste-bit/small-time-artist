@@ -1,6 +1,6 @@
 .root {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     @media (max-width: 767px) {
         padding-left: 10px !important;

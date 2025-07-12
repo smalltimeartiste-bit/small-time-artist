@@ -9,19 +9,23 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
+    const rootEl = document.getElementById("root");
 
-      if (scrollY >= 8 && !isScrolled) {
+    if (!rootEl) return;
+
+    const handleScroll = () => {
+      const scrollTop = rootEl.scrollTop;
+
+      if (scrollTop >= 8 && !isScrolled) {
         setIsScrolled(true);
-      } else if (scrollY === 0 && isScrolled) {
+      } else if (scrollTop === 0 && isScrolled) {
         setIsScrolled(false);
       }
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    rootEl.addEventListener("scroll", handleScroll, { passive: true });
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => rootEl.removeEventListener("scroll", handleScroll);
   }, [isScrolled]);
 
   return (
