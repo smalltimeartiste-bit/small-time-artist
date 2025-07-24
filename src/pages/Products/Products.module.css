@@ -27,6 +27,8 @@
   border-radius: 10px;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 3px 10px #00000009;
   transition: all 0.2s ease-in-out;
   will-change: transform;
@@ -47,31 +49,170 @@
       height: 30px;
     }
   }
+  & .imgCard {
+    /* height: 100%; */
+    z-index: 4;
+    width: 100%;
+    position: relative;
+    flex: 1;
+  }
 
   &:hover {
     cursor: pointer;
     box-shadow: 0 0px 12px #00000014;
     will-change: transform;
   }
+
+  & .decorImg {
+    z-index: 3;
+  }
+
+  & .decorImg,
+  & .cardImg {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 .card1 {
   grid-row: span 2;
+  & .decorImg,
+  & .cardImg {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .card2 {
   grid-column: span 2;
+  & .decorImg {
+    right: 0;
+    bottom: 0;
+  }
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
+}
+.card3 {
+  & .decorImg {
+    left: 20px;
+    bottom: -10px;
+  }
+  & .cardImg {
+    bottom: 0px;
+    left: 20px;
+  }
+}
+.card4 {
+  & .decorImg {
+    bottom: 0;
+    right: 0;
+  }
+
+  & .cardImg {
+    bottom: 0;
+    left: 0;
+  }
 }
 .card5 {
   grid-column: span 2;
+  & .decorImg {
+    top: 0;
+    right: 10%;
+  }
+
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
 }
 .card6 {
   grid-row: span 2;
+  & .decorImg {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  & .cardImg {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.card7 {
+  & .decorImg {
+    right: 0;
+    bottom: 0;
+  }
+
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.card8 {
+  & .decorImg {
+    top: 0;
+    right: 0;
+  }
+
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .card9 {
   grid-row: span 2;
+  & .decorImg,
+  & .cardImg {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  & .cardImg {
+    left: 0 !important;
+    transform: unset !important;
+  }
+}
+
+.card10 {
+  & .decorImg {
+    bottom: 0;
+    right: 0;
+  }
+
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.card11 {
+  & .decorImg {
+    right: 0;
+    bottom: 0;
+  }
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+    width: 90%;
+  }
 }
 .card12 {
   grid-column: span 2;
+  & .decorImg {
+    bottom: 0;
+    right: 0;
+  }
+  & .cardImg {
+    left: 0;
+    bottom: 0;
+  }
 }
 
 /* for mobile screens */
@@ -95,7 +236,7 @@
   }
   .card {
     & .cardContent {
-      padding: 10px;
+      padding: 10px 10px 5px;
       & .title {
         font-size: 16px;
         font-weight: 600;
@@ -123,41 +264,123 @@
       "card9 card11"
       "card12 card12";
   }
-
+  .card {
+    & .decorImg {
+      position: absolute;
+      width: auto;
+      height: 120px;
+    }
+    & .cardImg {
+      width: auto;
+    }
+  }
   .card1 {
     grid-area: card1;
+    & .cardImg {
+      height: 80%;
+    }
   }
   .card2 {
     grid-area: card2;
+    & .decorImg {
+      height: 95px;
+    }
+
+    & .cardImg {
+      height: 98%;
+    }
   }
   .card3 {
     grid-area: card3;
+    & .decorImg {
+      height: 80px;
+    }
+
+    & .cardImg {
+      height: 100%;
+      left: 0;
+    }
   }
   .card4 {
     grid-area: card4;
+    & .decorImg {
+      height: 70px;
+    }
+
+    & .cardImg {
+      height: 100%;
+    }
   }
   .card5 {
     grid-area: card5;
+    & .decorImg {
+      height: 54px;
+    }
+
+    & .cardImg {
+      height: 98%;
+    }
   }
   .card6 {
     grid-area: card6;
+    & .decorImg {
+      height: 65%;
+    }
+    & .cardImg {
+      height: 60%;
+    }
   }
   .card7 {
     grid-area: card7;
+    & .decorImg {
+      height: 75px;
+    }
+    & .cardImg {
+      height: 100%;
+    }
   }
   .card8 {
     grid-area: card8;
+    & .decorImg {
+      height: 65px;
+    }
+    & .cardImg {
+      height: 100%;
+    }
   }
   .card9 {
     grid-area: card9;
+    & .cardImg {
+      height: 80%;
+    }
   }
   .card10 {
     grid-area: card10;
+    & .decorImg {
+      height: 50px;
+    }
+    & .cardImg {
+      height: 95%;
+    }
   }
   .card11 {
     grid-area: card11;
+    & .decorImg {
+      height: 65px;
+    }
+    & .cardImg {
+      height: auto;
+      max-height: 95%;
+      width: 80%;
+    }
   }
   .card12 {
     grid-area: card12;
+    & .decorImg {
+      height: 70px;
+    }
+    & .cardImg {
+      height: 95%;
+    }
   }
 }
