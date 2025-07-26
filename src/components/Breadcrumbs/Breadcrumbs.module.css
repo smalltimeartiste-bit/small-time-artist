@@ -1,0 +1,20 @@
+.link,
+.link:visited,
+.link:hover,
+.link:active,
+.link:focus {
+  text-decoration: none;
+  color: var(--primaryBlack) !important;
+}
+
+.breadCrumListStyle {
+  width: 100%;
+  padding: 10px;
+  max-width: 1150px;
+  margin: 20px auto 0;
+  /* margin: 40px 20px 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.5rem;
+}

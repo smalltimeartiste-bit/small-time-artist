@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import AboutHer from "./pages/About/AboutHer";
 import Products from "./pages/Products/Products";
 import Footer from "./components/Footer/Footer";
+import Reviews from "./pages/Reviews/Reviews";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutHer />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/reviews" element={<Reviews />} />
       </Routes>
       <Footer />
     </>

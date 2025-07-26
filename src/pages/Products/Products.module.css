@@ -214,6 +214,9 @@
     bottom: 0;
   }
 }
+.featuredHeading {
+  font-size: 48px !important;
+}
 
 /* for mobile screens */
 
@@ -383,4 +386,102 @@
       height: 95%;
     }
   }
+
+  .scrollContainer {
+    scrollbar-width: thin !important;
+    & .card {
+      width: 60% !important;
+      height: auto !important;
+      aspect-ratio: 5 / 8;
+
+      & .h3 {
+        font-size: 16px !important;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .featuredHeading {
+    font-size: 36px !important;
+    & span {
+      display: inline !important;
+      width: unset !important;
+    }
+  }
+}
+
+/* card */
+
+/* Cards.module.css */
+.featured {
+  padding: unset !important;
+  margin-top: 50px;
+}
+.scrollContainer {
+  margin-top: 20px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem;
+  scrollbar-gutter: stable;
+
+  & .card {
+    width: 270px;
+    /* height: 100%; */
+    height: 360px;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* padding: 0.5rem; */
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    & .imgContainer {
+      /* height: 80%; */
+      overflow: hidden;
+      flex-grow: 1;
+      & img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        /* border-radius: 8px; */
+      }
+    }
+    & .h3 {
+      /* margin-top: 0.5rem; */
+      padding: 10px 0;
+      font-size: 20px;
+      font-family: "Geist", sans-serif;
+      color: #333;
+    }
+  }
+}
+
+/* .featuredHeading {
+  color: var(--largeTextColor) !important;
+} */
+
+.hideScroll {
+  scrollbar-width: none !important; /* Firefox */
+}
+
+.hideScroll::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari */
+}
+
+.showScroll {
+  scrollbar-width: thin; /* Firefox */
+}
+
+.showScroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.showScroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
 }

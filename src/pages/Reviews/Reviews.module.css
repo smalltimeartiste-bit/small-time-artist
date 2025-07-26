@@ -1,0 +1,17 @@
+.heading {
+  color: var(--headingText);
+  font-size: 56px;
+  & span {
+    color: var(--pinkText);
+  }
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+
+    & span {
+      display: block;
+      width: 100%;
+    }
+  }
+}

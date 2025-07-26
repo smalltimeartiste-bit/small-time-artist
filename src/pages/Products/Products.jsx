@@ -31,83 +31,123 @@ import card10_img from "../../assets/content/products/grid_sec/card10.png";
 import card11_img from "../../assets/content/products/grid_sec/card11.png";
 import card12_img from "../../assets/content/products/grid_sec/card12.png";
 
+import sunshine from "../../assets/content/products/featured/sunshine.png";
+import greetings from "../../assets/content/products/featured/greetings.png";
+import { useState } from "react";
+import { useNavigate } from "react-router";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+
 function Products() {
+  const [hovered, setHovered] = useState(false);
+  const navigate = useNavigate();
   const gridItems = [
     {
       title: "Frame Your Phone",
+      url: "frame-your-phone",
       img: card1_img,
       bgColor: "#fff0e3",
       decor: card1,
     },
     {
       title: "Timeless Treasures",
+      url: "timeless-treasures",
       img: card2_img,
       bgColor: "#eee6ff",
       decor: card2,
     },
     {
       title: "Paper Whispers",
+      url: "paper-whispers",
       img: card3_img,
       bgColor: "#f8f8f8",
       decor: card3,
     },
     {
       title: "Old soul kitchen",
+      url: "old-soul-kitchen",
       img: card4_img,
       bgColor: "#e5f7f9",
       decor: card4,
     },
     {
       title: "The Gogh Edit",
+      url: "the-gogh-edit",
       img: card5_img,
       bgColor: "#ffffff",
       decor: card5,
     },
     {
       title: "Nestled Nook",
+      url: "nestled-nook",
       img: card6_img,
       bgColor: "#e6e2da",
       decor: card6,
     },
     {
       title: "Muse & memo",
+      url: "muse-and-memo",
       img: card7_img,
       bgColor: "#e7fff4",
       decor: card7,
     },
     {
       title: "Pink Parade",
+      url: "pink-parade",
       img: card8_img,
       bgColor: "#ffe6f2",
       decor: card8,
     },
     {
       title: "The Bookish mark",
+      url: "the-bookish-mark",
       img: card9_img,
       bgColor: "#ffeedd",
       decor: card9,
     },
     {
       title: "Strokes and Stories",
+      url: "strokes-and-stories",
       img: card10_img,
       bgColor: "#f7f7f7",
       decor: card10,
     },
     {
       title: "A little extra",
+      url: "a-little-extra",
       img: card11_img,
       bgColor: "#ffe6eb",
       decor: card11,
     },
     {
       title: "Hold it pretty",
+      url: "hold-it-pretty",
       img: card12_img,
       bgColor: "#f0f6ff",
       decor: card12,
     },
   ];
+
+  // cardData.js
+  const cardData = [
+    { title: "Sunshine Girl", image: sunshine },
+    { title: "Greetings Card", image: greetings },
+    { title: "Birthday Cake", image: sunshine },
+    { title: "Gift Basket", image: greetings },
+    { title: "Love Note", image: sunshine },
+    { title: "Rose Day Card", image: sunshine },
+    { title: "Anniversary Wishes", image: greetings },
+    { title: "Surprise Jar", image: sunshine },
+    { title: "Memory Scrapbook", image: greetings },
+    { title: "Couple Keychains", image: sunshine },
+  ];
+
+  const handleChangeRoute = (url) => {
+    navigate(`/products/${url}`);
+  };
+
   return (
     <MainContainer>
+      <Breadcrumbs />
       <Section label="All product categories">
         <WrapperContainer className={css.heroWrapper}>
           <Heading level={1} className={css.heading}>
@@ -119,6 +159,7 @@ function Products() {
                 key={index}
                 className={classNames(css.card, css[`card${index + 1}`])}
                 style={{ backgroundColor: item.bgColor }}
+                onClick={() => handleChangeRoute(item.url)}
               >
                 <div className={css.cardContent}>
                   <Heading level={3} className={css.title}>
@@ -134,6 +175,38 @@ function Products() {
             ))}
           </div>
         </WrapperContainer>
+      </Section>
+      <Section
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        className={classNames(css.featured)}
+        label={"Featured products"}
+      >
+        <Heading
+          className={classNames(css.heading, css.featuredHeading)}
+          level="2"
+        >
+          Featured <span>Products</span>
+        </Heading>
+        <div
+          className={classNames(css.scrollContainer, {
+            [css.showScroll]: hovered,
+            [css.hideScroll]: !hovered,
+          })}
+        >
+          {cardData.map((card, index) => (
+            <div className={css.card} key={index}>
+              <div className={css.imgContainer}>
+                <img src={card.image} alt={card.title} loading="lazy" />
+              </div>
+              <div>
+                <Heading className={css.h3} level="3">
+                  {card.title}
+                </Heading>
+              </div>
+            </div>
+          ))}
+        </div>
       </Section>
     </MainContainer>
   );
