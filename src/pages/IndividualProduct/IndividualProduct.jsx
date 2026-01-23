@@ -40,7 +40,14 @@ function BuyModal(props) {
           {title}
         </Heading>
         <div className={css.formContainer}>
-          <form onSubmit={(e) => e.preventDefault()}>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              const formData = new FormData(e.target);
+              const data = Object.fromEntries(formData);
+              console.log("Form Data:", data);
+            }}
+          >
             <label for="fullName">
               <span>Full Name</span>
               <input name="fullName" type="text" placeholder="Jane Doe" />
@@ -62,7 +69,7 @@ function BuyModal(props) {
                 placeholder="Tell me how you want your product to be customized."
               />
             </label>
-            <label className={css.forImageLabel}>
+            {/* <label className={css.forImageLabel}>
               <input
                 name="imageUpload"
                 type="file"
@@ -71,7 +78,7 @@ function BuyModal(props) {
                 multiple
               />
               <BsPaperclip />
-            </label>
+            </label> */}
             <CustomButton className={css.modalFormSubmit} primary outward>
               Submit
             </CustomButton>

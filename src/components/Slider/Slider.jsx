@@ -152,26 +152,30 @@ function SliderCarousel({ slides }) {
       >
         {slides.map((e, i) => (
           <div key={i} className={classNames(css.color1, css.box)}>
-            <img src={`${url.supabase_url}/${e.img}`} alt="" loading="lazy" />
+            <img src={`${url.supabase_base_url}${e}`} alt="" loading="lazy" />
           </div>
         ))}
       </div>
 
       {/* <div className={css.controls}> */}
-      <button
-        className={classNames(css.button, css.leftBtn)}
-        onClick={() =>
-          setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides)
-        }
-      >
-        <FaChevronLeft />
-      </button>
-      <button
-        className={classNames(css.button, css.rightBtn)}
-        onClick={() => setCurrentSlide((prev) => (prev + 1) % totalSlides)}
-      >
-        <FaChevronRight />
-      </button>
+      {totalSlides > 1 && (
+        <>
+          <button
+            className={classNames(css.button, css.leftBtn)}
+            onClick={() =>
+              setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides)
+            }
+          >
+            <FaChevronLeft />
+          </button>
+          <button
+            className={classNames(css.button, css.rightBtn)}
+            onClick={() => setCurrentSlide((prev) => (prev + 1) % totalSlides)}
+          >
+            <FaChevronRight />
+          </button>
+        </>
+      )}
       {/* </div> */}
     </div>
   );

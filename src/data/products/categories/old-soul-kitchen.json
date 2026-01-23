@@ -7,7 +7,7 @@
       "id": 1,
       "name": "Hanging Recipes (Kitchen Hangs)",
       "url": "hanging-recipes",
-      "cover_img": "1.png",
+      "cover_img": "PRODUCT%20CATEGORIES/Old%20soul%20kitchen/Hanging%20Recipes%20(Kitchen%20Hangs)/IMG_2116.jpg",
       "price": [
         {
           "original": "349",
@@ -21,7 +21,7 @@
       "id": 2,
       "name": "Snapshot Magnets (Photo Magnets)",
       "url": "snapshot-magnets",
-      "cover_img": "1.png",
+      "cover_img": "PRODUCT%20CATEGORIES/Old%20soul%20kitchen/Snapshot%20Magnets%20(Photo%20magnets)/IMG_2080.jpg",
       "price": [
         {
           "original": "245",
@@ -203,7 +203,7 @@
       "id": 15,
       "name": "Tea Time Tokens (Tea Lover Magnets)",
       "url": "tea-time-tokens",
-      "cover_img": "1.png",
+      "cover_img": "PRODUCT%20CATEGORIES/Old%20soul%20kitchen/Tea%20Time%20Tokens%20(Tea%20Lover%20Magnets)/IMG_7055.jpg",
       "price": [
         {
           "original": "109",
@@ -249,6 +249,20 @@
       "price": [
         {
           "original": "2299",
+          "compared": "",
+          "excl": "shipping",
+          "showAbove": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Starry Sips (Hand-Painted MDF Coasters)",
+      "url": "starry-sips",
+      "cover_img": "PRODUCT%20CATEGORIES/Old%20soul%20kitchen/Starry%20Sips%20(Hand-Painted%20MDF%20Coasters)/IMG_9794.jpg",
+      "price": [
+        {
+          "original": "899",
           "compared": "",
           "excl": "shipping",
           "showAbove": false

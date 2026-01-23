@@ -69,8 +69,8 @@ function Reviews() {
             {data.images.map((e, i) => (
               <div key={i} className={css.cardCont}>
                 <img
-                  src={`${url.supabase_url}/${e.img}`}
-                  alt={`${e.alt}`}
+                  src={`${url.supabase_base_url}${e.img}`}
+                  alt={`Reviews by customers`}
                   loading="lazy"
                 />
               </div>

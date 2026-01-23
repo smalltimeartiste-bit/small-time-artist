@@ -78,7 +78,7 @@ function ProductSubCategories() {
         {data?.products?.[0]?.cover_img && (
           <meta
             property="og:image"
-            content={`${baseUrl.supabase_url}/${data.products[0].cover_img}`}
+            content={`${baseUrl.supabase_base_url}${data.products[0].cover_img}`}
           />
         )}
 
@@ -98,7 +98,7 @@ function ProductSubCategories() {
         {data?.products?.[0]?.cover_img && (
           <meta
             name="twitter:image"
-            content={`${baseUrl.supabase_url}/${data.products[0].cover_img}`}
+            content={`${baseUrl.supabase_base_url}${data.products[0].cover_img}`}
           />
         )}
       </Helmet>
@@ -140,9 +140,10 @@ function ProductSubCategories() {
                     >
                       <div className={css.imgCont}>
                         <img
-                          src={`${baseUrl.supabase_url}/${e.cover_img}`}
+                          src={`${baseUrl.supabase_base_url}${e.cover_img}`}
                           alt=""
                           loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div className={css.details}>

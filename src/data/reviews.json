@@ -3,14 +3,113 @@
   "heading": "A story Of Kind Words &",
   "highlight": "Grateful Hearts",
   "images": [
-    { "img": "1.png", "alt": "Smiling woman giving testimonial" },
-    { "img": "Frame 440.png", "alt": "Happy customer review" },
-    { "img": "Frame 441.png", "alt": "Satisfied client speaking" },
-    { "img": "4.png", "alt": "Warm testimonial from a user" },
-    { "img": "5.png", "alt": "Thankful feedback picture" },
-    { "img": "6.png", "alt": "Customer giving positive review" },
-    { "img": "7.png", "alt": "Pleased user talking about service" },
-    { "img": "8.png", "alt": "Person sharing their story" },
-    { "img": "9.png", "alt": "Emotional feedback moment" }
+    {
+      "img": "Reviews/IMG_2190%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2201%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2233%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2234%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2235%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2236%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2240%202.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2804.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2821.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2822.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2824.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2828.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2849.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2859.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2859.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2866.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2866.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2895.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2931.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2987.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2990.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_2992.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_3007.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_3032.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_3038.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_3039.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "Reviews/IMG_5667.jpg",
+      "alt": "Customer review"
+    }
   ]
 }
