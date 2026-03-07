@@ -1,4 +1,5 @@
 {
-  "supabase_base_url": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/",
-  "supabase_url": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/PRODUCT%20CATEGORIES"
+  "supabase_base_url": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/",
+  "supabase_url": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/PRODUCT%20CATEGORIES",
+  "reviews_url": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/"
 }

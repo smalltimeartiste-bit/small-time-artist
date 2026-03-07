@@ -4,111 +4,195 @@
   "highlight": "Grateful Hearts",
   "images": [
     {
-      "img": "Reviews/IMG_2190%202.jpg",
+      "img": "reviews/image1.jpg",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2201%202.jpg",
+      "img": "reviews/image2.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2233%202.jpg",
+      "img": "reviews/image3.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2234%202.jpg",
+      "img": "reviews/image4.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2235%202.jpg",
+      "img": "reviews/image5.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2236%202.jpg",
+      "img": "reviews/image6.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2240%202.jpg",
+      "img": "reviews/image7.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2804.jpg",
+      "img": "reviews/image8.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2821.jpg",
+      "img": "reviews/image9.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2822.jpg",
+      "img": "reviews/image10.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2824.jpg",
+      "img": "reviews/image11.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2828.jpg",
+      "img": "reviews/image12.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2849.jpg",
+      "img": "reviews/image13.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2859.jpg",
+      "img": "reviews/image14.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2859.jpg",
+      "img": "reviews/image15.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2866.jpg",
+      "img": "reviews/image16.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2866.jpg",
+      "img": "reviews/image17.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2895.jpg",
+      "img": "reviews/image18.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2931.jpg",
+      "img": "reviews/image19.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2987.jpg",
+      "img": "reviews/image20.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2990.jpg",
+      "img": "reviews/image21.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_2992.jpg",
+      "img": "reviews/image22.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_3007.jpg",
+      "img": "reviews/image23.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_3032.jpg",
+      "img": "reviews/image24.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_3038.jpg",
+      "img": "reviews/image25.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_3039.jpg",
+      "img": "reviews/image26.webp",
       "alt": "Customer review"
     },
     {
-      "img": "Reviews/IMG_5667.jpg",
+      "img": "reviews/image27.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image28.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image29.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image30.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image31.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image32.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image33.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image34.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image35.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image36.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image37.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image38.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image39.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image40.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image41.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image42.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image43.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image44.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image45.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image46.jpg",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image47.webp",
+      "alt": "Customer review"
+    },
+    {
+      "img": "reviews/image48.jpg",
       "alt": "Customer review"
     }
   ]
