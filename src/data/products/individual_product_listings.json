@@ -488,7 +488,11 @@
     "price": {
       "discounted": 299
     },
-    "images": ["1.png", "1.png", "1.png"],
+    "images": [
+      "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image1.webp",
+      "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image2.webp",
+      "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image3.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -505,7 +509,11 @@
     "price": {
       "discounted": 349
     },
-    "images": ["1.png", "1.png", "1.png"],
+    "images": [
+      "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp",
+      "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image2.webp",
+      "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image3.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -523,9 +531,10 @@
       "discounted": 449
     },
     "images": [
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Wander%20Notes%20(Travel-Friendly%20Resin-Coated%20Notebooks)/IMG_2070.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Wander%20Notes%20(Travel-Friendly%20Resin-Coated%20Notebooks)/IMG_2073.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Wander%20Notes%20(Travel-Friendly%20Resin-Coated%20Notebooks)/IMG_2074.jpg"
+      "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image1.webp",
+      "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image2.webp",
+      "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image3.webp",
+      "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image4.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -543,7 +552,11 @@
     "price": {
       "discounted": 549
     },
-    "images": ["1.png", "1.png", "1.png"],
+    "images": [
+      "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
+      "muse-and-memo/my-muse-memo-to-do-canvas-memo/image2.webp",
+      "muse-and-memo/my-muse-memo-to-do-canvas-memo/image3.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -578,8 +591,10 @@
       "discounted": 179
     },
     "images": [
-      "PRODUCT%20CATEGORIES/Hold%20it%20pretty_/Wanderlight%20(Travel%20Pouches)/PXL_20250927_032954064.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Painted%20Pause%20(Hand-Painted%20Bookmarks)/IMG_4955.jpg"
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image1.webp",
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image2.webp",
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image3.webp",
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image4.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -598,9 +613,9 @@
       "discounted": 129
     },
     "images": [
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Vintage%20Keeps%20(Vintage%20Bookmarks)/from%20the%20Vintage%20era%20_%20handmade%20bookmark.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Vintage%20Keeps%20(Vintage%20Bookmarks)/IMG_4195.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Vintage%20Keeps%20(Vintage%20Bookmarks)/IMG_6060.jpg"
+      "muse-and-memo/vintage-keeps-vintage-bookmarks/image1.webp",
+      "muse-and-memo/vintage-keeps-vintage-bookmarks/image2.webp",
+      "muse-and-memo/vintage-keeps-vintage-bookmarks/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -619,9 +634,9 @@
       "discounted": 109
     },
     "images": [
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/TO%20BE%20CHANGED%20-%20Scribble%20Tales%20(Illustrated%20&%20Quote%20Bookmarks)/Customise%20with%20your%20favourite%20line%20_%20handmade%20bookmark.HEIC.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/TO%20BE%20CHANGED%20-%20Scribble%20Tales%20(Illustrated%20&%20Quote%20Bookmarks)/IMG_6066.jpg",
-      "PRODUCT%20CATEGORIES/Muse%20&%20memo_/TO%20BE%20CHANGED%20-%20Scribble%20Tales%20(Illustrated%20&%20Quote%20Bookmarks)/IMG_6073.jpg"
+      "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image1.webp",
+      "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image2.webp",
+      "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -639,7 +654,14 @@
     "price": {
       "discounted": 249
     },
-    "images": ["1.png", "1.png", "1.png"],
+    "images": [
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image1.webp",
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image2.webp",
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image3.webp",
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image4.webp",
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image5.webp",
+      "muse-and-memo/mini-muse-hand-painted-desk-canvases/image6.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -1118,7 +1140,9 @@
       "paper-whispers/birthday-bloom/image1.jpg",
       "paper-whispers/birthday-bloom/image2.jpg",
       "paper-whispers/birthday-bloom/image3.webp"
-    ],
+    ]
+  },
+  "lovers-lane": {
     "id": 55,
     "title": "Lover's Lane",
     "desc": "<p><strong>Elegant love and anniversary cards</strong> crafted with imagination and warmth. Each piece tells a story of affection and artistry, made to last beyond the moment. Every design is personalized to your love story, from names and dates to custom art or photographs. Prices vary based on customization.</p><p><em>To explore personalised creations, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp.</em></p>",
@@ -1339,7 +1363,9 @@
       "the-gogh-edit/van-gogh-nights-coaster-set-4-pcs-plus-holder/image1.webp",
       "the-gogh-edit/van-gogh-nights-coaster-set-4-pcs-plus-holder/image2.webp",
       "the-gogh-edit/van-gogh-nights-coaster-set-4-pcs-plus-holder/image3.webp"
-    ],
+    ]
+  },
+  "the-gogh-magnetic-charms": {
     "id": 66,
     "title": "The Gogh Magnetic Charms | Fridge Magnets",
     "desc": "<p><strong>Turn everyday surfaces into miniature art galleries.</strong> Inspired by Van Gogh's expressive style and iconic colour palettes, these hand-painted magnets bring swirling skies, bold brushstrokes, and artistic charm to your fridge, workspace, or any magnetic surface. Crafted on premium bases and finished for durability, each piece blends functional use with collectible art appeal.</p><p>Customisation is available—from colours and themes to personalised details—making every magnet uniquely yours.</p><p>Prices may vary by size, finish, and level of customisation.</p><p><em>To explore personalised creations, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp.</em></p>",
@@ -1643,7 +1669,11 @@
     "price": {
       "discounted": 899
     },
-    "images": [],
+    "images": [
+      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp",
+      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image2.webp",
+      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image3.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -1771,7 +1801,9 @@
       "old-soul-kitchen/brewed-charm-hand-painted-bamboo-sippers/image1.webp",
       "old-soul-kitchen/brewed-charm-hand-painted-bamboo-sippers/image2.webp",
       "old-soul-kitchen/brewed-charm-hand-painted-bamboo-sippers/image3.webp"
-    ],
+    ]
+  },
+  "wizarding-nights": {
     "title": "Wizarding Nights (Harry Potter Coaster Set – 5 pcs)",
     "desc": "<p><strong>Step into the magic of Hogwarts.</strong> This handcrafted set of 5 Harry Potter–themed wooden coasters, finished with a glossy resin coat for an enchanting, durable shine. Featuring all four iconic Houses — Gryffindor, Slytherin, Ravenclaw, and Hufflepuff — along with a Hogwarts crest in Starry Night style, this set brings together wizarding charm and Van Gogh–inspired artistry. Perfect for Potterheads, collectors, and magical home décor lovers, each coaster is hand-painted on premium wooden bases, sealed for long life, and crafted to be both functional and display-worthy.</p><p><em>To explore personalised kitchen art, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp for more designs.</em></p>",
     "buyInfoShow": false,
@@ -1779,7 +1811,12 @@
     "price": {
       "discounted": 2299
     },
-    "images": [],
+    "images": [
+      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
+      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image2.webp",
+      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image3.webp",
+      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image4.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,

@@ -7,7 +7,7 @@
       "id": 1,
       "name": "Canvas Chronicles (Hand-Painted Canvas Notebooks)",
       "url": "canvas-chronicles",
-      "cover_img": "1.png",
+      "cover_img": "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image1.webp",
       "price": [
         {
           "original": "299",
@@ -21,7 +21,7 @@
       "id": 2,
       "name": "Bound Muse (Hardbound & Spiral Notebooks)",
       "url": "bound-muse",
-      "cover_img": "1.png",
+      "cover_img": "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp",
       "price": [
         {
           "original": "349",
@@ -35,7 +35,7 @@
       "id": 3,
       "name": "Wander Notes (Travel-Friendly Resin-Coated Notebooks)",
       "url": "wander-notes",
-      "cover_img": "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Wander%20Notes%20(Travel-Friendly%20Resin-Coated%20Notebooks)/IMG_2074.jpg",
+      "cover_img": "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image1.webp",
       "price": [
         {
           "original": "449",
@@ -49,7 +49,7 @@
       "id": 4,
       "name": "My Muse Memo (To-do canvas memo)",
       "url": "my-muse-memo",
-      "cover_img": "1.png",
+      "cover_img": "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
       "price": [
         {
           "original": "549",
@@ -63,7 +63,7 @@
       "id": 5,
       "name": "Your Story Desk (Custom To-do canvas memo)",
       "url": "your-story-desk",
-      "cover_img": "1.png",
+      "cover_img": "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
       "price": [
         {
           "original": "499",
@@ -77,7 +77,7 @@
       "id": 6,
       "name": "Painted Pause (Hand-Painted Bookmarks)",
       "url": "painted-pause",
-      "cover_img": "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Painted%20Pause%20(Hand-Painted%20Bookmarks)/IMG_4955.jpg",
+      "cover_img": "muse-and-memo/painted-pause-hand-painted-bookmarks/image1.webp",
       "price": [
         {
           "original": "179",
@@ -91,7 +91,7 @@
       "id": 7,
       "name": "Vintage Keeps (Vintage Bookmarks)",
       "url": "vintage-keeps",
-      "cover_img": "PRODUCT%20CATEGORIES/Muse%20&%20memo_/Vintage%20Keeps%20(Vintage%20Bookmarks)/IMG_6060.jpg",
+      "cover_img": "muse-and-memo/vintage-keeps-vintage-bookmarks/image1.webp",
       "price": [
         {
           "original": "129",
@@ -105,7 +105,7 @@
       "id": 8,
       "name": "Scribble Tales (Illustrated & Quote Bookmarks)",
       "url": "scribble-tales",
-      "cover_img": "PRODUCT%20CATEGORIES/Muse%20&%20memo_/TO%20BE%20CHANGED%20-%20Scribble%20Tales%20(Illustrated%20&%20Quote%20Bookmarks)/IMG_6073.jpg",
+      "cover_img": "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image1.webp",
       "price": [
         {
           "original": "109",
@@ -119,7 +119,7 @@
       "id": 9,
       "name": "Mini Muse (Hand-Painted Desk Canvases)",
       "url": "mini-muse",
-      "cover_img": "1.png",
+      "cover_img": "muse-and-memo/mini-muse-hand-painted-desk-canvases/image1.webp",
       "price": [
         {
           "original": "249",
