@@ -217,16 +217,12 @@ function Products() {
           {featuredProducts?.list?.map((card, index) => (
             <div className={css.card} key={index}>
               <div className={css.imgContainer}>
-                <img
-                  src={`${url.supabase_url}/${featuredProducts?.folderPath}/${card.image}`}
-                  alt={card.title}
-                  loading="lazy"
-                />
+                <img src={`${card.image}`} alt={card.title} loading="lazy" />
               </div>
               <div>
-                <Heading className={css.h3} level="3">
+                {/* <Heading className={css.h3} level="3">
                   {card.title}
-                </Heading>
+                </Heading> */}
               </div>
             </div>
           ))}

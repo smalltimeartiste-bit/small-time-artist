@@ -1,16 +1,18 @@
 {
   "folderPath": "featured/products",
   "list": [
-    { "title": "Sunshine Girl", "image": "sunshine.png" },
-    { "title": "Greetings Card", "image": "greetings.png" },
-    { "title": "Birthday Cake", "image": "greetings.png" },
-    { "title": "Gift Basket", "image": "sunshine.png" },
-    { "title": "Love Note", "image": "greetings.png" },
-    { "title": "Rose Day Card", "image": "sunshine.png" },
-    { "title": "Anniversary Wishes", "image": "greetings.png" },
-    { "title": "Surprise Jar", "image": "greetings.png" },
-    { "title": "Memory Scrapbook", "image": "sunshine.png" },
-    { "title": "Couple Keychains", "image": "sunshine.png" }
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image1.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image2.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image3.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image4.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image5.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image6.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image7.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image8.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image9.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image10.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image11.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image12.webp" }
   ],
   "faq": [
     {
