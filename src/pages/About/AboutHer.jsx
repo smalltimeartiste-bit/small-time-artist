@@ -15,7 +15,7 @@ function Form() {
     const formData = new FormData(e.target);
     const { fullName, email, message } = Object.fromEntries(formData);
 
-    const whatsappMessage = `Hi Debanjan,
+    const whatsappMessage = `Hi Monami,
 
 I'd love to collaborate with you.
 

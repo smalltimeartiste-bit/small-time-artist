@@ -31,7 +31,7 @@ function BuyModal(props) {
     const { fullName, mobileNumber, customizationDetails } =
       Object.fromEntries(formData);
 
-    const message = `Hi Debanjan,
+    const message = `Hi Monami,
 
 I'm interested in: *${title}*
 
