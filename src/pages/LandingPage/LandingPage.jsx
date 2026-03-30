@@ -51,8 +51,6 @@ const LandingPage = () => {
     navigate("/products");
   };
 
-  console.log("test");
-
   return (
     <MainContainer>
       <Helmet>

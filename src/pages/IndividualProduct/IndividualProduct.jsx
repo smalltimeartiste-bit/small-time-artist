@@ -24,6 +24,34 @@ function BuyModal(props) {
       document.getElementById("root").style.overflow = "";
     }
   }, [isOpen]);
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const { fullName, mobileNumber, customizationDetails } =
+      Object.fromEntries(formData);
+
+    const message = `Hi Debanjan,
+
+I'm interested in: *${title}*
+
+*Name:* ${fullName}
+*Mobile:* ${mobileNumber}
+
+*Customization Details:*
+${customizationDetails}
+
+Looking forward to your response. Thanks!`;
+
+    const phone = import.meta.env.VITE_WHATSAPP_PHONE;
+    if (!phone) {
+      alert("Unable to connect to WhatsApp. Please try again later.");
+      return;
+    }
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  }
+
   return (
     <div className={classNames(css.overlay, { [css.open]: isOpen })}>
       <div
@@ -40,33 +68,52 @@ function BuyModal(props) {
           {title}
         </Heading>
         <div className={css.formContainer}>
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              const formData = new FormData(e.target);
-              const data = Object.fromEntries(formData);
-              console.log("Form Data:", data);
-            }}
-          >
-            <label for="fullName">
+          <form onSubmit={handleFormSubmit}>
+            <label htmlFor="fullName">
               <span>Full Name</span>
-              <input name="fullName" type="text" placeholder="Jane Doe" />
+              <input
+                name="fullName"
+                type="text"
+                placeholder="Jane Doe"
+                required
+                minLength={2}
+                maxLength={100}
+              />
             </label>
-            <label for="mobileNumber">
+            <label htmlFor="mobileNumber">
               <span>Mobile Number</span>
               <input
                 name="mobileNumber"
-                type="text"
+                type="tel"
                 placeholder="+91 98765 43210"
+                required
+                pattern="[+]?[0-9\s]{7,15}"
+                title="Enter a valid phone number (7-15 digits, optional + prefix)"
+                onKeyDown={(e) => {
+                  if (
+                    ![
+                      "Backspace",
+                      "Delete",
+                      "Tab",
+                      "ArrowLeft",
+                      "ArrowRight",
+                      "Home",
+                      "End",
+                    ].includes(e.key) &&
+                    !/[0-9+\s]/.test(e.key)
+                  ) {
+                    e.preventDefault();
+                  }
+                }}
               />
             </label>
-            <label for="customizationDetails">
+            <label htmlFor="customizationDetails">
               <span>Customisation Details</span>
               <textarea
                 rows={7}
                 name="customizationDetails"
-                // type="text"
                 placeholder="Tell me how you want your product to be customized."
+                required
               />
             </label>
             {/* <label className={css.forImageLabel}>

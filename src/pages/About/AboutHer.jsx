@@ -12,20 +12,49 @@ import CustomButton from "../../components/Buttons/Buttons";
 function Form() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(e.target);
+    const { fullName, email, message } = Object.fromEntries(formData);
+
+    const whatsappMessage = `Hi Debanjan,
+
+I'd love to collaborate with you.
+
+*Name:* ${fullName}
+*Email:* ${email}
+
+*Details:*
+${message}
+
+Would love to discuss further. Thanks!`;
+
+    const phone = import.meta.env.VITE_WHATSAPP_PHONE;
+    if (!phone) {
+      alert("Unable to connect to WhatsApp. Please try again later.");
+      return;
+    }
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
     <form className={css.form} onSubmit={handleFormSubmit}>
       <div className={css.inpFieldCont}>
         <label htmlFor="fullName">Full Name:</label>
-        <input type="text" name="fullName" placeholder="" />
+        <input
+          type="text"
+          name="fullName"
+          placeholder=""
+          required
+          minLength={2}
+          maxLength={100}
+        />
       </div>
       <div className={css.inpFieldCont}>
         <label htmlFor="email">Email:</label>
-        <input type="email" name="email" placeholder="" />
+        <input type="email" name="email" placeholder="" required />
       </div>
       <div className={css.inpFieldCont}>
-        <label htmlFor="email">Message:</label>
-        <textarea rows={10} name="message" placeholder="" />
+        <label htmlFor="message">Message:</label>
+        <textarea rows={10} name="message" placeholder="" required />
       </div>
       <CustomButton outward className={css.ctaBtn} primary>
         Submit
