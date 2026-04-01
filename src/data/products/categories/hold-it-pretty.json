@@ -60,20 +60,6 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Roadside Charms (Car Charms)",
-      "url": "roadside-charms",
-      "cover_img": "1.png",
-      "price": [
-        {
-          "original": "299",
-          "compared": "",
-          "excl": "shipping",
-          "showAbove": false
-        }
-      ]
-    },
-    {
       "id": 6,
       "name": "Tiny Treasure Towers (Trinket Drawers)",
       "url": "tiny-treasure-towers",

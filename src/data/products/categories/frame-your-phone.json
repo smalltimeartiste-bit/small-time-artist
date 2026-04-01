@@ -32,20 +32,6 @@
       ]
     },
     {
-      "id": 3,
-      "name": "City Souls",
-      "url": "city-souls",
-      "cover_img": "1.png",
-      "price": [
-        {
-          "original": "249",
-          "compared": "279",
-          "excl": "shipping",
-          "showAbove": true
-        }
-      ]
-    },
-    {
       "id": 4,
       "name": "The Gogh Edit",
       "url": "the-gogh-edit",
@@ -148,20 +134,6 @@
       "name": "Vintage Vibe",
       "url": "vintage-vibe",
       "cover_img": "frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg",
-      "price": [
-        {
-          "original": "249",
-          "compared": "279",
-          "excl": "shipping",
-          "showAbove": true
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Mood & Muse (Aesthetic)",
-      "url": "mood-muse-aesthetic",
-      "cover_img": "1.png",
       "price": [
         {
           "original": "249",
