@@ -18,17 +18,17 @@ function Footer() {
     {
       label: "Instagram",
       icon: <SiInstagram />,
-      href: "https://instagram.com", // Replace with actual URL
+      href: "https://www.instagram.com/smalltime.artiste", // Replace with actual URL
     },
     {
       label: "Email",
       icon: <BiLogoTelegram />,
-      href: "mailto:you@example.com", // Replace with actual email
+      href: "mailto:smalltime.artiste@gmail.com", // Replace with actual email
     },
     {
       label: "Call",
       icon: <IoCall />,
-      href: "tel:+911234567890", // Replace with actual phone number
+      href: "tel:+919007485114", // Replace with actual phone number
     },
   ];
   return (
