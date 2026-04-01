@@ -174,6 +174,7 @@ function IndividualProduct() {
     productsWithCustomMessage.includes(productUrl);
 
   function ExtraChargesInfo({ extraCharges }) {
+    if (!extraCharges) return null;
     const formatted = `${extraCharges.for.join(" + ")} - Rs. ${
       extraCharges.charge
     }`;
@@ -309,14 +310,16 @@ function IndividualProduct() {
                     </Heading>
                     <p className={css.charges}>{`${min} - ${max} ${unit}`}</p>
                   </div>
-                  <div>
-                    <Heading className={css.delivery} level="2">
-                      Extra Charges
-                    </Heading>
-                    <ExtraChargesInfo
-                      extraCharges={currListing?.extraCharges}
-                    />
-                  </div>
+                  {currListing?.extraCharges && (
+                    <div>
+                      <Heading className={css.delivery} level="2">
+                        Extra Charges
+                      </Heading>
+                      <ExtraChargesInfo
+                        extraCharges={currListing?.extraCharges}
+                      />
+                    </div>
+                  )}
                   <CustomButton
                     onClick={() => setIsOpen(true)}
                     outward={"true"}
