@@ -151,7 +151,8 @@ const LandingPage = () => {
               Get a glimpse into her world
             </Heading>
           </div>
-          <div className={css.gridContainer}>
+
+          {/* <div className={css.gridContainer}>
             {imageGallery.map((link, i) => (
               <div key={i} className={css.gridCard}>
                 <iframe
@@ -161,6 +162,30 @@ const LandingPage = () => {
                   frameBorder="0"
                   scrolling="no"
                 />
+              </div>
+            ))}
+          </div> */}
+
+          {/* new grid container  */}
+          <div className={css.gridContainer}>
+            {imageGallery.map((link, i) => (
+              <div key={i} className={css.gridCard}>
+                <iframe
+                  src={`${link}/embed`}
+                  className={css.instaFrame}
+                  allowTransparency="true"
+                  frameBorder="0"
+                  scrolling="no"
+                  title={`Instagram post ${i + 1}`}
+                />
+                <a
+                  href="https://www.instagram.com/smalltime.artiste?igsh=MWp5YnRnbWp4eHI4aA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={css.instaLinkBtn}
+                >
+                  Open on Instagram
+                </a>
               </div>
             ))}
           </div>
