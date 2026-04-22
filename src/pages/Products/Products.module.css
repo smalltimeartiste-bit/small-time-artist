@@ -501,8 +501,8 @@
    ═══════════════════════════════════════════ */
 
 .searchRow {
-  position: relative; /* needed so dropdown can anchor to this */
-  width: 100%; /* ← FULL WIDTH on desktop */
+  position: relative;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -514,19 +514,19 @@
   border-radius: 30px;
   padding: 12px 20px;
   gap: 10px;
-  width: 100%; /* ← FULL WIDTH — change max-width here to limit it */
+  width: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition:
     border-color 0.2s,
     box-shadow 0.2s,
     border-radius 0.15s;
+  box-sizing: border-box;
   &:focus-within {
     border-color: #b5896a;
     box-shadow: 0 2px 14px rgba(181, 137, 106, 0.18);
   }
 }
 
-/* When dropdown is open, square off the bottom corners */
 .searchBarOpen {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -568,23 +568,19 @@
   }
 }
 
-/* ── Dropdown ── */
+/* ── Dropdown — positioned via inline style (React Portal) ── */
 .dropdown {
-  position: absolute;
-  top: 100%; /* sits right below the search bar */
-  left: 0;
-  right: 0;
   background: #fff;
   border: 1.5px solid #b5896a;
   border-top: none;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   list-style: none;
   padding: 4px 0 6px;
   margin: 0;
-  z-index: 999;
   overflow: hidden;
+  /* position + top/left/width come from inline style via JS */
 }
 
 .suggestionItem {
@@ -603,7 +599,7 @@
 }
 
 .suggestionActive {
-  background: #fdf6f0;
+  background: #fdf6f0 !important;
 }
 
 .suggestionIcon {
@@ -614,6 +610,9 @@
 
 .suggestionText {
   flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   & strong {
     color: #b5896a;
     font-weight: 700;
@@ -630,7 +629,6 @@
   flex-shrink: 0;
 }
 
-/* "See all results" row at bottom of dropdown */
 .seeAll {
   display: flex;
   align-items: center;
@@ -648,12 +646,5 @@
   }
   &:hover {
     background: #fdf6f0;
-  }
-}
-
-/* ── Mobile ── */
-@media (max-width: 768px) {
-  .searchRow {
-    width: 100%; /* already full width, no change needed */
   }
 }
