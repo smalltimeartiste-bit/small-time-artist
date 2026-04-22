@@ -10,12 +10,12 @@ import Reviews from "./pages/Reviews/Reviews";
 import ProductSubCategories from "./pages/ProductSubCategories/ProductSubCategories";
 import IndividualProduct from "./pages/IndividualProduct/IndividualProduct";
 import ScrollToTop from "./ScrollToTop";
+import SearchResults from "./pages/SearchResults/SearchResults"; // 🆕
 
 function App() {
   return (
     <>
       <Helmet>
-        {/* Default meta tags */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
@@ -26,6 +26,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutHer />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/search" element={<SearchResults />} /> {/* 🆕 */}
         <Route path="/products/:id" element={<ProductSubCategories />} />
         <Route
           path="/products/:id/:productId"

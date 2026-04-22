@@ -37,12 +37,11 @@ import card11_img from "../../assets/content/products/grid_sec/card11.png";
 import card12_img from "../../assets/content/products/grid_sec/card12.png";
 
 import featuredProducts from "../../data/products/featured.json";
-import url from "../../data/url.json";
 import FAQ from "../../components/Faq/Faq";
 
 function Products() {
   const [hovered, setHovered] = useState(false);
-  const [searchQuery, setSearchQuery] = useState(""); // 🆕 search state
+  const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
 
   const gridItems = [
@@ -132,10 +131,19 @@ function Products() {
     },
   ];
 
-  // 🆕 Filter categories based on search
-  const filteredItems = gridItems.filter((item) =>
-    item.title.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
+  // 🆕 Navigate to search results page
+  const handleSearch = () => {
+    if (searchQuery.trim()) {
+      navigate(`/products/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+
+  // 🆕 Trigger search on Enter key
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+  };
 
   const handleChangeRoute = (url) => {
     navigate(`/products/${url}`);
@@ -173,15 +181,16 @@ function Products() {
       <Breadcrumbs />
       <Section label="All product categories">
         <WrapperContainer className={css.heroWrapper}>
-          {/* 🆕 Search bar row - sits above the heading */}
+          {/* 🆕 Search bar */}
           <div className={css.searchRow}>
             <div className={css.searchBar}>
-              <FiSearch className={css.searchIcon} />
+              <FiSearch className={css.searchIcon} onClick={handleSearch} />
               <input
                 type="text"
-                placeholder="Search categories..."
+                placeholder="Search products or categories..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={handleKeyDown}
                 className={css.searchInput}
               />
               {searchQuery && (
@@ -193,53 +202,42 @@ function Products() {
                 </button>
               )}
             </div>
+            {/* 🆕 Search button */}
+            {searchQuery.trim() && (
+              <button className={css.searchSubmitBtn} onClick={handleSearch}>
+                Search
+              </button>
+            )}
           </div>
 
           <Heading level={1} className={css.heading}>
             Choose Your <span>Aesthetics</span>
           </Heading>
 
-          {/* 🆕 No results message */}
-          {searchQuery && filteredItems.length === 0 && (
-            <div className={css.noResults}>
-              <p>
-                No categories found for "<strong>{searchQuery}</strong>"
-              </p>
-            </div>
-          )}
-
           <div className={css.gridContainer}>
-            {filteredItems.map((item, index) => {
-              // find original index to keep correct CSS class (card1, card2 etc.)
-              const originalIndex = gridItems.findIndex(
-                (g) => g.url === item.url,
-              );
-              return (
-                <div
-                  key={item.url}
-                  className={classNames(
-                    css.card,
-                    css[`card${originalIndex + 1}`],
-                  )}
-                  style={{ backgroundColor: item.bgColor }}
-                  onClick={() => handleChangeRoute(item.url)}
-                >
-                  <div className={css.cardContent}>
-                    <Heading level={3} className={css.title}>
-                      {item.title}
-                    </Heading>
-                    <FiArrowUpRight className={css.icon} />
-                  </div>
-                  <div className={css.imgCard}>
-                    <img className={css.cardImg} src={item.img} alt="" />
-                  </div>
-                  <img className={css.decorImg} src={item.decor} alt="" />
+            {gridItems.map((item, index) => (
+              <div
+                key={index}
+                className={classNames(css.card, css[`card${index + 1}`])}
+                style={{ backgroundColor: item.bgColor }}
+                onClick={() => handleChangeRoute(item.url)}
+              >
+                <div className={css.cardContent}>
+                  <Heading level={3} className={css.title}>
+                    {item.title}
+                  </Heading>
+                  <FiArrowUpRight className={css.icon} />
                 </div>
-              );
-            })}
+                <div className={css.imgCard}>
+                  <img className={css.cardImg} src={item.img} alt="" />
+                </div>
+                <img className={css.decorImg} src={item.decor} alt="" />
+              </div>
+            ))}
           </div>
         </WrapperContainer>
       </Section>
+
       <Section
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
@@ -268,6 +266,7 @@ function Products() {
           ))}
         </div>
       </Section>
+
       <Section
         className={(css.featured, css.faq)}
         label="Frequently Asked Questions"

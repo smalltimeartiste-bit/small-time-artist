@@ -1,0 +1,145 @@
+.wrapper {
+  max-width: 1150px;
+}
+
+.heading {
+  color: var(--textColor2);
+  font-size: 42px;
+  margin-bottom: 24px;
+  & span {
+    color: var(--pinkText);
+  }
+}
+
+.filters {
+  font-family: "Geist", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  & span {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+.statusMsg {
+  font-family: "Geist", sans-serif;
+  text-align: center;
+  padding: 3rem 0;
+  color: #888;
+  font-size: 16px;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px #0000001f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 9/14;
+  overflow: hidden;
+  background: white;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0 4px 18px #00000029;
+  }
+  & .imgCont {
+    flex: 1;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  & .details {
+    height: max-content;
+    padding: 12px 10px;
+    & h3 {
+      font-size: 16px;
+      padding: unset !important;
+      text-align: left;
+      font-family: "Geist", sans-serif;
+      margin-bottom: 6px;
+    }
+    & p {
+      margin-top: 6px;
+    }
+    & span {
+      font-size: 14px;
+      font-family: unset !important;
+      &:first-of-type {
+        margin-right: 6px !important;
+      }
+    }
+  }
+}
+
+/* Category badge below product name */
+.categoryTag {
+  font-size: 12px !important;
+  font-family: "Geist", sans-serif !important;
+  color: #999 !important;
+  background: #f5f5f5;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-top: 4px !important;
+}
+
+.customPrice {
+  font-size: 12px !important;
+  font-style: italic;
+  color: #666 !important;
+}
+
+.excl,
+.incl {
+  font-family: "Geist", sans-serif !important;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 14px !important;
+}
+
+.incl {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 28px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .card {
+    & .details {
+      & h3 {
+        font-size: 13px;
+        line-height: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
