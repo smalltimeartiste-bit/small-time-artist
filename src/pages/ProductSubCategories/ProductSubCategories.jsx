@@ -11,6 +11,7 @@ import baseUrl from "../../data/url.json";
 import Loading from "../../components/Loading/Loading";
 import Error from "../../components/Error/Error";
 import CustomButton from "../../components/Buttons/Buttons";
+import { FiSearch } from "react-icons/fi";
 
 function ProductSubCategories() {
   const { id } = useParams();
