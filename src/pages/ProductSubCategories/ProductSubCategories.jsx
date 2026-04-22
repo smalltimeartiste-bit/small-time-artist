@@ -11,16 +11,13 @@ import baseUrl from "../../data/url.json";
 import Loading from "../../components/Loading/Loading";
 import Error from "../../components/Error/Error";
 import CustomButton from "../../components/Buttons/Buttons";
-import { FiSearch } from "react-icons/fi";
 
 function ProductSubCategories() {
   const { id } = useParams();
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
-  const [searchQuery, setSearchQuery] = useState(""); // 🆕 search state
   const navigate = useNavigate();
   const location = useLocation();
-
   useEffect(() => {
     const loadProduct = async () => {
       try {
@@ -36,22 +33,13 @@ function ProductSubCategories() {
     loadProduct();
   }, [id]);
 
-  // 🆕 Reset search when category changes
-  useEffect(() => {
-    setSearchQuery("");
-  }, [id]);
-
   const handleRedirectToProduct = (url) => {
     if (url !== undefined) {
       navigate(`${location.pathname}/${url}`);
     }
   };
 
-  // 🆕 Filter products based on search query
-  const filteredProducts = data?.products?.filter((product) =>
-    product.name.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
-
+  // Products that should show custom pricing message instead of regular price
   const productsWithCustomMessage = [
     "story-walls-gogh",
     "keepsake-boxes-gogh",
@@ -60,6 +48,7 @@ function ProductSubCategories() {
   ];
 
   if (error) return <Error message={error} />;
+  // if (!data) return <Loading />;
 
   return (
     <MainContainer>
@@ -72,6 +61,8 @@ function ProductSubCategories() {
             "Browse our collection of handcrafted products."
           }
         />
+
+        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -90,6 +81,8 @@ function ProductSubCategories() {
             content={`${baseUrl.supabase_base_url}${data.products[0].cover_img}`}
           />
         )}
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -133,42 +126,13 @@ function ProductSubCategories() {
           ) : (
             <div className={css.gridWrapper}>
               <div className={css.filters}>
-                {/* 🆕 Search Bar */}
-                <div className={css.searchBar}>
-                  <span className={css.searchIcon}>🔍</span>
-                  <input
-                    type="text"
-                    placeholder="Search products..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className={css.searchInput}
-                  />
-                  {searchQuery && (
-                    <button
-                      className={css.clearBtn}
-                      onClick={() => setSearchQuery("")}
-                    >
-                      ✕
-                    </button>
-                  )}
-                </div>
-                <span>{`${filteredProducts?.length ?? 0} products`}</span>
+                <span>{`${data?.products?.length ?? 0} products`}</span>
               </div>
-
-              {/* 🆕 No results message */}
-              {searchQuery && filteredProducts?.length === 0 && (
-                <div className={css.noResults}>
-                  <p>
-                    No products found for "<strong>{searchQuery}</strong>"
-                  </p>
-                </div>
-              )}
-
               <div className={css.gridContainer}>
-                {!filteredProducts?.length && !searchQuery ? (
+                {!data?.products?.length ? (
                   <Heading level="2">No Products</Heading>
                 ) : (
-                  filteredProducts?.map((e) => (
+                  data.products.map((e) => (
                     <div
                       onClick={() => handleRedirectToProduct(e?.url)}
                       className={css.card}
@@ -211,6 +175,26 @@ function ProductSubCategories() {
                             </p>
                           ))
                         )}
+                        {/* <p>
+                          <span>{`\u20B9${_?.original}`}</span>
+                          {_?.compared && (
+                            <span
+                              className={css.comparedP}
+                            >{`\u20B9${_?.compared}`}</span>
+                          )}
+                          {_?.excl && (
+                            <span className={css.excl}>{` + ${_?.excl}`}</span>
+                          )}
+                          {_?.incl && (
+                            <span className={css.incl}>{`- ${_?.incl}`}</span>
+                          )}
+                        </p> */}
+                        {/* <span>{`\u20B9${e?.price?.original}`}</span>
+                      {e?.price?.compared && (
+                        <span
+                          className={css.comparedP}
+                        >{`\u20B9${e?.price?.compared}`}</span>
+                      )} */}
                       </div>
                     </div>
                   ))

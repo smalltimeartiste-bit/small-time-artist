@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { Helmet } from "react-helmet-async";
-import { FiArrowUpRight } from "react-icons/fi";
+import { FiArrowUpRight, FiSearch, FiX } from "react-icons/fi";
 import css from "./Products.module.css";
 import classNames from "classnames";
 import Heading from "../../components/Heading/Heading";
@@ -42,8 +42,9 @@ import FAQ from "../../components/Faq/Faq";
 
 function Products() {
   const [hovered, setHovered] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(""); // 🆕 search state
   const navigate = useNavigate();
-  console.log("test 2");
+
   const gridItems = [
     {
       title: "Frame Your Phone",
@@ -131,6 +132,11 @@ function Products() {
     },
   ];
 
+  // 🆕 Filter categories based on search
+  const filteredItems = gridItems.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase()),
+  );
+
   const handleChangeRoute = (url) => {
     navigate(`/products/${url}`);
   };
@@ -143,8 +149,6 @@ function Products() {
           name="description"
           content="Browse our unique collection of handcrafted products - from Frame Your Phone to Nestled Nook. Discover artisanal creations that blend beauty with functionality."
         />
-
-        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -155,8 +159,6 @@ function Products() {
           content="Browse our unique collection of handcrafted products - from Frame Your Phone to Nestled Nook. Discover artisanal creations that blend beauty with functionality."
         />
         <meta property="og:image" content={card1_img} />
-
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -171,29 +173,70 @@ function Products() {
       <Breadcrumbs />
       <Section label="All product categories">
         <WrapperContainer className={css.heroWrapper}>
+          {/* 🆕 Search bar row - sits above the heading */}
+          <div className={css.searchRow}>
+            <div className={css.searchBar}>
+              <FiSearch className={css.searchIcon} />
+              <input
+                type="text"
+                placeholder="Search categories..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className={css.searchInput}
+              />
+              {searchQuery && (
+                <button
+                  className={css.clearBtn}
+                  onClick={() => setSearchQuery("")}
+                >
+                  <FiX />
+                </button>
+              )}
+            </div>
+          </div>
+
           <Heading level={1} className={css.heading}>
             Choose Your <span>Aesthetics</span>
           </Heading>
+
+          {/* 🆕 No results message */}
+          {searchQuery && filteredItems.length === 0 && (
+            <div className={css.noResults}>
+              <p>
+                No categories found for "<strong>{searchQuery}</strong>"
+              </p>
+            </div>
+          )}
+
           <div className={css.gridContainer}>
-            {gridItems.map((item, index) => (
-              <div
-                key={index}
-                className={classNames(css.card, css[`card${index + 1}`])}
-                style={{ backgroundColor: item.bgColor }}
-                onClick={() => handleChangeRoute(item.url)}
-              >
-                <div className={css.cardContent}>
-                  <Heading level={3} className={css.title}>
-                    {item.title}
-                  </Heading>
-                  <FiArrowUpRight className={css.icon} />
+            {filteredItems.map((item, index) => {
+              // find original index to keep correct CSS class (card1, card2 etc.)
+              const originalIndex = gridItems.findIndex(
+                (g) => g.url === item.url,
+              );
+              return (
+                <div
+                  key={item.url}
+                  className={classNames(
+                    css.card,
+                    css[`card${originalIndex + 1}`],
+                  )}
+                  style={{ backgroundColor: item.bgColor }}
+                  onClick={() => handleChangeRoute(item.url)}
+                >
+                  <div className={css.cardContent}>
+                    <Heading level={3} className={css.title}>
+                      {item.title}
+                    </Heading>
+                    <FiArrowUpRight className={css.icon} />
+                  </div>
+                  <div className={css.imgCard}>
+                    <img className={css.cardImg} src={item.img} alt="" />
+                  </div>
+                  <img className={css.decorImg} src={item.decor} alt="" />
                 </div>
-                <div className={css.imgCard}>
-                  <img className={css.cardImg} src={item.img} alt="" />
-                </div>
-                <img className={css.decorImg} src={item.decor} alt="" />
-              </div>
-            ))}
+              );
+            })}
           </div>
         </WrapperContainer>
       </Section>
@@ -220,11 +263,7 @@ function Products() {
               <div className={css.imgContainer}>
                 <img src={`${card.image}`} alt={card.title} loading="lazy" />
               </div>
-              <div>
-                {/* <Heading className={css.h3} level="3">
-                  {card.title}
-                </Heading> */}
-              </div>
+              <div></div>
             </div>
           ))}
         </div>
