@@ -358,5 +358,6 @@
   .instaFrame {
     height: 400px;
     transform: translateY(60px);
+    pointer-events: auto;
   }
 }
