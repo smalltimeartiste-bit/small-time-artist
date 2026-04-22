@@ -503,7 +503,10 @@
 .searchRow {
   position: relative;
   width: 100%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .searchBar {
@@ -646,5 +649,14 @@
   }
   &:hover {
     background: #fdf6f0;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .searchRow {
+    width: 100%; /* already full width, no change needed */
+    padding: 0;
+    margin-bottom: 20px;
   }
 }
