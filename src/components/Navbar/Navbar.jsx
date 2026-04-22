@@ -1,4 +1,4 @@
-import logo from "/logo.svg";
+import logo from "/logo.png";
 import css from "./Navbar.module.css";
 import CustomButton from "../Buttons/Buttons";
 import classNames from "classnames";
