@@ -13,7 +13,8 @@
   left: 0;
   top: 50%;
   width: 53%;
-  height: 87%;
+  /* height: 87%; */
+  height: auto;
   transform: translateY(-50%);
   background-color: #fdf6ee;
   border-right: 1px solid #f0e9df;
@@ -21,7 +22,8 @@
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: repeat(auto, 2fr);
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow-y: auto;
 }
 
 .faqItem {
@@ -71,7 +73,9 @@
   padding: 2rem;
   padding-left: 4%;
   padding-top: 4%;
-  height: 400px;
+  /* height: 400px; */
+  min-height: 400px;
+  height: auto;
 }
 
 .faqContent h3 {
@@ -95,6 +99,9 @@
 @media (max-width: 768px) {
   .faqContainer {
     margin: 1rem 0;
+  }
+  .faq {
+    display: none;
   }
 
   /* Hide desktop layout */
