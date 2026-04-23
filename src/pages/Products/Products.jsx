@@ -25,7 +25,7 @@ import card10 from "../../assets/decorations/products/card10_decor.svg";
 import card11 from "../../assets/decorations/products/card11_decor.svg";
 import card12 from "../../assets/decorations/products/card12_decor.svg";
 
-// import card1_img from "../../assets/content/products/grid_sec/card1.png";
+import card1_img from "../../assets/content/products/grid_sec/card1.png";
 import card2_img from "../../assets/content/products/grid_sec/card2.png";
 import card3_img from "../../assets/content/products/grid_sec/card3.png";
 import card4_img from "../../assets/content/products/grid_sec/card4.png";
@@ -707,7 +707,7 @@ function Products() {
     {
       title: "Frame Your Phone",
       url: "frame-your-phone",
-      // img: card1_img,
+      img: card1_img,
       bgColor: "#fff0e3",
       decor: card1,
     },
