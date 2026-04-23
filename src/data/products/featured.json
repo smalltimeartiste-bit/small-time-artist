@@ -40,32 +40,72 @@
   ],
   "faq": [
     {
-      "question": "What is a Payment Gateway?",
-      "answer": "A payment gateway is an ecommerce service that processes online payments for online as well as offline businesses. Payment gateways help accept payments by transferring key information from their merchant websites to issuing banks, card associations and online wallet players. Payment gateways play a vital role in the online transaction process, which is the realisation of value, and hence are seen as an important pillar of ecommerce."
+      "question": "How do I customise my order?",
+      "answer": "Once you place your order, we’ll WhatsApp you to finalise all details, from colours to quotes and everything in between."
     },
     {
-      "question": "Do I need to pay to Instapay even when there is no transaction going on in my business?",
-      "answer": "No, you are not required to pay if there is no transaction happening."
+      "question": "Can I request a theme or custom design?",
+      "answer": "Of course! Share your ideas or Pinterest inspiration. Please note that major changes cannot be made once the creation process has begun."
     },
     {
-      "question": "What platforms does Instapay payment gateway support?",
-      "answer": "Instapay supports major platforms including Shopify, WooCommerce, Magento, etc."
+      "question": "Do I need to pay in advance?",
+      "answer": "Yes. A minimum of 50% advance payment is required to confirm your order and begin the creation process. The remaining amount must be paid before dispatch."
     },
     {
-      "question": "Does Instapay provide international payments support?",
-      "answer": "Yes, Instapay supports international payment gateways."
+      "question": "Can I change the details later?",
+      "answer": "We recommend finalising everything upfront, as edits are not always possible once the process starts."
     },
     {
-      "question": "Is there any setup fee or annual maintenance fee that I need to pay regularly?",
-      "answer": "Instapay has no hidden setup or maintenance charges for basic usage."
+      "question": "What’s the delivery timeline?",
+      "answer": "Standard orders: 10–14 working days. Express delivery: Available at an additional charge and only if pre-approved by us"
     },
     {
-      "question": "Is there any setup fee or annual maintenance fee that I need to pay regularly?",
-      "answer": "Instapay has no hidden setup or maintenance charges for basic usage."
+      "question": "Do you accept COD or prepaid only?",
+      "answer": "All orders are prepaid. We accept UPI transactions."
     },
     {
-      "question": "Is there any setup fee or annual maintenance fee that I need to pay regularly?",
-      "answer": "Instapay has no hidden setup or maintenance charges for basic usage."
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we do. International shipping is available. Please reach out to us for rates based on your location and order weight. "
+    }
+    ,
+    {
+      "question": "Can I cancel or change an order after placing it?",
+      "answer": "Since each piece is made-to-order, cancellations or modifications are not possible once the order is confirmed. Please double-check all details before placing your order."
+    }
+    ,
+    {
+      "question": "What if my item arrives damaged?",
+      "answer": "We take utmost care in packaging every order. However, if your item arrives damaged, please contact us within 24 hours of delivery.<br> An unboxing video is mandatory showing the sealed package being opened. This helps us verify and resolve the issue quickly. Without an unboxing video, we may not be able to process replacement or support requests."
+    }
+    ,
+    {
+      "question": "What if I entered the wrong address?",
+      "answer": " If a parcel is returned due to an incorrect address or contact number, additional re-shipping charges will apply. Please ensure all details are accurate while placing your order. "
+    }
+    ,
+    {
+      "question": "Do you take bulk or corporate orders?",
+      "answer": "Absolutely! We love curating for events, weddings, and brands. Reach out to us for bulk pricing and custom concepts."
+    }
+    ,
+    {
+      "question": "Can you help me curate a hamper or gift?",
+      "answer": "Yes! Share your occasion and budget, and we’ll help you create something thoughtful and personal."
+    }
+    ,
+    {
+      "question": "Is my personal data and shared content safe?",
+      "answer": "Your trust matters deeply to us. Any photos, references, personal details, or customisation inputs shared with us are used solely for the purpose of creating your order and ensuring a smooth experience. We do not share, sell, or distribute your personal information to any third parties. In some cases, we may wish to showcase your order as part of our work. This could include: 1. Social media posts or stories, 2. Website display or portfolio features, 3. Customer reviews or testimonials. This helps us share our creative journey and inspire others. However, we will always be mindful of your privacy. If you prefer that your order, images, or personal details are not shared publicly, you can let us know at any point, and we will completely respect your preference."
+    }
+    ,
+    {
+      "question": "Will my order look exactly like the reference shared?",
+      "answer": "Each piece is handmade and unique, so while we stay true to your reference and brief, slight variations are a natural part of the process. This is what makes your piece one of a kind."
+    }
+    ,
+    {
+      "question": "Still unsure?",
+      "answer": "Ping us on WhatsApp or drop an email at smalltime.artiste@gmail.com — we’ll be happy to help."
     }
   ]
 }
