@@ -104,9 +104,9 @@
   .faqContainer {
     margin: 1rem 0;
   }
-  .faq {
+  /* .faq {
     display: none;
-  }
+  } */
 
   /* Hide desktop layout */
   .faqSidebar,
