@@ -13,8 +13,8 @@
   left: 0;
   top: 50%;
   width: 53%;
-  /* height: 87%; */
-  height: auto;
+  height: 87%;
+  /* height: auto; */
   transform: translateY(-50%);
   background-color: #fdf6ee;
   border-right: 1px solid #f0e9df;
@@ -23,7 +23,11 @@
   grid-template-columns: 1;
   grid-template-rows: repeat(auto, 2fr);
   /* overflow: hidden; */
-  overflow-y: auto;
+  /* overflow-y: auto; */
+
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #d9c5b2 #fdf6ee;
 }
 
 .faqItem {
