@@ -1,47 +1,23 @@
 {
   "folderPath": "featured/products",
   "list": [
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image1.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image2.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image3.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image4.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image5.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image6.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image7.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image8.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image9.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image10.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image11.webp"
-    },
-    {
-      "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image12.webp"
-    }
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image1.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image2.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image3.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image4.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image5.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image6.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image7.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image8.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image9.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image10.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image11.webp" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image12.webp" }
   ],
   "faq": [
     {
       "question": "How do I customise my order?",
-      "answer": "Once you place your order, we’ll WhatsApp you to finalise all details, from colours to quotes and everything in between."
+      "answer": "Once you place your order, we'll WhatsApp you to finalise all details — from colours to quotes and everything in between."
     },
     {
       "question": "Can I request a theme or custom design?",
@@ -56,8 +32,8 @@
       "answer": "We recommend finalising everything upfront, as edits are not always possible once the process starts."
     },
     {
-      "question": "What’s the delivery timeline?",
-      "answer": "Standard orders: 10–14 working days. Express delivery: Available at an additional charge and only if pre-approved by us"
+      "question": "What's the delivery timeline?",
+      "answer": "Standard orders take 10–14 working days. Express delivery is available at an additional charge and only if pre-approved by us."
     },
     {
       "question": "Do you accept COD or prepaid only?",
@@ -65,47 +41,39 @@
     },
     {
       "question": "Do you ship internationally?",
-      "answer": "Yes, we do. International shipping is available. Please reach out to us for rates based on your location and order weight. "
-    }
-    ,
+      "answer": "Yes, we do! International shipping is available. Please reach out to us for rates based on your location and order weight."
+    },
     {
       "question": "Can I cancel or change an order after placing it?",
       "answer": "Since each piece is made-to-order, cancellations or modifications are not possible once the order is confirmed. Please double-check all details before placing your order."
-    }
-    ,
+    },
     {
       "question": "What if my item arrives damaged?",
-      "answer": "We take utmost care in packaging every order. However, if your item arrives damaged, please contact us within 24 hours of delivery.<br> An unboxing video is mandatory showing the sealed package being opened. This helps us verify and resolve the issue quickly. Without an unboxing video, we may not be able to process replacement or support requests."
-    }
-    ,
+      "answer": "We take utmost care in packaging every order. However, if your item arrives damaged, please contact us within 24 hours of delivery. An unboxing video is mandatory showing the sealed package being opened — this helps us verify and resolve the issue quickly. Without an unboxing video, we may not be able to process replacement or support requests."
+    },
     {
       "question": "What if I entered the wrong address?",
-      "answer": " If a parcel is returned due to an incorrect address or contact number, additional re-shipping charges will apply. Please ensure all details are accurate while placing your order. "
-    }
-    ,
+      "answer": "If a parcel is returned due to an incorrect address or contact number, additional re-shipping charges will apply. Please ensure all details are accurate while placing your order."
+    },
     {
       "question": "Do you take bulk or corporate orders?",
       "answer": "Absolutely! We love curating for events, weddings, and brands. Reach out to us for bulk pricing and custom concepts."
-    }
-    ,
+    },
     {
       "question": "Can you help me curate a hamper or gift?",
-      "answer": "Yes! Share your occasion and budget, and we’ll help you create something thoughtful and personal."
-    }
-    ,
+      "answer": "Yes! Share your occasion and budget, and we'll help you create something thoughtful and personal."
+    },
     {
       "question": "Is my personal data and shared content safe?",
-      "answer": "Your trust matters deeply to us. Any photos, references, personal details, or customisation inputs shared with us are used solely for the purpose of creating your order and ensuring a smooth experience. We do not share, sell, or distribute your personal information to any third parties. In some cases, we may wish to showcase your order as part of our work. This could include: 1. Social media posts or stories, 2. Website display or portfolio features, 3. Customer reviews or testimonials. This helps us share our creative journey and inspire others. However, we will always be mindful of your privacy. If you prefer that your order, images, or personal details are not shared publicly, you can let us know at any point, and we will completely respect your preference."
-    }
-    ,
+      "answer": "Your trust matters deeply to us. Any photos, references, personal details, or customisation inputs shared with us are used solely for creating your order. We do not share, sell, or distribute your personal information to any third parties. In some cases, we may wish to showcase your order on social media, our website, or portfolio — but we will always respect your privacy. If you prefer your order or images are not shared publicly, just let us know at any point and we will completely honour your preference."
+    },
     {
       "question": "Will my order look exactly like the reference shared?",
-      "answer": "Each piece is handmade and unique, so while we stay true to your reference and brief, slight variations are a natural part of the process. This is what makes your piece one of a kind."
-    }
-    ,
+      "answer": "Each piece is handmade and unique, so while we stay true to your reference and brief, slight variations are a natural part of the process. This is what makes your piece truly one of a kind."
+    },
     {
-      "question": "Still unsure?",
-      "answer": "Ping us on WhatsApp or drop an email at smalltime.artiste@gmail.com — we’ll be happy to help."
+      "question": "Still have questions?",
+      "answer": "Ping us on WhatsApp or drop an email at smalltime.artiste@gmail.com — we'll be happy to help!"
     }
   ]
 }

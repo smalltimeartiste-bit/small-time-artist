@@ -7,7 +7,7 @@
   font-family: "Geist", sans-serif;
 }
 
-/* Sidebar */
+/* ── Desktop Sidebar ── */
 .faqSidebar {
   position: absolute;
   left: 0;
@@ -17,18 +17,15 @@
   transform: translateY(-50%);
   background-color: #fdf6ee;
   border-right: 1px solid #f0e9df;
-  /* padding: 1rem; */
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: repeat(auto, 2fr);
-  /* flex-direction: column; */
   overflow: hidden;
 }
 
 .faqItem {
   flex: 1;
-  /* width: 50%; */
   display: flex;
   align-items: center;
   text-align: left;
@@ -59,9 +56,7 @@
 
 .faqItem.active {
   background-color: #f8ead7;
-  /* font-weight: 600; */
 }
-
 .faqItem.active .dot {
   color: var(--textColor);
 }
@@ -91,9 +86,78 @@
   color: #333;
 }
 
-/* Mobile responsive: hide FAQ on small screen */
+/* ── Accordion (mobile only — hidden on desktop) ── */
+.accordion {
+  display: none;
+}
+
+/* ── Mobile & Tablet ── */
 @media (max-width: 768px) {
   .faqContainer {
+    margin: 1rem 0;
+  }
+
+  /* Hide desktop layout */
+  .faqSidebar,
+  .faqContent {
     display: none;
+  }
+
+  /* Show accordion */
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .accordionItem {
+    border-radius: 10px;
+    border: 1px solid #f0e9df;
+    overflow: hidden;
+    background: #fdf6ee;
+  }
+
+  .accordionQuestion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    & p {
+      flex: 1;
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.4;
+    }
+    & span {
+      font-size: 12px;
+      color: #888;
+      flex-shrink: 0;
+    }
+    & .dot {
+      width: 14px;
+      height: 14px;
+      color: var(--svgColor2);
+      flex-shrink: 0;
+    }
+  }
+
+  .accordionActive .accordionQuestion {
+    background-color: #f8ead7;
+    & .dot {
+      color: var(--textColor);
+    }
+  }
+
+  .accordionAnswer {
+    padding: 12px 16px 16px 42px;
+    background: white;
+    border-top: 1px solid #f0e9df;
+    & p {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #444;
+    }
   }
 }
