@@ -155,7 +155,7 @@
 
 .card8 {
   & .decorImg {
-    top: 0;
+    bottom: 0;
     right: 0;
   }
 
@@ -166,17 +166,16 @@
 }
 
 .card9 {
-  grid-row: span 2;
-  & .decorImg,
-  & .cardImg {
+  grid-column: span 2;
+  & .decorImg {
+    right: 0;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
   }
-
   & .cardImg {
-    left: 0 !important;
-    transform: unset !important;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 70%;
   }
 }
 
@@ -186,29 +185,6 @@
     right: 0;
   }
 
-  & .cardImg {
-    left: 0;
-    bottom: 0;
-  }
-}
-
-.card11 {
-  & .decorImg {
-    right: 0;
-    bottom: 0;
-  }
-  & .cardImg {
-    left: 0;
-    bottom: 0;
-    width: 90%;
-  }
-}
-.card12 {
-  grid-column: span 2;
-  & .decorImg {
-    bottom: 0;
-    right: 0;
-  }
   & .cardImg {
     left: 0;
     bottom: 0;
@@ -269,9 +245,7 @@
       "card5 card5"
       "card7 card6"
       "card8 card6"
-      "card9 card10"
-      "card9 card11"
-      "card12 card12";
+      "card9 card10";
   }
   .card {
     & .decorImg {
@@ -351,29 +325,14 @@
   .card8 {
     grid-area: card8;
     & .decorImg {
-      height: 65px;
-    }
-    & .cardImg {
-      height: 100%;
-    }
-  }
-  .card9 {
-    grid-area: card9;
-    & .cardImg {
-      height: 80%;
-    }
-  }
-  .card10 {
-    grid-area: card10;
-    & .decorImg {
       height: 50px;
     }
     & .cardImg {
       height: 95%;
     }
   }
-  .card11 {
-    grid-area: card11;
+  .card9 {
+    grid-area: card9;
     & .decorImg {
       height: 65px;
     }
@@ -383,8 +342,8 @@
       width: 80%;
     }
   }
-  .card12 {
-    grid-area: card12;
+  .card10 {
+    grid-area: card10;
     & .decorImg {
       height: 70px;
     }

@@ -7,9 +7,9 @@ This document captures all requested website changes as delivery-ready user stor
 Requested change groups:
 1. Hero image changes
 2. Home responsiveness improvements [Done]
-3. About page content update
+3. About page content update [Done]
 4. Product page image update, section update, and content changes
-5. Remove Bookish Mark and Pink Parade
+5. Remove Bookish Mark and Pink Parade [Done]
 6. Replace image background for one product
 7. Global search
 8. Blog pages (no CMS)

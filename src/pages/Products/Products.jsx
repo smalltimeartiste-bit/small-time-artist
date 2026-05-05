@@ -1,45 +1,39 @@
-import { useState, useRef, useEffect } from "react";
-import { createPortal } from "react-dom";
-import { useNavigate } from "react-router";
-import { Helmet } from "react-helmet-async";
 import { FiArrowUpRight, FiSearch, FiX } from "react-icons/fi";
-import { MdCategory } from "react-icons/md";
-import css from "./Products.module.css";
-import classNames from "classnames";
-import Heading from "../../components/Heading/Heading";
-import MainContainer from "../../components/MainContainer/MainContainer";
-import Section from "../../components/Section/SectionContainer";
+import { useEffect, useRef, useState } from "react";
+
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import WrapperContainer from "../../components/Wrapper/WrapperContainer";
-
-import card1 from "../../assets/decorations/products/card1_decor.svg";
-import card2 from "../../assets/decorations/products/card2_decor.svg";
-import card3 from "../../assets/decorations/products/card3_decor.svg";
-import card4 from "../../assets/decorations/products/card4_decor.svg";
-import card5 from "../../assets/decorations/products/card5_decor.svg";
-import card6 from "../../assets/decorations/products/card6_decor.svg";
-import card7 from "../../assets/decorations/products/card7_decor.svg";
-import card8 from "../../assets/decorations/products/card8_decor.svg";
-import card9 from "../../assets/decorations/products/card9_decor.svg";
-import card10 from "../../assets/decorations/products/card10_decor.svg";
-import card11 from "../../assets/decorations/products/card11_decor.svg";
-import card12 from "../../assets/decorations/products/card12_decor.svg";
-
-import card1_img from "../../assets/content/products/grid_sec/card1.png";
-import card2_img from "../../assets/content/products/grid_sec/card2.png";
-import card3_img from "../../assets/content/products/grid_sec/card3.png";
-import card4_img from "../../assets/content/products/grid_sec/card4.png";
-import card5_img from "../../assets/content/products/grid_sec/card5.png";
-import card6_img from "../../assets/content/products/grid_sec/card6.png";
-import card7_img from "../../assets/content/products/grid_sec/card7.png";
-import card8_img from "../../assets/content/products/grid_sec/card8.png";
-import card9_img from "../../assets/content/products/grid_sec/card9.png";
-import card10_img from "../../assets/content/products/grid_sec/card10.png";
-import card11_img from "../../assets/content/products/grid_sec/card11.png";
-import card12_img from "../../assets/content/products/grid_sec/card12.png";
-
-import featuredProducts from "../../data/products/featured.json";
 import FAQ from "../../components/Faq/Faq";
+import Heading from "../../components/Heading/Heading";
+import { Helmet } from "react-helmet-async";
+import MainContainer from "../../components/MainContainer/MainContainer";
+import { MdCategory } from "react-icons/md";
+import Section from "../../components/Section/SectionContainer";
+import WrapperContainer from "../../components/Wrapper/WrapperContainer";
+import card1 from "../../assets/decorations/products/card1_decor.svg";
+import card10 from "../../assets/decorations/products/card10_decor.svg";
+import card10_img from "../../assets/content/products/grid_sec/card10.png";
+import card11 from "../../assets/decorations/products/card11_decor.svg";
+import card11_img from "../../assets/content/products/grid_sec/card11.png";
+import card12 from "../../assets/decorations/products/card12_decor.svg";
+import card12_img from "../../assets/content/products/grid_sec/card12.png";
+import card1_img from "../../assets/content/products/grid_sec/card1.png";
+import card2 from "../../assets/decorations/products/card2_decor.svg";
+import card2_img from "../../assets/content/products/grid_sec/card2.png";
+import card3 from "../../assets/decorations/products/card3_decor.svg";
+import card3_img from "../../assets/content/products/grid_sec/card3.png";
+import card4 from "../../assets/decorations/products/card4_decor.svg";
+import card4_img from "../../assets/content/products/grid_sec/card4.png";
+import card5 from "../../assets/decorations/products/card5_decor.svg";
+import card5_img from "../../assets/content/products/grid_sec/card5.png";
+import card6 from "../../assets/decorations/products/card6_decor.svg";
+import card6_img from "../../assets/content/products/grid_sec/card6.png";
+import card7 from "../../assets/decorations/products/card7_decor.svg";
+import card7_img from "../../assets/content/products/grid_sec/card7.png";
+import classNames from "classnames";
+import { createPortal } from "react-dom";
+import css from "./Products.module.css";
+import featuredProducts from "../../data/products/featured.json";
+import { useNavigate } from "react-router";
 
 const ALL_SUGGESTIONS = [
   { type: "category", name: "Frame Your Phone", slug: "frame-your-phone" },
@@ -49,8 +43,6 @@ const ALL_SUGGESTIONS = [
   { type: "category", name: "The Gogh Edit", slug: "the-gogh-edit" },
   { type: "category", name: "Nestled Nook", slug: "nestled-nook" },
   { type: "category", name: "Muse & Memo", slug: "muse-and-memo" },
-  { type: "category", name: "Pink Parade", slug: "pink-parade" },
-  { type: "category", name: "The Bookish Mark", slug: "the-bookish-mark" },
   { type: "category", name: "Wearable Whimsy", slug: "wearable-whimpsy" },
   { type: "category", name: "A Little Extra", slug: "a-little-extra" },
   { type: "category", name: "Hold It Pretty", slug: "hold-it-pretty" },
@@ -752,20 +744,6 @@ function Products() {
       img: card7_img,
       bgColor: "#e7fff4",
       decor: card7,
-    },
-    {
-      title: "Pink Parade",
-      url: "pink-parade",
-      img: card8_img,
-      bgColor: "#ffe6f2",
-      decor: card8,
-    },
-    {
-      title: "The Bookish mark",
-      url: "the-bookish-mark",
-      img: card9_img,
-      bgColor: "#ffeedd",
-      decor: card9,
     },
     {
       title: "Wearable Whimpsy",
