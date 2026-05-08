@@ -9,31 +9,31 @@ import MainContainer from "../../components/MainContainer/MainContainer";
 import { MdCategory } from "react-icons/md";
 import Section from "../../components/Section/SectionContainer";
 import WrapperContainer from "../../components/Wrapper/WrapperContainer";
-import card1 from "../../assets/decorations/products/card1_decor.svg";
-import card10 from "../../assets/decorations/products/card10_decor.svg";
-import card10_img from "../../assets/content/products/grid_sec/card10.png";
-import card11 from "../../assets/decorations/products/card11_decor.svg";
-import card11_img from "../../assets/content/products/grid_sec/card11.png";
-import card12 from "../../assets/decorations/products/card12_decor.svg";
-import card12_img from "../../assets/content/products/grid_sec/card12.png";
-import card1_img from "../../assets/content/products/grid_sec/card1.png";
-import card2 from "../../assets/decorations/products/card2_decor.svg";
-import card2_img from "../../assets/content/products/grid_sec/card2.png";
-import card3 from "../../assets/decorations/products/card3_decor.svg";
-import card3_img from "../../assets/content/products/grid_sec/card3.png";
-import card4 from "../../assets/decorations/products/card4_decor.svg";
-import card4_img from "../../assets/content/products/grid_sec/card4.png";
-import card5 from "../../assets/decorations/products/card5_decor.svg";
-import card5_img from "../../assets/content/products/grid_sec/card5.png";
-import card6 from "../../assets/decorations/products/card6_decor.svg";
-import card6_img from "../../assets/content/products/grid_sec/card6.png";
-import card7 from "../../assets/decorations/products/card7_decor.svg";
-import card7_img from "../../assets/content/products/grid_sec/card7.png";
+import aLittleExtraDecor from "../../assets/decorations/products/card11_decor.svg";
+import aLittleExtraImg from "../../assets/content/products/grid_sec/little_extra.png";
 import classNames from "classnames";
 import { createPortal } from "react-dom";
 import css from "./Products.module.css";
 import featuredProducts from "../../data/products/featured.json";
+import frameYourPhoneDecor from "../../assets/decorations/products/card1_decor.svg";
+import frameYourPhoneImg from "../../assets/content/products/grid_sec/frame-your-phone.png";
+import holdItPrettyDecor from "../../assets/decorations/products/card12_decor.svg";
+import holdItPrettyImg from "../../assets/content/products/grid_sec/hold-it-pretty.png";
+import museAndMemoDecor from "../../assets/decorations/products/card7_decor.svg";
+import museAndMemoImg from "../../assets/content/products/grid_sec/muse-and-memo.png";
+import nestledNookDecor from "../../assets/decorations/products/card6_decor.svg";
+import nestledNookImg from "../../assets/content/products/grid_sec/nestled-nook.png";
+import oldSoulKitchenDecor from "../../assets/decorations/products/card4_decor.svg";
+import oldSoulKitchenImg from "../../assets/content/products/grid_sec/old-soul-kitchen.png";
+import paperWhispersDecor from "../../assets/decorations/products/card3_decor.svg";
+import paperWhispersImg from "../../assets/content/products/grid_sec/paper-whispers.png";
+import theGoghEditDecor from "../../assets/decorations/products/card5_decor.svg";
+import theGoghEditImg from "../../assets/content/products/grid_sec/the-gogh-edit.png";
+import timelessTreasuresDecor from "../../assets/decorations/products/card2_decor.svg";
+import timelessTreasuresImg from "../../assets/content/products/grid_sec/timeless_treasures.png";
 import { useNavigate } from "react-router";
+import wearableWhimpsyDecor from "../../assets/decorations/products/card10_decor.svg";
+import wearableWhimpsyImg from "../../assets/content/products/grid_sec/wearable_whimpsy.png";
 
 const ALL_SUGGESTIONS = [
   { type: "category", name: "Frame Your Phone", slug: "frame-your-phone" },
@@ -699,72 +699,72 @@ function Products() {
     {
       title: "Frame Your Phone",
       url: "frame-your-phone",
-      img: card1_img,
+      img: frameYourPhoneImg,
       bgColor: "#fff0e3",
-      decor: card1,
+      decor: frameYourPhoneDecor,
     },
     {
       title: "Timeless Treasures",
       url: "timeless-treasures",
-      img: card2_img,
+      img: timelessTreasuresImg,
       bgColor: "#eee6ff",
-      decor: card2,
+      decor: timelessTreasuresDecor,
     },
     {
       title: "Paper Whispers",
       url: "paper-whispers",
-      img: card3_img,
+      img: paperWhispersImg,
       bgColor: "#f8f8f8",
-      decor: card3,
+      decor: paperWhispersDecor,
     },
     {
-      title: "Old soul kitchen",
+      title: "Old Soul Kitchen",
       url: "old-soul-kitchen",
-      img: card4_img,
+      img: oldSoulKitchenImg,
       bgColor: "#e5f7f9",
-      decor: card4,
+      decor: oldSoulKitchenDecor,
     },
     {
       title: "The Gogh Edit",
       url: "the-gogh-edit",
-      img: card5_img,
+      img: theGoghEditImg,
       bgColor: "#ffffff",
-      decor: card5,
+      decor: theGoghEditDecor,
     },
     {
       title: "Nestled Nook",
       url: "nestled-nook",
-      img: card6_img,
+      img: nestledNookImg,
       bgColor: "#e6e2da",
-      decor: card6,
+      decor: nestledNookDecor,
     },
     {
       title: "Muse & memo",
       url: "muse-and-memo",
-      img: card7_img,
+      img: museAndMemoImg,
       bgColor: "#e7fff4",
-      decor: card7,
+      decor: museAndMemoDecor,
     },
     {
       title: "Wearable Whimpsy",
       url: "wearable-whimpsy",
-      img: card10_img,
+      img: wearableWhimpsyImg,
       bgColor: "#f7f7f7",
-      decor: card10,
+      decor: wearableWhimpsyDecor,
     },
     {
       title: "A little extra",
       url: "a-little-extra",
-      img: card11_img,
+      img: aLittleExtraImg,
       bgColor: "#ffe6eb",
-      decor: card11,
+      decor: aLittleExtraDecor,
     },
     {
       title: "Hold it pretty",
       url: "hold-it-pretty",
-      img: card12_img,
+      img: holdItPrettyImg,
       bgColor: "#f0f6ff",
-      decor: card12,
+      decor: holdItPrettyDecor,
     },
   ];
 
@@ -931,7 +931,7 @@ function Products() {
           property="og:description"
           content="Browse our unique collection of handcrafted products."
         />
-        <meta property="og:image" content={card1_img} />
+        <meta property="og:image" content={frameYourPhoneImg} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -941,7 +941,7 @@ function Products() {
           name="twitter:description"
           content="Browse our unique collection of handcrafted products."
         />
-        <meta name="twitter:image" content={card1_img} />
+        <meta name="twitter:image" content={frameYourPhoneImg} />
       </Helmet>
       <Breadcrumbs />
       <Section label="All product categories">

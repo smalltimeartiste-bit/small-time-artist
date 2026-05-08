@@ -76,11 +76,16 @@
 }
 .card1 {
   grid-row: span 2;
-  & .decorImg,
-  & .cardImg {
+  & .decorImg {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+  }
+  & .cardImg {
+    bottom: 0;
+    height: 80%;
+    width: auto;
+    object-fit: contain;
   }
 }
 .card2 {
@@ -92,6 +97,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 110%;
+    width: auto;
   }
 }
 .card3 {
@@ -102,6 +109,8 @@
   & .cardImg {
     bottom: 0px;
     left: 20px;
+    height: 100%;
+    width: auto;
   }
 }
 .card4 {
@@ -113,6 +122,8 @@
   & .cardImg {
     bottom: 0;
     left: 0;
+    height: 100%;
+    width: auto;
   }
 }
 .card5 {
@@ -123,8 +134,11 @@
   }
 
   & .cardImg {
-    left: 0;
+    right: 0;
     bottom: 0;
+    height: 110%;
+    width: auto;
+    object-fit: contain;
   }
 }
 .card6 {
@@ -138,6 +152,8 @@
   & .cardImg {
     bottom: 0;
     right: 0;
+    height: 65%;
+    width: auto;
   }
 }
 
@@ -150,6 +166,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -162,6 +180,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 75%;
+    width: auto;
   }
 }
 
@@ -174,8 +194,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 100%;
     width: auto;
-    height: 70%;
   }
 }
 
@@ -188,6 +208,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 150%;
+    width: auto;
   }
 }
 .featuredHeading {
