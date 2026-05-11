@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import FAQ from "../../components/Faq/Faq";
+import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
 import Heading from "../../components/Heading/Heading";
 import { Helmet } from "react-helmet-async";
 import MainContainer from "../../components/MainContainer/MainContainer";
@@ -686,7 +687,6 @@ const ALL_SUGGESTIONS = [
 ];
 
 function Products() {
-  const [hovered, setHovered] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
@@ -1016,34 +1016,7 @@ function Products() {
         </WrapperContainer>
       </Section>
 
-      <Section
-        onMouseEnter={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
-        className={classNames(css.featured)}
-        label={"Featured products"}
-      >
-        <Heading
-          className={classNames(css.heading, css.featuredHeading)}
-          level="2"
-        >
-          Featured <span>Products</span>
-        </Heading>
-        <div
-          className={classNames(css.scrollContainer, {
-            [css.showScroll]: hovered,
-            [css.hideScroll]: !hovered,
-          })}
-        >
-          {featuredProducts?.list?.map((card, index) => (
-            <div className={css.card} key={index}>
-              <div className={css.imgContainer}>
-                <img src={`${card.image}`} alt={card.title} loading="lazy" />
-              </div>
-              <div></div>
-            </div>
-          ))}
-        </div>
-      </Section>
+      <FeaturedProducts data={featuredProducts?.list} />
 
       <Section
         className={(css.featured, css.faq)}

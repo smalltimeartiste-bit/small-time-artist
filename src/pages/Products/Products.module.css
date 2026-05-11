@@ -412,6 +412,11 @@
   gap: 1rem;
   padding: 1rem;
   scrollbar-gutter: stable;
+  cursor: grab;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   & .card {
     width: 270px;
