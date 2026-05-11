@@ -61,7 +61,10 @@ function SearchResults() {
           const categoryMatches = cat.label.toLowerCase().includes(q);
           (data.products || []).forEach((product) => {
             const productMatches = product.name.toLowerCase().includes(q);
-            if (productMatches || categoryMatches) {
+            const tagMatches = (product.tags || []).some((tag) =>
+              tag.toLowerCase().includes(q)
+            );
+            if (productMatches || categoryMatches || tagMatches) {
               matched.push({
                 ...product,
                 categorySlug: cat.slug,

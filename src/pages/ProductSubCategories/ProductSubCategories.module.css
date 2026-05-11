@@ -12,6 +12,9 @@
   font-size: 18px;
   font-family: "Geist", sans-serif;
   color: var(--subSecondaryBlack);
+  & strong {
+    color: var(--headingText);
+  }
 }
 
 .filters {

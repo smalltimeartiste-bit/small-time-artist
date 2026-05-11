@@ -1,12 +1,13 @@
 {
   "label": "Hold it Pretty",
   "heading": "Hold it Pretty!",
-  "sub-heading": "Keep, carry, and organise in style with our hand-painted lifestyle essentials. From jewellery boxes and trinket drawers to tote bags, pouches, and car charms, every piece is crafted to be both functional and artistic. Perfect for gifting or everyday use, these unique hand-painted accessories add colour, charm, and personality to the little things you hold close.",
+  "sub-heading": "<p><em>Keep, carry and organise in style.</em></p><br><p>Everyday essentials that actually deserve a second look. From <strong>hand painted tote bags</strong> and <strong>personalised pouches</strong> to <strong>jewellery boxes, trinket drawers, keychains and car charms</strong> — every piece in this collection is functional, handcrafted and built to carry a little more personality than usual.</p><br><p>Perfect as a <strong>unique handmade gift</strong> or a beautiful upgrade to your own everyday carry. Fully customisable across designs, sizes and materials.</p><br><p><em>Prices vary by product, size, material and personalisation.</em></p>",
   "products": [
     {
       "id": 1,
       "name": "Carry Your Canvas (Tote Bags)",
       "url": "carry-your-canvas",
+      "tags": ["hand painted tote bag", "custom tote bag India", "personalised tote bag", "eco friendly tote bag", "aesthetic tote bag", "tote bag gift India"],
       "cover_img": "hold-it-pretty/carry-your-canvas-tote-bags/image1.webp",
       "price": [
         {
@@ -21,6 +22,7 @@
       "id": 2,
       "name": "Glow & Go (Painted Pouches)",
       "url": "glow-and-go",
+      "tags": ["hand painted pouch", "custom makeup pouch", "personalised pouch India", "aesthetic pouch gift", "painted cosmetic bag", "pouch for her"],
       "cover_img": "hold-it-pretty/glow-and-go-painted-pouches/image1.webp",
       "price": [
         {
@@ -35,6 +37,7 @@
       "id": 3,
       "name": "Ink & Ideas (Painted pencil Pouches)",
       "url": "ink-and-ideas",
+      "tags": ["pencil pouch", "hand painted pencil case", "custom stationery pouch", "artist pencil pouch", "quirky pencil case gift", "pouch for students"],
       "cover_img": "hold-it-pretty/ink-and-ideas-painted-pencil-pouches/image1.webp",
       "price": [
         {
@@ -49,6 +52,7 @@
       "id": 4,
       "name": "Wanderlight (Travel Pouches)",
       "url": "wanderlight",
+      "tags": ["travel pouch", "toiletry bag India", "large makeup pouch", "travel organiser bag", "custom travel pouch", "skincare travel bag", "oversized pouch"],
       "cover_img": "hold-it-pretty/wanderlight-travel-pouches/image1.webp",
       "price": [
         {
@@ -63,6 +67,7 @@
       "id": 6,
       "name": "Tiny Treasure Towers (Trinket Drawers)",
       "url": "tiny-treasure-towers",
+      "tags": ["trinket drawer", "painted trinket box", "jewellery organiser", "desk organiser gift", "cute storage box India", "handmade trinket drawer"],
       "cover_img": "hold-it-pretty/tiny-treasure-towers-trinket-drawers/image1.jpg",
       "price": [
         {
@@ -77,6 +82,7 @@
       "id": 7,
       "name": "Keepsake Keepers (Jewellery Boxes)",
       "url": "keepsake-keepers",
+      "tags": ["jewellery box India", "hand painted jewellery box", "personalised jewellery box", "gift for her India", "ring box handmade", "custom jewellery storage"],
       "cover_img": "hold-it-pretty/keepsake-keepers-treasure-box/image1.webp",
       "price": [
         {
@@ -91,6 +97,7 @@
       "id": 8,
       "name": "Trinket Tales",
       "url": "trinket-tales",
+      "tags": ["trinket dish", "ring dish India", "decorative side plate", "painted ring holder", "bedside organiser", "keepsake dish gift"],
       "cover_img": "hold-it-pretty/trinket-tales-jwellery-plates/image1.webp",
       "price": [
         {
@@ -105,6 +112,7 @@
       "id": 9,
       "name": "Key Charms (Hand-Painted Keychains)",
       "url": "key-charms",
+      "tags": ["hand painted keychain", "custom keychain India", "personalised keychain gift", "MDF keychain", "acrylic keychain", "initial keychain India", "name keychain gift"],
       "cover_img": "hold-it-pretty/key-charms-key-chains/image1.webp",
       "price": [
         {
@@ -119,6 +127,7 @@
       "id": 10,
       "name": "Carry Your Life (Hand-Painted Totes)",
       "url": "carry-your-life",
+      "tags": ["hand painted canvas tote", "large custom tote bag", "personalised carry bag", "both side painted tote", "custom tote with charm", "aesthetic everyday bag"],
       "cover_img": "hold-it-pretty/carry-your-life-totes/image1.webp",
       "price": [
         {

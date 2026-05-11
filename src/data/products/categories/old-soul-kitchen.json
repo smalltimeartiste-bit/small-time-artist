@@ -1,12 +1,13 @@
 {
   "label": "Old Soul Kitchen",
   "heading": "Old Soul Kitchen",
-  "sub-heading": "Where memories simmer and stories stir. Inspired by kitchens filled with love — from your mum's spice-scented shelves to your first adulting kitchen. Explore coasters, fridge magnets, holders, and decor made for soulful cooking spaces.",
+  "sub-heading": "<em>Where memories simmer and stories stir.</em><br><br>Every kitchen has a feeling. This collection is for the ones that have soul.<br><br>From <strong>handcrafted fridge magnets</strong> and <strong>personalised photo magnets</strong> to <strong>hand painted coasters</strong>, <strong>kitchen wall art</strong> and <strong>bamboo sippers</strong> — every piece here is made to bring warmth, personality and a little art into your everyday cooking space. Whether you are gifting a <strong>unique kitchen gift</strong> for a home lover, a housewarming, or just treating your own space to something special — it lives here.<br><br><em>Prices vary by product, size, material and personalisation.</em>",
   "products": [
     {
       "id": 1,
       "name": "Hanging Recipes (Kitchen Hangs)",
       "url": "hanging-recipes",
+      "tags": ["kitchen wall art", "hand painted kitchen decor", "MDF kitchen hanging", "rustic kitchen wall decor", "kitchen gift India"],
       "cover_img": "old-soul-kitchen/hanging-recipes-kitchen-hangs/image1.webp",
       "price": [
         {
@@ -21,6 +22,7 @@
       "id": 2,
       "name": "Snapshot Magnets (Photo Magnets)",
       "url": "snapshot-magnets",
+      "tags": ["personalised photo magnet", "custom fridge magnet", "photo magnet gift", "memory magnet", "custom magnet India"],
       "cover_img": "old-soul-kitchen/snapshot-magnets-photo-magnets/image1.webp",
       "price": [
         {
@@ -35,6 +37,7 @@
       "id": 3,
       "name": "Shaped Charms (Handcrafted Shape Magnets)",
       "url": "shaped-charms",
+      "tags": ["handcrafted fridge magnet", "cute fridge magnet", "fun kitchen magnet", "shaped magnet India", "quirky kitchen gift"],
       "cover_img": "old-soul-kitchen/shaped-charms-handcrafted-shape-magnets/image1.webp",
       "price": [
         {
@@ -49,6 +52,7 @@
       "id": 4,
       "name": "To-Do Tales (To-Do List Magnets)",
       "url": "to-do-tales",
+      "tags": ["to do list magnet", "whiteboard fridge magnet", "reusable magnet planner", "kitchen organiser magnet", "functional kitchen decor"],
       "cover_img": "old-soul-kitchen/to-do-tales-to-do-list-magnets/image1.jpg",
       "price": [
         {
@@ -63,6 +67,7 @@
       "id": 5,
       "name": "Canvas Charms (Painted Canvas Magnets)",
       "url": "canvas-charms",
+      "tags": ["mini canvas magnet", "hand painted magnet", "art fridge magnet", "tiny canvas art", "creative kitchen decor"],
       "cover_img": "old-soul-kitchen/canvas-charms-painted-canvas-magnets/image1.webp",
       "price": [
         {
@@ -77,6 +82,7 @@
       "id": 6,
       "name": "Wooden Whispers (Painted Wooden Magnets)",
       "url": "wooden-whispers",
+      "tags": ["wooden fridge magnet", "rustic magnet", "log slice magnet", "earthy kitchen decor", "handmade wooden magnet India"],
       "cover_img": "old-soul-kitchen/wooden-whispers-painted-wooden-magnets/image1.webp",
       "price": [
         {
@@ -91,6 +97,7 @@
       "id": 7,
       "name": "Everyday Charm (Painted MDF Magnets)",
       "url": "everyday-charm",
+      "tags": ["MDF magnet", "painted magnet", "everyday decor magnet", "colourful kitchen magnet", "handmade home magnet"],
       "cover_img": "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image1.webp",
       "price": [
         {
@@ -105,6 +112,7 @@
       "id": 8,
       "name": "Tea Time Tales (Tea-Inspired Coasters)",
       "url": "tea-time-tales",
+      "tags": ["tea coaster", "chai coaster", "hand painted coaster India", "MDF coaster", "tea lover gift", "coaster set India"],
       "cover_img": "old-soul-kitchen/tea-time-tales-tea-inspired-coasters/image1.webp",
       "price": [
         {
@@ -119,6 +127,7 @@
       "id": 9,
       "name": "Self-Love Sips (Affirmation Coasters)",
       "url": "self-love-sips",
+      "tags": ["affirmation coaster", "motivational coaster", "positive quote coaster", "self love gift", "mindful home decor"],
       "cover_img": "old-soul-kitchen/self-love-sips-affirmation-coasters/image1.webp",
       "price": [
         {
@@ -132,8 +141,7 @@
     {
       "id": 10,
       "name": "Wizarding Brews (Harry Potter–Inspired Coasters)",
-      "url": "wizarding-brews",
-      "cover_img": "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
+      "url": "wizarding-brews",      "tags": ["Harry Potter coaster", "Hogwarts coaster", "Harry Potter gift India", "Potter themed home decor", "resin coaster Harry Potter"],      "cover_img": "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
       "price": [
         {
           "original": "549",
@@ -161,6 +169,7 @@
       "id": 12,
       "name": "Mountain Muse (Mountain-Inspired Coasters)",
       "url": "mountain-muse",
+      "tags": ["mountain coaster", "nature coaster", "travel lover gift", "wanderlust home decor", "resin wooden coaster India"],
       "cover_img": "old-soul-kitchen/mountain-muse-mountain-inspired-coasters/image1.webp",
       "price": [
         {
@@ -175,6 +184,7 @@
       "id": 13,
       "name": "Everyday Mood (Daily Vibe Coasters)",
       "url": "everyday-mood",
+      "tags": ["daily vibe coaster", "colourful coaster set", "resin coaster India", "mood coaster", "hand painted wooden coaster"],
       "cover_img": "old-soul-kitchen/everyday-mood-daily-vibe-coasters/image1.webp",
       "price": [
         {
@@ -189,6 +199,7 @@
       "id": 14,
       "name": "Love & Latte Coasters (Custom Wooden Set)",
       "url": "love-and-latte-coasters",
+      "tags": ["couple coaster set", "personalised couple gift", "anniversary gift India", "custom wooden coaster", "romantic gift coaster"],
       "cover_img": "old-soul-kitchen/love-and-latte-coasters-custom-wooden-set/image1.webp",
       "price": [
         {
@@ -203,6 +214,7 @@
       "id": 15,
       "name": "Tea Time Tokens (Tea Lover Magnets)",
       "url": "tea-time-tokens",
+      "tags": ["tea magnet", "chai lover gift", "tea lover magnet", "custom tea magnet", "kitchen gift for her"],
       "cover_img": "old-soul-kitchen/tea-time-tokens-tea-lover-magnets/image1.webp",
       "price": [
         {
@@ -216,8 +228,7 @@
     {
       "id": 16,
       "name": "City Sips (Kolkata Coaster Set – 6 pcs Painted)",
-      "url": "city-sips",
-      "cover_img": "old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image1.webp",
+      "url": "city-sips",      "tags": ["Kolkata coaster set", "Bengal art coaster", "city themed coaster", "Kolkata gift", "cultural coaster India"],      "cover_img": "old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image1.webp",
       "price": [
         {
           "original": "899",
@@ -231,6 +242,7 @@
       "id": 17,
       "name": "Brewed Charm (Hand-Painted Bamboo Sippers)",
       "url": "brewed-charm",
+      "tags": ["bamboo sipper", "hand painted sipper", "eco friendly gift India", "sustainable coffee cup gift", "custom bamboo sipper"],
       "cover_img": "old-soul-kitchen/brewed-charm-hand-painted-bamboo-sippers/image1.webp",
       "price": [
         {
@@ -244,8 +256,7 @@
     {
       "id": 18,
       "name": "Wizarding Nights (Harry Potter Coaster Set – 5 pcs)",
-      "url": "wizarding-nights",
-      "cover_img": "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
+      "url": "wizarding-nights",      "tags": ["Harry Potter coaster set", "Hogwarts house coaster", "resin wooden coaster set", "Potter collector gift", "Starry Night Harry Potter coaster"],      "cover_img": "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
       "price": [
         {
           "original": "2299",
@@ -259,6 +270,7 @@
       "id": 19,
       "name": "Starry Sips (Hand-Painted MDF Coasters)",
       "url": "starry-sips",
+      "tags": ["Van Gogh coaster", "Starry Night coaster", "artistic coaster India", "hand painted MDF coaster", "art inspired coaster"],
       "cover_img": "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp",
       "price": [
         {
