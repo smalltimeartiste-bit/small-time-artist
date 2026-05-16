@@ -73,6 +73,7 @@ function SearchResults() {
             }
           });
         } catch (err) {
+          console.error(`Failed to load category ${cat.slug}:`, err);
           // silently skip if a category fails to load
         }
       });

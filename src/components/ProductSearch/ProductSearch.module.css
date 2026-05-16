@@ -4,6 +4,7 @@
 
 .searchRow {
   position: relative;
+  z-index: 100;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -11,6 +12,7 @@
 }
 
 .searchBar {
+  position: relative;
   display: flex;
   align-items: center;
   background: #fff;
@@ -75,8 +77,14 @@
   }
 }
 
-/* ── Dropdown — positioned via inline style (React Portal) ── */
+/* ── Dropdown — absolute positioned below .searchBar ── */
 .dropdown {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: -1.5px;
+  right: -1.5px;
+  z-index: 9999;
   background: #fff;
   border: 1.5px solid #b5896a;
   border-top: none;
@@ -86,8 +94,9 @@
   list-style: none;
   padding: 4px 0 6px;
   margin: 0;
-  overflow: hidden;
-  /* position + top/left/width come from inline style via JS */
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 60vh;
 }
 
 .suggestionItem {

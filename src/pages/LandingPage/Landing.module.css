@@ -153,6 +153,9 @@
   margin-bottom: 0.75rem;
   color: var(--primaryBlack);
   text-align: left;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .processDescription {

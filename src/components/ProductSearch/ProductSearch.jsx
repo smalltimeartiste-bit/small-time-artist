@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import ALL_SUGGESTIONS from "../../utils/buildSearchSuggestions";
 import { MdCategory } from "react-icons/md";
 import classNames from "classnames";
-import { createPortal } from "react-dom";
 import css from "./ProductSearch.module.css";
 import { useNavigate } from "react-router";
 
@@ -24,28 +23,11 @@ function ProductSearch() {
   const [suggestions, setSuggestions] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
-  const [dropdownStyle, setDropdownStyle] = useState({});
-
-  // ── Position the portal dropdown under the search bar ──
-  const updateDropdownPosition = () => {
-    if (searchBarRef.current) {
-      const rect = searchBarRef.current.getBoundingClientRect();
-      setDropdownStyle({
-        position: "fixed",
-        top: rect.bottom,
-        left: rect.left,
-        width: rect.width,
-        zIndex: 9999,
-      });
-    }
-  };
 
   // Close on outside click
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (searchBarRef.current && !searchBarRef.current.contains(e.target)) {
-        const portal = document.getElementById("search-dropdown-portal");
-        if (portal && portal.contains(e.target)) return;
         setShowDropdown(false);
         setActiveIndex(-1);
       }
@@ -53,17 +35,6 @@ function ProductSearch() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  // Keep dropdown aligned on scroll / resize
-  useEffect(() => {
-    if (!showDropdown) return;
-    window.addEventListener("scroll", updateDropdownPosition, true);
-    window.addEventListener("resize", updateDropdownPosition);
-    return () => {
-      window.removeEventListener("scroll", updateDropdownPosition, true);
-      window.removeEventListener("resize", updateDropdownPosition);
-    };
-  }, [showDropdown]);
 
   // ── Matching — name OR any tag ──
   const filterSuggestions = (q) => {
@@ -86,12 +57,7 @@ function ProductSearch() {
     }
     const matched = filterSuggestions(val);
     setSuggestions(matched);
-    if (matched.length > 0) {
-      updateDropdownPosition();
-      setShowDropdown(true);
-    } else {
-      setShowDropdown(false);
-    }
+    setShowDropdown(matched.length > 0);
   };
 
   const handleSuggestionClick = (suggestion) => {
@@ -146,91 +112,76 @@ function ProductSearch() {
     return suggestion.tags.find((t) => t.toLowerCase().includes(lower)) || null;
   };
 
-  // ── Dropdown portal ──
-  const dropdownPortal =
-    showDropdown &&
-    createPortal(
-      <ul
-        id="search-dropdown-portal"
-        className={css.dropdown}
-        style={dropdownStyle}
-      >
-        {suggestions.map((s, i) => {
-          const tag = matchedTag(s);
-          return (
-            <li
-              key={i}
-              className={classNames(css.suggestionItem, {
-                [css.suggestionActive]: i === activeIndex,
-              })}
-              onMouseDown={() => handleSuggestionClick(s)}
-              onMouseEnter={() => setActiveIndex(i)}
-            >
-              <span className={css.suggestionIcon}>
-                {s.type === "category" ? <MdCategory /> : <FiSearch />}
-              </span>
-              <span className={css.suggestionText}>
-                {highlight(s.name, searchQuery)}
-                {tag && (
-                  <span className={css.tagHint}>&ldquo;{tag}&rdquo;</span>
-                )}
-              </span>
-              <span className={css.suggestionBadge}>
-                {s.type === "category" ? "Category" : s.categoryName}
-              </span>
-            </li>
-          );
-        })}
-        <li className={css.seeAll} onMouseDown={handleSearch}>
-          <FiSearch /> See all results for &ldquo;
-          <strong>{searchQuery}</strong>&rdquo;
-        </li>
-      </ul>,
-      document.body,
-    );
-
   return (
-    <>
-      <div className={css.searchRow}>
-        <div
-          ref={searchBarRef}
-          className={classNames(css.searchBar, {
-            [css.searchBarOpen]: showDropdown,
-          })}
-        >
-          <FiSearch className={css.searchIcon} onClick={handleSearch} />
-          <input
-            type="text"
-            placeholder="Search products, categories or styles..."
-            value={searchQuery}
-            onChange={handleInputChange}
-            onKeyDown={handleKeyDown}
-            onFocus={() => {
-              if (suggestions.length > 0) {
-                updateDropdownPosition();
-                setShowDropdown(true);
-              }
+    <div className={css.searchRow}>
+      <div
+        ref={searchBarRef}
+        className={classNames(css.searchBar, {
+          [css.searchBarOpen]: showDropdown,
+        })}
+      >
+        <FiSearch className={css.searchIcon} onClick={handleSearch} />
+        <input
+          type="text"
+          placeholder="Search products, categories or styles..."
+          value={searchQuery}
+          onChange={handleInputChange}
+          onKeyDown={handleKeyDown}
+          onFocus={() => {
+            if (suggestions.length > 0) setShowDropdown(true);
+          }}
+          className={css.searchInput}
+          autoComplete="off"
+        />
+        {searchQuery && (
+          <button
+            className={css.clearBtn}
+            onClick={() => {
+              setSearchQuery("");
+              setSuggestions([]);
+              setShowDropdown(false);
             }}
-            className={css.searchInput}
-            autoComplete="off"
-          />
-          {searchQuery && (
-            <button
-              className={css.clearBtn}
-              onClick={() => {
-                setSearchQuery("");
-                setSuggestions([]);
-                setShowDropdown(false);
-              }}
-            >
-              <FiX />
-            </button>
-          )}
-        </div>
+          >
+            <FiX />
+          </button>
+        )}
+        {/* Dropdown — absolute positioned below .searchBar */}
+        {showDropdown && (
+          <ul className={css.dropdown}>
+            {suggestions.map((s, i) => {
+              const tag = matchedTag(s);
+              return (
+                <li
+                  key={i}
+                  className={classNames(css.suggestionItem, {
+                    [css.suggestionActive]: i === activeIndex,
+                  })}
+                  onMouseDown={() => handleSuggestionClick(s)}
+                  onMouseEnter={() => setActiveIndex(i)}
+                >
+                  <span className={css.suggestionIcon}>
+                    {s.type === "category" ? <MdCategory /> : <FiSearch />}
+                  </span>
+                  <span className={css.suggestionText}>
+                    {highlight(s.name, searchQuery)}
+                    {tag && (
+                      <span className={css.tagHint}>&ldquo;{tag}&rdquo;</span>
+                    )}
+                  </span>
+                  <span className={css.suggestionBadge}>
+                    {s.type === "category" ? "Category" : s.categoryName}
+                  </span>
+                </li>
+              );
+            })}
+            <li className={css.seeAll} onMouseDown={handleSearch}>
+              <FiSearch /> See all results for &ldquo;
+              <strong>{searchQuery}</strong>&rdquo;
+            </li>
+          </ul>
+        )}
       </div>
-
-      {dropdownPortal}
-    </>
+    </div>
   );
 }
 

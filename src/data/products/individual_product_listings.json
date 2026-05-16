@@ -143,7 +143,9 @@
       "discounted": 249
     },
     "images": [
-      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image1.webp"
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image1.webp",
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image2.webp",
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -205,7 +207,8 @@
     },
     "images": [
       "frame-your-phone/stories-you-carry-frame-your-phone/image1.webp",
-      "frame-your-phone/stories-you-carry-frame-your-phone/image2.webp"
+      "frame-your-phone/stories-you-carry-frame-your-phone/image2.webp",
+      "frame-your-phone/stories-you-carry-frame-your-phone/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -429,7 +432,11 @@
     "price": {
       "discounted": 249
     },
-    "images": ["frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg"],
+    "images": [
+      "frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg",
+      "frame-your-phone/vintage-vibes-frame-your-phone/image2.webp",
+      "frame-your-phone/vintage-vibes-frame-your-phone/image3.webp"
+    ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
@@ -507,7 +514,7 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 399
     },
     "images": [
       "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp",
@@ -564,23 +571,6 @@
       "unit": "days"
     }
   },
-  "your-story-desk": {
-    "id": 27,
-    "title": "Your Story Desk (Custom To-do canvas memo)",
-    "desc": "<p><strong>Turn your desk into a truly personal masterpiece.</strong></p><p>Our hand-painted desk canvas and memo set is custom-designed using your photo, aesthetic preferences, favourite colours, and themes, creating your to-do productivity energy. Functional yet artistic, it helps you stay organized while keeping your personality at the center of every design.</p><p>Fully customisable — include your image, colours, theme, and personal details.</p><p><em>To explore personalised creations, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp.</em></p>",
-    "buyInfoShow": false,
-    "specialOffer": true,
-    "price": {
-      "discounted": 499
-    },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
-    "tentativeShippingDate": {
-      "min": 10,
-      "max": 14,
-      "unit": "days"
-    }
-  },
   "painted-pause": {
     "id": 28,
     "title": "Painted Pause (Hand-Painted Bookmarks)",
@@ -593,8 +583,7 @@
     "images": [
       "muse-and-memo/painted-pause-hand-painted-bookmarks/image1.webp",
       "muse-and-memo/painted-pause-hand-painted-bookmarks/image2.webp",
-      "muse-and-memo/painted-pause-hand-painted-bookmarks/image3.webp",
-      "muse-and-memo/painted-pause-hand-painted-bookmarks/image4.webp"
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -1175,8 +1164,7 @@
     "images": [
       "paper-whispers/make-it-yours/image1.webp",
       "paper-whispers/make-it-yours/image2.webp",
-      "paper-whispers/make-it-yours/image3.webp",
-      "paper-whispers/make-it-yours/image4.webp"
+      "paper-whispers/make-it-yours/image3.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -1329,27 +1317,6 @@
       "unit": "days"
     }
   },
-  "starry-sips": {
-    "id": 64,
-    "title": "Starry Sips (Hand-Painted MDF Coasters)",
-    "desc": "<p><strong>A little galaxy for your cup.</strong> Inspired by Van Gogh's timeless \"Starry Night,\" these hand-painted MDF coasters bring dreamy skies and swirling hues to your table. Artistic, elegant, and made to add a touch of night-sky calm to every sip.</p><p>To explore personalised kitchen art, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp for more designs.</p>",
-    "buyInfoShow": false,
-    "specialOffer": true,
-    "price": {
-      "discounted": 899
-    },
-    "images": [
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp",
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image2.webp",
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image3.webp"
-    ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
-    "tentativeShippingDate": {
-      "min": 10,
-      "max": 14,
-      "unit": "days"
-    }
-  },
   "van-gogh-nights": {
     "id": 65,
     "title": "Van Gogh Nights (Coaster Set – 4 pcs + Holder)",
@@ -1459,8 +1426,7 @@
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image1.webp",
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image2.webp",
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image3.webp",
-      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image4.webp",
-      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image5.webp"
+      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image4.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
@@ -1587,7 +1553,9 @@
     },
     "images": [
       "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image1.webp",
-      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image2.webp"
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image2.webp",
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image3.webp",
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image4.webp"
     ],
     "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {

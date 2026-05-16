@@ -1,7 +1,7 @@
 import CustomButton from "../../components/Buttons/Buttons";
 import Heading from "../../components/Heading/Heading";
 import { Helmet } from "react-helmet-async";
-import HeroImg from "../../assets/page/LandingPage/HeroImg1.png";
+import HeroImg from "../../assets/page/LandingPage/STA_HeroImg.png";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import Section from "../../components/Section/SectionContainer";
 import WrapperContainer from "../../components/Wrapper/WrapperContainer";
