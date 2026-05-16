@@ -1,12 +1,14 @@
 {
   "label": "Frame Your Phone",
   "heading": "Frame Your Phone",
-  "sub-heading": "Discover one-of-a-kind, hand-designed phone covers crafted in a collage style that’s as unique as you are. No two covers are ever the same — each piece is fully personalised to your vibe, style, and story. From bold and quirky to minimalist and magical, these custom phone covers turn your everyday essential into a work of art.",
+  "tags": ["custom phone cover", "personalised phone case", "aesthetic phone cover", "custom phone case India", "unique phone cover", "handcrafted phone case", "phone cover gift", "personalised gift"],
+  "sub-heading": "<p><em>Personalised Aesthetic Phone Covers and Inserts</em></p><br><p>Your phone goes everywhere with you. It should look like it belongs to you.</p><br><p>Choose your aesthetic, your mood, your theme and we build your <strong>custom phone cover</strong> around it. Cottagecore or dark academia. Van Gogh swirls or café mocha tones. Your favourite film, city, era or vibe. Add a photo, a name, a lyric, a date or simply a feeling. If you can describe it, we can design it.</p><br><p>Every <strong>personalised phone case</strong> is layered, collage style and built from scratch. No templates. No two designs are ever the same. <strong>Hand painted phone covers</strong> are also available for something truly one of a kind.</p><br><p>And the best part? Our <strong>inserts are reusable.</strong> New phone, new insert. Your art stays with you.</p><br><p>Add to cart, fill a short customisation form and we finalise your <strong>custom phone case design</strong> together on WhatsApp before printing.</p><br><p><em>Prices vary by design, style and customisation.</em> <strong>Inserts from ₹249 plus shipping. Phone covers from ₹629 plus shipping.</strong></p>",
   "products": [
     {
       "id": 1,
       "name": "The Custom Edit",
       "url": "the-custom-edit",
+      "tags": ["fully custom phone case", "bespoke phone cover", "custom design phone case", "Pinterest inspired phone cover", "unique phone case design", "made to order phone cover"],
       "cover_img": "frame-your-phone/the-custom-edit-frame-your-phone-rs-605-strikeout-rs-579-plus-shipping/image1.webp",
       "price": [
         {
@@ -21,6 +23,7 @@
       "id": 2,
       "name": "City Souls (Kolkata Edition)",
       "url": "city-souls-kolkata",
+      "tags": ["Kolkata phone cover", "Bengal phone case", "Kolkata gift", "cultural phone cover", "doodle phone case", "heritage phone cover India", "city art phone case"],
       "cover_img": "frame-your-phone/city-souls-kolkata-edition-frame-your-phone/image1.webp",
       "price": [
         {
@@ -35,6 +38,7 @@
       "id": 4,
       "name": "The Gogh Edit",
       "url": "the-gogh-edit",
+      "tags": ["Van Gogh phone cover", "Starry Night phone case", "art inspired phone cover", "impressionist phone case", "painted phone cover", "artistic phone case India"],
       "cover_img": "frame-your-phone/the-gogh-edit-frame-your-phone/image1.webp",
       "price": [
         {
@@ -49,6 +53,7 @@
       "id": 5,
       "name": "Mood & Muse",
       "url": "mood-muse",
+      "tags": ["aesthetic phone cover", "moodboard phone case", "personalised aesthetic case", "vibe phone cover", "custom aesthetic phone case", "personality phone cover", "collage phone case"],
       "cover_img": "frame-your-phone/mood-and-muse-frame-your-phone/image1.webp",
       "price": [
         {
@@ -91,6 +96,7 @@
       "id": 8,
       "name": "Mood & Muse (Durga Pujo Edition)",
       "url": "mood-muse-durga-pujo",
+      "tags": ["Durga Puja phone cover", "festive phone case", "Durga Pujo gift", "Bengali festive phone cover", "cultural phone case India", "Pujo aesthetic phone cover"],
       "cover_img": "frame-your-phone/mood-and-muse-durga-pujo-edition-frame-your-phone/image1.webp",
       "price": [
         {
@@ -105,6 +111,7 @@
       "id": 9,
       "name": "Stories You Carry",
       "url": "stories-you-carry",
+      "tags": ["photo phone cover", "memory phone case", "personalised photo case", "custom photo phone cover", "gift phone case", "keepsake phone cover", "name phone case", "meaningful phone cover"],
       "cover_img": "frame-your-phone/stories-you-carry-frame-your-phone/image1.webp",
       "price": [
         {
@@ -119,6 +126,7 @@
       "id": 10,
       "name": "Painted Frame",
       "url": "painted-frame",
+      "tags": ["painted phone cover", "artistic phone case", "floral phone cover", "abstract phone case", "dreamy phone cover", "custom art phone case", "illustrated phone cover", "romantic phone case"],
       "cover_img": "frame-your-phone/painted-frames-frame-your-phone/image1.webp",
       "price": [
         {
@@ -133,6 +141,7 @@
       "id": 11,
       "name": "Vintage Vibe",
       "url": "vintage-vibe",
+      "tags": ["vintage phone cover", "cottagecore phone case", "dark academia phone cover", "retro phone case", "old school aesthetic phone cover", "antique style phone case", "pressed flower phone cover", "nostalgia phone case"],
       "cover_img": "frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg",
       "price": [
         {
@@ -147,6 +156,7 @@
       "id": 13,
       "name": "Brew & You",
       "url": "brew-you",
+      "tags": ["coffee aesthetic phone case", "cafe vibes phone cover", "mocha aesthetic phone case", "cosy phone cover", "coffee lover gift", "latte art phone cover"],
       "cover_img": "frame-your-phone/brew-and-you-frame-your-phone/image2.webp",
       "price": [
         {

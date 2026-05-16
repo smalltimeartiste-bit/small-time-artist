@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-ul {
+.cont ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@ ul {
   display: none;
 }
 @media (max-width: 767px) {
-  ul {
+  .cont ul {
     display: none;
   }
 
