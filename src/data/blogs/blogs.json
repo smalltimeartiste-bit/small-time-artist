@@ -1,0 +1,55 @@
+{
+  "pageTitle": "The Studio Journal",
+  "pageSubtitle": "Thoughts, processes, and slow-made stories from the workbench.",
+  "blogs": [
+    {
+      "slug": "the-art-of-letting-go-shaping-irregular-forms",
+      "title": "The Art of Letting Go: Shaping Irregular Forms",
+      "category": "Featured",
+      "author": "Monami Chakraborthy",
+      "publishedAt": "2023-10-12",
+      "readTime": "5 min read",
+      "coverImage": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=1400&q=80",
+      "excerpt": "In this week's studio notes, we explore the beauty of imperfection. Moving away from symmetrical perfection allows the natural character of the raw material to shape the final form.",
+      "isFeatured": true,
+      "content": [
+        "For years, I thought precision was the goal. Every line had to match. Every shape had to be controlled. But the more I worked with clay, wood, and paint, the more I noticed that perfection can sometimes erase personality.",
+        "Irregular forms have a pulse. They carry the trace of the hand that made them. Slight asymmetry, a soft edge, or an unexpected curve often holds more emotion than a flawless finish.",
+        "This week, I intentionally stepped away from strict outlines. I let the material suggest the next move. The result felt more alive. Less designed. More honest.",
+        "If you are creating something right now, try leaving one part unresolved for a little longer. You might discover a shape that feels more true than the one you planned."
+      ]
+    },
+    {
+      "slug": "observations-from-the-autumn-woods",
+      "title": "Observations from the Autumn Woods",
+      "category": "Inspiration",
+      "author": "Monami Chakraborthy",
+      "publishedAt": "2023-10-04",
+      "readTime": "4 min read",
+      "coverImage": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80",
+      "excerpt": "Collecting fallen leaves, sketching textures, and finding profound inspiration in the quiet color shifts of the season.",
+      "isFeatured": false,
+      "content": [
+        "Autumn reminds me to pay attention to transitions. Colors do not change overnight, they drift into one another. That gradual shift is a design lesson in itself.",
+        "I spent a few mornings collecting textures: cracked bark, dry stems, and leaves that looked hand-painted by weather. These references are now guiding a new set of surface experiments.",
+        "Nature does not repeat exact patterns, and that is exactly what makes it rich. I am bringing more of that uneven rhythm into upcoming collections."
+      ]
+    },
+    {
+      "slug": "the-morning-light-mug-collection",
+      "title": "The Morning Light Mug Collection",
+      "category": "New Arrivals",
+      "author": "Monami Chakraborthy",
+      "publishedAt": "2023-09-27",
+      "readTime": "3 min read",
+      "coverImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80",
+      "excerpt": "Introducing our latest batch of hand-thrown mugs, designed to make your slow mornings feel warmer and a little more personal.",
+      "isFeatured": false,
+      "content": [
+        "This collection started with a simple question: what shape feels right at 7 AM? We tested handle curves, rim thickness, and weight distribution until each mug felt easy to hold in a sleepy hand.",
+        "The glaze palette stays grounded: warm neutrals, charcoal accents, and one soft blush variation. Enough variety to choose your mood, but still cohesive as a family.",
+        "Every piece is made in small batches, so slight variation is part of the story. No two mugs are exactly alike, and that is the point."
+      ]
+    }
+  ]
+}

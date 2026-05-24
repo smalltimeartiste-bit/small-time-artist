@@ -85,9 +85,9 @@ const LandingPage = () => {
               Smalltime <span>Artiste</span>
             </Heading>
             <Heading level={2} className={css.heading2}>
-              She Does What She Loves
+              Gift thoughtful.
               <br />
-              She Loves What She Creates
+              Do not think.
             </Heading>
           </div>
           <div className={css.imgCont}>

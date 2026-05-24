@@ -1,6 +1,7 @@
 .heading {
   color: var(--headingText);
   font-size: 84px;
+  margin-top: 32px;
   & span {
     color: var(--pinkText);
   }
@@ -227,6 +228,7 @@
   }
   .heading {
     font-size: 42px;
+    margin-top: 20px;
 
     & span {
       display: block;

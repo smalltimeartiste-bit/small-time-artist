@@ -1,3 +1,5 @@
+import { useLocation, useNavigate } from "react-router";
+
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import FAQ from "../../components/Faq/Faq";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
@@ -29,12 +31,13 @@ import theGoghEditDecor from "../../assets/decorations/products/card5_decor.svg"
 import theGoghEditImg from "../../assets/content/products/grid_sec/the-gogh-edit.png";
 import timelessTreasuresDecor from "../../assets/decorations/products/card2_decor.svg";
 import timelessTreasuresImg from "../../assets/content/products/grid_sec/timeless_treasures.png";
-import { useNavigate } from "react-router";
 import wearableWhimpsyDecor from "../../assets/decorations/products/card10_decor.svg";
 import wearableWhimpsyImg from "../../assets/content/products/grid_sec/wearable_whimpsy.png";
 
 function Products() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const shouldFocusSearch = new URLSearchParams(location.search).get("focus") === "1";
 
   const gridItems = [
     {
@@ -143,7 +146,7 @@ function Products() {
       <Breadcrumbs />
       <Section label="All product categories">
         <WrapperContainer className={css.heroWrapper}>
-          <ProductSearch />
+          <ProductSearch autoFocus={shouldFocusSearch} />
 
           <Heading level={1} className={css.heading}>
             Choose Your <span>Aesthetics</span>

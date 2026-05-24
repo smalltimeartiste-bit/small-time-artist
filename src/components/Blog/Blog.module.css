@@ -1,0 +1,71 @@
+.root {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 24px 20px 70px;
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--subSecondaryBlack);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.meta span:not(:last-child)::after {
+  content: "•";
+  margin-left: 10px;
+}
+
+.title {
+  color: var(--headingText);
+  font-size: 72px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.author {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  color: var(--largeTextColor);
+  margin-bottom: 18px;
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #ddd4c4;
+  margin-bottom: 22px;
+}
+
+.content {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+  .root {
+    padding: 18px 10px 50px;
+  }
+
+  .title {
+    font-size: 44px;
+  }
+
+  .author,
+  .content {
+    font-size: 15px;
+  }
+}

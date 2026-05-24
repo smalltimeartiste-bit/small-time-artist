@@ -16,13 +16,23 @@ import { useNavigate } from "react-router";
  *
  * On Enter / "See all results" → navigates to /products/search?q=...
  */
-function ProductSearch() {
+function ProductSearch({ autoFocus = false }) {
   const navigate = useNavigate();
   const searchBarRef = useRef(null);
+  const inputRef = useRef(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [showDropdown, setShowDropdown] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
+
+  useEffect(() => {
+    if (!autoFocus) return;
+
+    // Run after paint to ensure route transition has completed.
+    requestAnimationFrame(() => {
+      inputRef.current?.focus();
+    });
+  }, [autoFocus]);
 
   // Close on outside click
   useEffect(() => {
@@ -122,6 +132,7 @@ function ProductSearch() {
       >
         <FiSearch className={css.searchIcon} onClick={handleSearch} />
         <input
+          ref={inputRef}
           type="text"
           placeholder="Search products, categories or styles..."
           value={searchQuery}
