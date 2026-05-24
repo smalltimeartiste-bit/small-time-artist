@@ -55,6 +55,74 @@
   margin-bottom: 18px;
 }
 
+.richContent {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.richContent p,
+.richContent ul,
+.richContent blockquote {
+  margin-bottom: 18px;
+}
+
+.richContent h3 {
+  font-family: "Engraved", serif;
+  font-size: 34px;
+  line-height: 1.25;
+  color: var(--headingText);
+  font-weight: 700;
+  margin: 22px 0 12px;
+}
+
+.richContent ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.richContent li {
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 8px;
+}
+
+.richContent li::before {
+  content: "🐾";
+  position: absolute;
+  left: 0;
+  top: 0.02em;
+  font-size: 17px;
+  line-height: 1;
+  opacity: 0.58;
+  filter: saturate(0.75) brightness(1.15);
+}
+
+.richContent :global(.important) {
+  font-weight: 500;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.quote) {
+  background-color: #f6efe4;
+  border-left: 4px solid #d8b895;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-style: italic;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.psNote) {
+  margin-top: 10px;
+  padding-top: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: var(--subSecondaryBlack);
+  font-style: italic;
+}
+
 @media (max-width: 767px) {
   .root {
     padding: 18px 10px 50px;
@@ -65,7 +133,24 @@
   }
 
   .author,
-  .content {
+  .content,
+  .richContent {
     font-size: 15px;
+  }
+
+  .richContent h3 {
+    font-size: 24px;
+  }
+
+  .richContent li {
+    padding-left: 28px;
+  }
+
+  .richContent li::before {
+    font-size: 15px;
+  }
+
+  .richContent :global(.psNote) {
+    font-size: 14px;
   }
 }

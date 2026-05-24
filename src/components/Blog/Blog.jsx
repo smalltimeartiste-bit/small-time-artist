@@ -26,11 +26,18 @@ function Blog({ blog }) {
 
       <img className={css.cover} src={blog.coverImage} alt={blog.title} loading="lazy" />
 
-      <div className={css.content}>
-        {blog.content.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-      </div>
+      {blog.contentHtml ? (
+        <div
+          className={css.richContent}
+          dangerouslySetInnerHTML={{ __html: blog.contentHtml }}
+        />
+      ) : (
+        <div className={css.content}>
+          {blog.content.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </div>
+      )}
     </article>
   );
 }
