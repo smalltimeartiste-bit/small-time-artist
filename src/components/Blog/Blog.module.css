@@ -23,7 +23,7 @@
 
 .title {
   color: var(--headingText);
-  font-size: 72px;
+  font-size: 56px;
   text-align: left;
   margin-bottom: 6px;
 }
@@ -107,7 +107,6 @@
 
 .richContent :global(.quote) {
   background-color: #f6efe4;
-  border-left: 4px solid #d8b895;
   padding: 12px 14px;
   border-radius: 10px;
   font-style: italic;
@@ -129,7 +128,7 @@
   }
 
   .title {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   .author,

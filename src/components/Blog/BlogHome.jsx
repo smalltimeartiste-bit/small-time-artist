@@ -4,7 +4,10 @@ import { Link } from "react-router";
 import css from "./BlogHome.module.css";
 
 function formatDate(value) {
-  return new Date(value).toLocaleDateString("en-US", {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return date.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -27,10 +30,10 @@ function BlogHome({ pageTitle, pageSubtitle, blogs }) {
         <p>{pageSubtitle}</p>
       </div>
 
-      <article className={css.featuredCard}>
-        <Link to={`/blog/${featured.slug}`} className={css.featuredImage}>
+      <Link to={`/blog/${featured.slug}`} className={css.featuredCard}>
+        <div className={css.featuredImage}>
           <img src={featured.coverImage} alt={featured.title} loading="lazy" decoding="async" />
-        </Link>
+        </div>
 
         <div className={css.featuredContent}>
           <p className={css.badge}>{featured.category}</p>
@@ -41,10 +44,10 @@ function BlogHome({ pageTitle, pageSubtitle, blogs }) {
           <p className={css.featuredAuthor}>By {featured.author}</p>
           <div className={css.featuredFooter}>
             <span>{formatDate(featured.publishedAt)}</span>
-            <Link to={`/blog/${featured.slug}`}>Read Story</Link>
+            <span className={css.readStory}>Read Story</span>
           </div>
         </div>
-      </article>
+      </Link>
 
       <div className={css.grid}>
         {feed.map((blog) => (

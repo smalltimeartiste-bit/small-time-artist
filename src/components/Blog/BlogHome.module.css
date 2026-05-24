@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 84px;
+  font-size: 68px;
   color: var(--headingText);
 }
 
@@ -23,6 +23,8 @@
 }
 
 .featuredCard {
+  text-decoration: none;
+  color: inherit;
   border: 1px dashed #c9bea9;
   border-radius: 30px;
   padding: 16px;
@@ -60,7 +62,7 @@
 }
 
 .featuredTitle {
-  font-size: 48px;
+  font-size: 38px;
   text-align: left;
   color: var(--headingText);
   margin-bottom: 12px;
@@ -92,7 +94,7 @@
   color: var(--subSecondaryBlack);
 }
 
-.featuredFooter a {
+.readStory {
   text-decoration: none;
   color: var(--textColorHover);
   font-weight: 600;
@@ -125,7 +127,7 @@
   }
 
   .title {
-    font-size: 46px;
+    font-size: 38px;
   }
 
   .header p {
@@ -133,7 +135,7 @@
   }
 
   .featuredTitle {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .featuredExcerpt {

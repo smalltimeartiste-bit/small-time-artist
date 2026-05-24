@@ -2,7 +2,10 @@ import Heading from "../Heading/Heading";
 import css from "./Blog.module.css";
 
 function formatDate(value) {
-  return new Date(value).toLocaleDateString("en-US", {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return date.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -24,7 +27,12 @@ function Blog({ blog }) {
 
       <p className={css.author}>By {blog.author}</p>
 
-      <img className={css.cover} src={blog.coverImage} alt={blog.title} loading="lazy" />
+      <img
+        className={css.cover}
+        src={blog.coverImage}
+        alt={blog.title}
+        loading="lazy"
+      />
 
       {blog.contentHtml ? (
         <div

@@ -2,8 +2,11 @@ import { Link } from "react-router";
 import css from "./BlogCard.module.css";
 
 function formatDate(value) {
-  return new Date(value).toLocaleDateString("en-US", {
-    month: "short",
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return date.toLocaleDateString("en-US", {
+    month: "long",
     day: "numeric",
     year: "numeric",
   });
@@ -11,24 +14,22 @@ function formatDate(value) {
 
 function BlogCard({ blog }) {
   return (
-    <article className={css.card}>
-      <Link className={css.imageLink} to={`/blog/${blog.slug}`}>
+    <Link className={css.card} to={`/blog/${blog.slug}`}>
+      <div className={css.imageLink}>
         <img src={blog.coverImage} alt={blog.title} loading="lazy" decoding="async" />
-      </Link>
+      </div>
 
       <div className={css.content}>
         <p className={css.meta}>{blog.category}</p>
-        <h3 className={css.title}>
-          <Link to={`/blog/${blog.slug}`}>{blog.title}</Link>
-        </h3>
+        <h3 className={css.title}>{blog.title}</h3>
         <p className={css.excerpt}>{blog.excerpt}</p>
         <p className={css.author}>By {blog.author}</p>
         <div className={css.footer}>
           <span>{formatDate(blog.publishedAt)}</span>
-          <Link to={`/blog/${blog.slug}`}>Read Story</Link>
+          <span className={css.readStory}>Read Story</span>
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 
