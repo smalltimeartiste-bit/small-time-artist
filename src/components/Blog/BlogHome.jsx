@@ -32,7 +32,12 @@ function BlogHome({ pageTitle, pageSubtitle, blogs }) {
 
       <Link to={`/blog/${featured.slug}`} className={css.featuredCard}>
         <div className={css.featuredImage}>
-          <img src={featured.coverImage} alt={featured.title} loading="lazy" decoding="async" />
+          <img
+            src={featured.coverImage}
+            alt={featured.title}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
 
         <div className={css.featuredContent}>

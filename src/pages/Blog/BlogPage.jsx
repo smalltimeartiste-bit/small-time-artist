@@ -10,10 +10,12 @@ function BlogPage() {
   return (
     <MainContainer>
       <Helmet>
-        <title>Blog - Small Time Artist</title>
+        <title>
+          Small Time Artiste Blog | Personalized Gift Ideas, Handmade Decor & Creative Stories
+        </title>
         <meta
           name="description"
-          content="Studio notes, creative process stories, and new arrivals from Small Time Artist."
+          content="Explore personalized gift ideas in India, customized phone covers, thoughtful corporate gifting guides, and handmade decor inspiration from Small Time Artiste."
         />
       </Helmet>
 
