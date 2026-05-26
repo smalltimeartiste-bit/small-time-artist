@@ -1,0 +1,144 @@
+.root {
+  padding: 26px 20px 70px;
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto 34px;
+}
+
+.title {
+  font-size: 68px;
+  color: var(--headingText);
+}
+
+.title span {
+  color: var(--pinkText);
+}
+
+.header p {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  color: var(--largeTextColor);
+}
+
+.featuredCard {
+  text-decoration: none;
+  color: inherit;
+  border: 1px dashed #c9bea9;
+  border-radius: 30px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: minmax(280px, 1.1fr) 1fr;
+  gap: 26px;
+}
+
+.featuredImage {
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.featuredImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.badge {
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--subSecondaryBlack);
+}
+
+.featuredTitle {
+  font-size: 38px;
+  text-align: left;
+  color: var(--headingText);
+  margin-bottom: 12px;
+}
+
+.featuredExcerpt {
+  color: var(--largeTextColor);
+  font-family: "Geist", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.featuredAuthor {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: var(--subSecondaryBlack);
+  margin-bottom: 12px;
+}
+
+.featuredFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: var(--subSecondaryBlack);
+}
+
+.readStory {
+  text-decoration: none;
+  color: var(--textColorHover);
+  font-weight: 600;
+}
+
+.grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .featuredCard {
+    grid-template-columns: 1fr;
+  }
+
+  .featuredImage {
+    min-height: 250px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .root {
+    padding: 20px 10px 50px;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .featuredTitle {
+    font-size: 28px;
+  }
+
+  .featuredExcerpt {
+    font-size: 14px;
+  }
+}

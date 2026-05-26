@@ -1,14 +1,18 @@
-import { Route, Routes } from "react-router";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import { Helmet } from "react-helmet-async";
-import LandingPage from "./pages/LandingPage/LandingPage";
+
+import { Route, Routes } from "react-router";
+
 import AboutHer from "./pages/About/AboutHer";
-import Products from "./pages/Products/Products";
+import BlogPage from "./pages/Blog/BlogPage";
+import BlogPostPage from "./pages/Blog/BlogPostPage";
 import Footer from "./components/Footer/Footer";
-import Reviews from "./pages/Reviews/Reviews";
-import ProductSubCategories from "./pages/ProductSubCategories/ProductSubCategories";
+import { Helmet } from "react-helmet-async";
 import IndividualProduct from "./pages/IndividualProduct/IndividualProduct";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
+import ProductSubCategories from "./pages/ProductSubCategories/ProductSubCategories";
+import Products from "./pages/Products/Products";
+import Reviews from "./pages/Reviews/Reviews";
 import ScrollToTop from "./ScrollToTop";
 import SearchResults from "./pages/SearchResults/SearchResults"; // 🆕
 
@@ -33,6 +37,8 @@ function App() {
           element={<IndividualProduct />}
         />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
       </Routes>
       <Footer />
     </>

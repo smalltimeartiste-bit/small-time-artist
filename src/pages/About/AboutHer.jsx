@@ -134,94 +134,144 @@ function AboutHer() {
         </WrapperContainer>
         <WrapperContainer className={css.contentCont}>
           <div className={css.content}>
-            <p><strong>Hi, I&apos;m glad you&apos;re here.</strong></p>
-
             <p>
-              Fair warning: you might leave with something you didn&apos;t plan to
-              buy. That&apos;s kind of the whole point.
+              <strong>Hi, I&apos;m really glad you&apos;re here.</strong>
             </p>
 
             <p>
-              <strong>Smalltime Artiste</strong> is where art stops being
-              something you frame and forget, and starts being something you
-              <strong> carry, use, gift and actually live with</strong> every
-              day. Every piece here is handcrafted and rooted in a simple
-              belief: the best gifts are the ones that feel personal, not
-              purchased.
+              Fair warning though, you might leave with something you did not
+              plan to buy. That&apos;s kind of the whole point.
             </p>
 
             <p>
-              Looking for a <strong>unique gift for your best friend</strong>? A
+              <a
+                href="https://www.smalltimeartiste.in"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Smalltime Artiste
+              </a>{" "}
+              began very quietly. Somewhere between a full time career in social
+              media, late night creative bursts, paint stains on tables,
+              unfinished coffee, and the very dangerous thought of:
+            </p>
+
+            <p>
+              <strong>&ldquo;What if gifting felt more personal again?&rdquo;</strong>
+            </p>
+
+            <p>
+              Not polished.
+              <br />
+              Not mass produced.
+              <br />
+              Not picked out in panic five minutes before a birthday.
+            </p>
+
+            <p>
+              <strong>Just personal.</strong>
+            </p>
+
+            <p>
+              The kind of things that make someone stop mid unwrapping and say:
+            </p>
+
+            <p>
+              <strong>&ldquo;Wait... this feels SO me.&rdquo;</strong>
+            </p>
+
+            <p>
+              That feeling became the entire foundation of Smalltime Artiste.
+            </p>
+
+            <p>
+              Everything here is handcrafted slowly and emotionally, from
+              <strong> customized phone covers</strong>, <strong>Phoninserts</strong>,
+              <strong> tote bags</strong>, <strong>pouches</strong>,
+              <strong> journals</strong>, <strong>keepsake boxes</strong>,
+              <strong> wall art</strong>, <strong>desk decor</strong>,
+              <strong> tiny painted objects</strong>, and gifts that somehow end
+              up becoming memories.
+            </p>
+
+            <p>
+              Because honestly, I have never really been interested in creating
+              products people use once and forget.
+            </p>
+
+            <p>
+              <strong>
+                I wanted to create things people become emotionally attached to.
+              </strong>
+            </p>
+
+            <p>
+              The kind of objects that quietly become part of everyday life. A
+              bookmark tucked inside a favorite book. A phone cover that changes
+              with emotional eras. A desk corner that suddenly feels softer
+              because of one tiny painted object. A gift someone keeps long
+              after the occasion is over.
+            </p>
+
+            <p>
+              The art itself is deeply inspired by <strong>nature</strong>,
+              <strong> cinema</strong>, <strong>nostalgia</strong>,
+              <strong> quiet moments</strong>, and emotions that are difficult to
+              explain properly. I&apos;ve always loved artists like
+              <strong> Vincent van Gogh</strong> who painted feelings before
+              realism. And I think somewhere along the way, that became part of
+              this brand too.
+            </p>
+
+            <p>
+              Nothing here is designed to look perfect.
+              <br />
+              <strong>It is designed to feel something.</strong>
+            </p>
+
+            <p>
+              Smalltime Artiste also exists in the middle of very normal life.
+              Which means most pieces are created during
               <strong>
                 {" "}
-                personalised gift for your boyfriend, girlfriend, husband or
-                wife
+                stolen hours after work, chaotic weekends, random creative
+                spirals, and occasional &ldquo;this idea cannot wait till tomorrow&rdquo;
+                moments
               </strong>
-              ? Something thoughtful for family, a colleague, or a
-              <strong> corporate gifting</strong> moment that actually means
-              something? Or honestly, just <strong>treating yourself</strong>
-              because you deserve something beautiful and no occasion is needed?
-              You are in exactly the right place.
+              .
             </p>
 
             <p>
-              The collection includes <strong>hand-painted tote bags</strong>,
-              <strong> custom phone covers</strong>, <strong>pouches</strong>,
-              <strong> jewellery boxes</strong>, <strong>diaries</strong>,
-              <strong> bookmarks</strong>, <strong>notepads</strong>,
-              <strong> mini canvases</strong>, <strong>desk decor</strong> and
-              <strong> kitchen decor</strong>. Everyday objects are made to hold
-              a little more feeling than usual. Each one a personalised gift
-              online that ships across India.
+              And honestly?
+              <br />
+              <strong>I think that is why the brand still feels personal.</strong>
             </p>
 
             <p>
-              The art itself is rooted in <strong>nature</strong>,
-              <strong> quiet moments</strong> and <strong>everyday life</strong>.
-              Inspired loosely by post-impressionism, think Van Gogh, who
-              painted skies the way they felt, not the way they looked. Every
-              piece here is <strong>emotional before it is decorative</strong>.
-            </p>
-
-            <p className={css.contentQuote}>
-              <em>
-                No two pieces are ever the same, because no feeling ever is.
-              </em>
-            </p>
-
-            <p>
-              This all happens alongside a full-time career in social media,
-              which means Smalltime Artiste is built entirely out of
-              <strong>
-                {" "}
-                stolen hours, weekend paint sessions and a lot of caffeine
-              </strong>
-              . Every piece is <strong>chosen, not churned</strong>.
-            </p>
-
-            <p>
-              Every once in a while, Smalltime Artiste pops up at a
-              <strong> flea market in Bengaluru</strong>. Rare, unplanned and
-              worth it when it happens. Follow along the socials, so you never
-              miss it.
-            </p>
-
-            <p>
-              And soon? <strong>Home exhibitions.</strong> A more intimate way to
-              experience the work up close, in a real space. Coming soon. Stay
-              close.
+              Every once in a while, Smalltime Artiste appears at
+              <strong> flea markets around Bengaluru</strong>. Rare, slightly
+              chaotic, paint covered, and always worth it. Very soon, there will
+              be <strong>home exhibitions</strong> too. Slower, softer spaces
+              where the work can exist the way it was always meant to.
             </p>
 
             <p className={css.contentNote}>
               <em>
-                If you ever get an order packed with an unusual amount of love
-                and dog hair energy, that is Kutu&apos;s doing. The &lsquo;we&rsquo; in our
-                Smalltime Artiste.
+                Also, if your package ever arrives with suspicious amounts of
+                love and dog hair energy, that is probably Kutu&apos;s contribution.
               </em>
             </p>
 
+            <p>
+              The unofficial co creator.
+              <br />
+              The emotional support employee.
+              <br />
+              And the &ldquo;we&rdquo; in Smalltime Artiste. 🐾
+            </p>
+
             <p className={css.contentSignoff}>
-              From heart to hand, <strong>Smalltime Artiste and Kutu</strong> 🐾
+              <strong>Gift thoughtful, do not think.</strong>
             </p>
           </div>
         </WrapperContainer>

@@ -1,0 +1,155 @@
+.root {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 24px 20px 70px;
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--subSecondaryBlack);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.meta span:not(:last-child)::after {
+  content: "•";
+  margin-left: 10px;
+}
+
+.title {
+  color: var(--headingText);
+  font-size: 56px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.author {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  color: var(--largeTextColor);
+  margin-bottom: 18px;
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #ddd4c4;
+  margin-bottom: 22px;
+}
+
+.content {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.richContent {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.richContent p,
+.richContent ul,
+.richContent blockquote {
+  margin-bottom: 18px;
+}
+
+.richContent h3 {
+  font-family: "Engraved", serif;
+  font-size: 34px;
+  line-height: 1.25;
+  color: var(--headingText);
+  font-weight: 700;
+  margin: 22px 0 12px;
+}
+
+.richContent ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.richContent li {
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 8px;
+}
+
+.richContent li::before {
+  content: "🐾";
+  position: absolute;
+  left: 0;
+  top: 0.02em;
+  font-size: 17px;
+  line-height: 1;
+  opacity: 0.58;
+  filter: saturate(0.75) brightness(1.15);
+}
+
+.richContent :global(.important) {
+  font-weight: 500;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.quote) {
+  background-color: #f6efe4;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-style: italic;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.psNote) {
+  margin-top: 10px;
+  padding-top: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: var(--subSecondaryBlack);
+  font-style: italic;
+}
+
+@media (max-width: 767px) {
+  .root {
+    padding: 18px 10px 50px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .author,
+  .content,
+  .richContent {
+    font-size: 15px;
+  }
+
+  .richContent h3 {
+    font-size: 24px;
+  }
+
+  .richContent li {
+    padding-left: 28px;
+  }
+
+  .richContent li::before {
+    font-size: 15px;
+  }
+
+  .richContent :global(.psNote) {
+    font-size: 14px;
+  }
+}
