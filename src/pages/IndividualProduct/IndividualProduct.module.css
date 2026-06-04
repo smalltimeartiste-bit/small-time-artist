@@ -41,7 +41,7 @@
 
   & .pricingCont {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
     font-size: 28px;
     margin-top: 4px;
@@ -83,6 +83,13 @@
   & .charges {
     font-weight: 500 !important;
     color: var(--subSecondaryBlack);
+  }
+
+  & .priceNote {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--subSecondaryBlack);
+    line-height: 1.2;
   }
 
   & .button {
