@@ -2595,5 +2595,69 @@
       "max": 14,
       "unit": "days"
     }
+  },
+  "the-wall-edit": {
+    "id": 95,
+    "title": "The Wall Edit (Mural & Accent Wall Paintings)",
+    "desc": "<p><strong>Some spaces need more than a frame on the wall. They need the wall itself to become something.</strong> The Wall Edit is Smalltime Artiste's mural and accent wall painting service -- hand-painted, made to order, and rooted in the same post-impressionist aesthetic that defines The Gogh Edit collection. Think swirling Starry Night textures, deep cobalt blues, expressive brushwork, and walls that feel like standing inside a painting.</p><p>Every mural is designed around your space, your light, and what you want the room to feel like. Not copied from a reference image, not templated, not rushed. Just paint, intention, and a wall that people will not stop talking about.</p><p>Pricing varies based on wall size and complexity. Currently available in Bengaluru. <strong>Rs. 22,000 onwards.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 22000,
+      "excl": "",
+      "showAbove": true
+    },
+    "images": [
+      "the-gogh-edit/the-wall-edit/image1.webp",
+      "the-gogh-edit/the-wall-edit/image2.webp",
+      "the-gogh-edit/the-wall-edit/image3.webp",
+      "the-gogh-edit/the-wall-edit/image4.webp"
+    ],
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
+  },
+  "the-gogh-post": {
+    "id": 96,
+    "title": "The Gogh Post (Hand-Painted Postcards)",
+    "desc": "<p><strong>A little piece of Starry Night you can hold in your hand, send in an envelope, or keep on your desk forever.</strong> The Gogh Post is a hand-painted Van Gogh inspired postcard -- each one made individually in acrylic and gouache. No two are identical. Currently available as painted originals; printed editions coming soon.</p><p><strong>Rs. 229 per postcard.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 229,
+      "excl": ""
+    },
+    "images": [
+      "the-gogh-edit/the-gogh-post/image1.webp",
+      "the-gogh-edit/the-gogh-post/image2.webp"
+    ],
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
+  },
+  "the-gogh-nook": {
+    "id": 97,
+    "title": "The Gogh Nook (Hand-Painted Mini Shelf)",
+    "desc": "<p><strong>A hand-painted miniature decorative shelf in the visual language of Starry Night.</strong> Place it on a desk, a windowsill, a bookshelf corner and watch it change everything around it. The Gogh Nook holds a small plant, a trinket, a candle, or whatever small object matters to you. Made to order, painted by hand.</p><p><strong>Rs. 2,299.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 2299,
+      "excl": ""
+    },
+    "images": [
+      "the-gogh-edit/the-gogh-nook/image1.webp",
+      "the-gogh-edit/the-gogh-nook/image2.webp",
+      "the-gogh-edit/the-gogh-nook/image3.webp"
+    ],
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
   }
 }

@@ -230,6 +230,69 @@
           "showAbove": true
         }
       ]
+    },
+    {
+      "id": 12,
+      "name": "The Wall Edit (Mural & Accent Wall Paintings)",
+      "url": "the-wall-edit",
+      "tags": [
+        "Van Gogh mural",
+        "accent wall painting",
+        "Starry Night wall",
+        "hand painted mural",
+        "custom wall art Bengaluru"
+      ],
+      "cover_img": "the-gogh-edit/the-wall-edit/image1.webp",
+      "price": [
+        {
+          "original": "22000",
+          "compared": "",
+          "excl": "",
+          "showAbove": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Gogh Post (Hand-Painted Postcards)",
+      "url": "the-gogh-post",
+      "tags": [
+        "Van Gogh postcard",
+        "hand painted postcard",
+        "Starry Night postcard",
+        "art postcard India",
+        "collectible art postcard"
+      ],
+      "cover_img": "the-gogh-edit/the-gogh-post/image1.webp",
+      "price": [
+        {
+          "original": "229",
+          "compared": "",
+          "excl": "",
+          "showAbove": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Gogh Nook (Hand-Painted Mini Shelf)",
+      "url": "the-gogh-nook",
+      "tags": [
+        "Van Gogh mini shelf",
+        "hand painted shelf",
+        "Starry Night decor",
+        "miniature shelf decor",
+        "art shelf India"
+      ],
+      "cover_img": "the-gogh-edit/the-gogh-nook/image1.webp",
+      "price": [
+        {
+          "original": "2299",
+          "compared": "",
+          "excl": "",
+          "showAbove": false
+        }
+      ]
     }
   ]
 }
