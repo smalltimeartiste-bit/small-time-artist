@@ -1,13 +1,21 @@
 {
   "label": "Muse & Memo",
   "heading": "Muse & Memo",
-  "sub-heading": "<em>Where art meets paper.</em><br><br>Stationery that actually feels like something. Every piece in this collection is handcrafted and designed to turn your everyday desk essentials into something worth keeping. From <strong>hand painted notebooks</strong> and <strong>personalised journals</strong> to <strong>custom bookmarks</strong> and <strong>desk canvas memo sets</strong> — each one is built around your aesthetic, your colours and your story.<br><br>Perfect as a <strong>unique gift for writers, artists, students and journal lovers</strong> or simply a beautiful upgrade for your own workspace.<br><br><em>Prices vary by product, size, design and personalisation.</em>",
+  "sub-heading": "<em>Where art meets paper.</em><br><br>Stationery that actually feels like something. Every piece in this collection is handcrafted and designed to turn your everyday desk essentials into something worth keeping. From <strong>hand painted notebooks</strong> and <strong>personalised journals</strong> to <strong>custom bookmarks</strong> and <strong>desk canvas memo sets</strong> — each one is built around your aesthetic, your colours and your story.<br><br>Perfect as a <strong>unique gift for writers, artists, students and journal lovers</strong> or simply a beautiful upgrade for your own workspace. Everything here is customisable. DM us on Instagram or WhatsApp to discuss your order. <em>Prices vary by product, size, design and personalisation.</em>",
   "products": [
     {
       "id": 1,
       "name": "Canvas Chronicles (Hand-Painted Canvas Notebooks)",
       "url": "canvas-chronicles",
-      "tags": ["hand painted notebook", "canvas notebook India", "personalised journal", "custom notebook gift", "artistic notebook", "journal for writers", "hand painted diary"],
+      "tags": [
+        "hand painted notebook",
+        "canvas notebook India",
+        "personalised journal",
+        "custom notebook gift",
+        "artistic notebook",
+        "journal for writers",
+        "hand painted diary"
+      ],
       "cover_img": "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image1.webp",
       "price": [
         {
@@ -22,11 +30,18 @@
       "id": 2,
       "name": "Bound Muse (Hardbound & Spiral Notebooks)",
       "url": "bound-muse",
-      "tags": ["hardbound notebook", "spiral notebook India", "personalised notebook", "custom diary gift", "aesthetic notebook India", "gift for students"],
+      "tags": [
+        "hardbound notebook",
+        "spiral notebook India",
+        "personalised notebook",
+        "custom diary gift",
+        "aesthetic notebook India",
+        "gift for students"
+      ],
       "cover_img": "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp",
       "price": [
         {
-          "original": "349",
+          "original": "399",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -37,7 +52,14 @@
       "id": 3,
       "name": "Wander Notes (Travel-Friendly Resin-Coated Notebooks)",
       "url": "wander-notes",
-      "tags": ["travel notebook", "resin coated notebook", "compact journal", "on the go notebook", "travel gift India", "portable diary"],
+      "tags": [
+        "travel notebook",
+        "resin coated notebook",
+        "compact journal",
+        "on the go notebook",
+        "travel gift India",
+        "portable diary"
+      ],
       "cover_img": "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image1.webp",
       "price": [
         {
@@ -52,7 +74,14 @@
       "id": 4,
       "name": "My Muse Memo (To-do canvas memo)",
       "url": "my-muse-memo",
-      "tags": ["custom desk memo", "personalised to do list", "hand painted memo pad", "aesthetic desk organiser", "desk canvas India", "workspace gift"],
+      "tags": [
+        "custom desk memo",
+        "personalised to do list",
+        "hand painted memo pad",
+        "aesthetic desk organiser",
+        "desk canvas India",
+        "workspace gift"
+      ],
       "cover_img": "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
       "price": [
         {
@@ -64,29 +93,21 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Your Story Desk (Custom To-do canvas memo)",
-      "url": "your-story-desk",
-      "tags": ["custom photo desk memo", "personalised desk canvas", "photo to do list", "custom workspace gift", "aesthetic desk decor India"],
-      "cover_img": "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
-      "price": [
-        {
-          "original": "499",
-          "compared": "",
-          "excl": "shipping",
-          "showAbove": false
-        }
-      ]
-    },
-    {
       "id": 6,
       "name": "Painted Pause (Hand-Painted Bookmarks)",
       "url": "painted-pause",
-      "tags": ["hand painted bookmark", "custom bookmark India", "personalised bookmark gift", "artistic bookmark", "bookmark for readers", "unique book gift"],
+      "tags": [
+        "hand painted bookmark",
+        "custom bookmark India",
+        "personalised bookmark gift",
+        "artistic bookmark",
+        "bookmark for readers",
+        "unique book gift"
+      ],
       "cover_img": "muse-and-memo/painted-pause-hand-painted-bookmarks/image1.webp",
       "price": [
         {
-          "original": "179",
+          "original": "229",
           "compared": "",
           "excl": "shipping",
           "showAbove": false
@@ -97,11 +118,18 @@
       "id": 7,
       "name": "Vintage Keeps (Vintage Bookmarks)",
       "url": "vintage-keeps",
-      "tags": ["vintage bookmark", "antique style bookmark", "nostalgic bookmark", "bookmark for book lovers", "old soul gift", "collector bookmark India"],
+      "tags": [
+        "vintage bookmark",
+        "antique style bookmark",
+        "nostalgic bookmark",
+        "bookmark for book lovers",
+        "old soul gift",
+        "collector bookmark India"
+      ],
       "cover_img": "muse-and-memo/vintage-keeps-vintage-bookmarks/image1.webp",
       "price": [
         {
-          "original": "129",
+          "original": "149",
           "compared": "",
           "excl": "shipping",
           "showAbove": false
@@ -112,11 +140,18 @@
       "id": 8,
       "name": "Scribble Tales (Illustrated & Quote Bookmarks)",
       "url": "scribble-tales",
-      "tags": ["illustrated bookmark", "quote bookmark", "doodle bookmark", "fun bookmark gift", "bookmark for journal lovers", "cute bookmark India"],
+      "tags": [
+        "illustrated bookmark",
+        "quote bookmark",
+        "doodle bookmark",
+        "fun bookmark gift",
+        "bookmark for journal lovers",
+        "cute bookmark India"
+      ],
       "cover_img": "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image1.webp",
       "price": [
         {
-          "original": "109",
+          "original": "129",
           "compared": "",
           "excl": "shipping",
           "showAbove": false
@@ -127,7 +162,14 @@
       "id": 9,
       "name": "Mini Muse (Hand-Painted Desk Canvases)",
       "url": "mini-muse",
-      "tags": ["mini canvas art", "desk canvas gift", "hand painted mini canvas", "shelf decor art", "small canvas India", "personalised desk decor"],
+      "tags": [
+        "mini canvas art",
+        "desk canvas gift",
+        "hand painted mini canvas",
+        "shelf decor art",
+        "small canvas India",
+        "personalised desk decor"
+      ],
       "cover_img": "muse-and-memo/mini-muse-hand-painted-desk-canvases/image1.webp",
       "price": [
         {

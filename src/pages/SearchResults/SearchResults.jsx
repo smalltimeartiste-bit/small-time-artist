@@ -159,7 +159,7 @@ function SearchResults() {
                           <p key={i}>
                             <span>{`Rs. ${_.original}${_.showAbove ? " & above" : ""}`}</span>
                             {_.excl && (
-                              <span className={css.excl}>{` + ${_.excl}`}</span>
+                              <span className={css.excl}>{` (${_.excl})`}</span>
                             )}
                             {_.incl && (
                               <span className={css.incl}>{`- ${_.incl}`}</span>

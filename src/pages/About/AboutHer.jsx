@@ -144,16 +144,11 @@ function AboutHer() {
             </p>
 
             <p>
-              <a
-                href="https://www.smalltimeartiste.in"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Smalltime Artiste
-              </a>{" "}
-              began very quietly. Somewhere between a full time career in social
-              media, late night creative bursts, paint stains on tables,
-              unfinished coffee, and the very dangerous thought of:
+              Smalltime Artiste is a handcrafted gifting and art brand based in
+              Bengaluru and it began very quietly. Somewhere between a full
+              time career in social media, late night creative bursts, paint
+              stains on tables, unfinished coffee, and the very dangerous
+              thought of:
             </p>
 
             <p>
@@ -162,21 +157,9 @@ function AboutHer() {
 
             <p>
               Not polished.
-              <br />
-              Not mass produced.
-              <br />
-              Not picked out in panic five minutes before a birthday.
-            </p>
-
-            <p>
-              <strong>Just personal.</strong>
-            </p>
-
-            <p>
-              The kind of things that make someone stop mid unwrapping and say:
-            </p>
-
-            <p>
+              {" "}Not mass produced. Not picked out in panic five minutes
+              before a birthday. Just personal. The kind of things that make
+              someone stop mid unwrapping and say:{" "}
               <strong>&ldquo;Wait... this feels SO me.&rdquo;</strong>
             </p>
 
@@ -185,24 +168,13 @@ function AboutHer() {
             </p>
 
             <p>
-              Everything here is handcrafted slowly and emotionally, from
-              <strong> customized phone covers</strong>, <strong>Phoninserts</strong>,
-              <strong> tote bags</strong>, <strong>pouches</strong>,
-              <strong> journals</strong>, <strong>keepsake boxes</strong>,
-              <strong> wall art</strong>, <strong>desk decor</strong>,
-              <strong> tiny painted objects</strong>, and gifts that somehow end
-              up becoming memories.
-            </p>
-
-            <p>
-              Because honestly, I have never really been interested in creating
-              products people use once and forget.
-            </p>
-
-            <p>
-              <strong>
-                I wanted to create things people become emotionally attached to.
-              </strong>
+              Everything here is handcrafted slowly and emotionally. Customized
+              phone covers, Phoninserts, tote bags, pouches, journals, keepsake
+              boxes, hand-painted wall art, Van Gogh inspired decor, desk
+              accessories, and personalized gifts that somehow end up becoming
+              memories. Because honestly, I have never really been interested in
+              creating products people use once and forget. I wanted to create
+              things people become emotionally attached to.
             </p>
 
             <p>
@@ -217,16 +189,15 @@ function AboutHer() {
               The art itself is deeply inspired by <strong>nature</strong>,
               <strong> cinema</strong>, <strong>nostalgia</strong>,
               <strong> quiet moments</strong>, and emotions that are difficult to
-              explain properly. I&apos;ve always loved artists like
+              explain properly. I have always loved artists like
               <strong> Vincent van Gogh</strong> who painted feelings before
               realism. And I think somewhere along the way, that became part of
               this brand too.
             </p>
 
             <p>
-              Nothing here is designed to look perfect.
-              <br />
-              <strong>It is designed to feel something.</strong>
+              Nothing here is designed to look perfect. It is designed to feel
+              something.
             </p>
 
             <p>
@@ -248,11 +219,10 @@ function AboutHer() {
             </p>
 
             <p>
-              Every once in a while, Smalltime Artiste appears at
-              <strong> flea markets around Bengaluru</strong>. Rare, slightly
-              chaotic, paint covered, and always worth it. Very soon, there will
-              be <strong>home exhibitions</strong> too. Slower, softer spaces
-              where the work can exist the way it was always meant to.
+              Every once in a while, Smalltime Artiste appears at flea markets
+              and home exhibitions in Bengaluru. Rare, slightly chaotic, paint
+              covered, and always worth it. We also ship across India, because
+              handcrafted and personal should not be limited by a pin code.
             </p>
 
             <p className={css.contentNote}>

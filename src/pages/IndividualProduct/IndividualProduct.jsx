@@ -156,7 +156,7 @@ function IndividualProduct() {
   }, [productUrl]);
   if (!currListing) return <Loading />;
 
-  const { original, discounted } = currListing?.price || {};
+  const { original, discounted, excl } = currListing?.price || {};
   if (original && discounted) {
     average = parseFloat(100 - (discounted / original) * 100).toFixed(1);
   }
@@ -292,11 +292,19 @@ function IndividualProduct() {
                               className={css.percentage}
                             >{`${average}%`}</span>
                           )}
+                          {excl && (
+                            <span className={css.priceNote}>{`+ ${excl}`}</span>
+                          )}
                         </>
                       ) : (
-                        <span
-                          className={css.main}
-                        >{`Rs. ${discounted} & above`}</span>
+                        <>
+                          <span
+                            className={css.main}
+                          >{`Rs. ${discounted} & above`}</span>
+                          {excl && (
+                            <span className={css.priceNote}>{`+ ${excl}`}</span>
+                          )}
+                        </>
                       )}
                     </div>
                   </div>

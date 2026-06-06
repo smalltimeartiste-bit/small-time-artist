@@ -7,7 +7,13 @@
       "id": 1,
       "name": "Keepsake Corners",
       "url": "keepsake-corners",
-      "tags": ["vintage photo frame handmade", "custom painted photo frame", "personalised memory frame India", "nostalgic photo frame gift", "handcrafted frame India"],
+      "tags": [
+        "vintage photo frame handmade",
+        "custom painted photo frame",
+        "personalised memory frame India",
+        "nostalgic photo frame gift",
+        "handcrafted frame India"
+      ],
       "cover_img": "timeless-treasures/keepsake-corners/image1.webp",
       "price": [
         {
@@ -22,7 +28,13 @@
       "id": 2,
       "name": "Vintage Frames (Glass Collection)",
       "url": "vintage-frames-glass",
-      "tags": ["glass photo frame India", "custom glass frame", "hand painted glass frame", "elegant photo frame gift", "personalised glass frame"],
+      "tags": [
+        "glass photo frame India",
+        "custom glass frame",
+        "hand painted glass frame",
+        "elegant photo frame gift",
+        "personalised glass frame"
+      ],
       "cover_img": "timeless-treasures/vintage-frames-glass-collection/image1.webp",
       "price": [
         {
@@ -37,7 +49,13 @@
       "id": 3,
       "name": "Made to Frame",
       "url": "made-to-frame",
-      "tags": ["personalised photo frame India", "custom hand painted frame", "unique photo frame gift", "bespoke memory frame", "made to order photo frame"],
+      "tags": [
+        "personalised photo frame India",
+        "custom hand painted frame",
+        "unique photo frame gift",
+        "bespoke memory frame",
+        "made to order photo frame"
+      ],
       "cover_img": "timeless-treasures/made-to-frame/image1.webp",
       "price": [
         {
@@ -52,11 +70,17 @@
       "id": 4,
       "name": "Clip & Cherish",
       "url": "clip-and-cherish",
-      "tags": ["memory board India", "photo display board", "custom clipboard decor", "personalised photo board", "desk memory display gift"],
+      "tags": [
+        "memory board India",
+        "photo display board",
+        "custom clipboard decor",
+        "personalised photo board",
+        "desk memory display gift"
+      ],
       "cover_img": "timeless-treasures/clip-and-cherish/image1.webp",
       "price": [
         {
-          "original": "349",
+          "original": "449",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -67,7 +91,13 @@
       "id": 5,
       "name": "MemorEase (DIY Canvas)",
       "url": "memorease-diy-canvas",
-      "tags": ["DIY canvas India", "blank canvas gift", "personalised art canvas", "custom DIY painting kit", "creative gift for artists India"],
+      "tags": [
+        "DIY canvas India",
+        "blank canvas gift",
+        "personalised art canvas",
+        "custom DIY painting kit",
+        "creative gift for artists India"
+      ],
       "cover_img": "timeless-treasures/memor-ease-diy-canvas/image1.webp",
       "price": [
         {

@@ -1,16 +1,17 @@
+import { Navigate, useLocation, useNavigate, useParams } from "react-router";
 import React, { useEffect, useState } from "react";
-import css from "./ProductSubCategories.module.css";
+
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+import CustomButton from "../../components/Buttons/Buttons";
+import Error from "../../components/Error/Error";
+import Heading from "../../components/Heading/Heading";
 import { Helmet } from "react-helmet-async";
+import Loading from "../../components/Loading/Loading";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import Section from "../../components/Section/SectionContainer";
-import { Navigate, useLocation, useNavigate, useParams } from "react-router";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import Heading from "../../components/Heading/Heading";
 import WrapperContainer from "../../components/Wrapper/WrapperContainer";
 import baseUrl from "../../data/url.json";
-import Loading from "../../components/Loading/Loading";
-import Error from "../../components/Error/Error";
-import CustomButton from "../../components/Buttons/Buttons";
+import css from "./ProductSubCategories.module.css";
 
 function ProductSubCategories() {
   const { id } = useParams();
@@ -165,7 +166,7 @@ function ProductSubCategories() {
                               {_?.excl && (
                                 <span
                                   className={css.excl}
-                                >{` + ${_?.excl}`}</span>
+                                >{` (${_?.excl})`}</span>
                               )}
                               {_?.incl && (
                                 <span
