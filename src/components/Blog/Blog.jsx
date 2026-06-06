@@ -1,3 +1,5 @@
+import { useCallback, useState } from "react";
+
 import Heading from "../Heading/Heading";
 import css from "./Blog.module.css";
 
@@ -12,7 +14,17 @@ function formatDate(value) {
   });
 }
 
-function Blog({ blog }) {
+function Blog({ blog, contentMarkup }) {
+  const [lightboxSrc, setLightboxSrc] = useState(null);
+  const [lightboxAlt, setLightboxAlt] = useState("");
+
+  const handleContentClick = useCallback((e) => {
+    const img = e.target.closest(".blogImageCard img");
+    if (!img) return;
+    setLightboxSrc(img.src);
+    setLightboxAlt(img.alt);
+  }, []);
+
   return (
     <article className={css.root}>
       <p className={css.meta}>
@@ -34,16 +46,31 @@ function Blog({ blog }) {
         loading="lazy"
       />
 
-      {blog.contentHtml ? (
+      {contentMarkup ? (
         <div
           className={css.richContent}
-          dangerouslySetInnerHTML={{ __html: blog.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: contentMarkup }}
+          onClick={handleContentClick}
         />
       ) : (
         <div className={css.content}>
-          {blog.content.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
+          <p>Blog content is unavailable right now.</p>
+        </div>
+      )}
+
+      {lightboxSrc && (
+        <div
+          className={css.lightboxOverlay}
+          onClick={() => setLightboxSrc(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Image preview"
+        >
+          <img
+            className={css.lightboxImage}
+            src={lightboxSrc}
+            alt={lightboxAlt}
+          />
         </div>
       )}
     </article>
