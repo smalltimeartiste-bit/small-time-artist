@@ -12,7 +12,7 @@ function formatDate(value) {
   });
 }
 
-function Blog({ blog }) {
+function Blog({ blog, contentMarkup }) {
   return (
     <article className={css.root}>
       <p className={css.meta}>
@@ -34,16 +34,14 @@ function Blog({ blog }) {
         loading="lazy"
       />
 
-      {blog.contentHtml ? (
+      {contentMarkup ? (
         <div
           className={css.richContent}
-          dangerouslySetInnerHTML={{ __html: blog.contentHtml }}
+          dangerouslySetInnerHTML={{ __html: contentMarkup }}
         />
       ) : (
         <div className={css.content}>
-          {blog.content.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
+          <p>Blog content is unavailable right now.</p>
         </div>
       )}
     </article>
