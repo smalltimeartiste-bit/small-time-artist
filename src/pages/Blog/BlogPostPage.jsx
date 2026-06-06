@@ -13,7 +13,7 @@ import { useParams } from "react-router";
 const SITE_URL = "https://www.smalltimeartiste.in";
 const blogContentModules = import.meta.glob(
   "../../content/blogs/*.{md,mdx,html}",
-  { as: "raw" },
+  { query: "?raw", import: "default" },
 );
 
 function getIsoDate(value) {
