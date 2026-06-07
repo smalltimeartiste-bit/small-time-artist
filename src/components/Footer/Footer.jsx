@@ -1,19 +1,18 @@
-import css from "./Footer.module.css";
-import footerBg from "../../assets/page/footer/footer.png";
-import flower from "../../assets/page/footer/flowers.png";
-import Heading from "../Heading/Heading";
-
-import { ImFacebook2 } from "react-icons/im";
-import { SiInstagram } from "react-icons/si";
 import { BiLogoTelegram } from "react-icons/bi";
+import Heading from "../Heading/Heading";
+import { ImFacebook2 } from "react-icons/im";
 import { IoCall } from "react-icons/io5";
+import { SiInstagram } from "react-icons/si";
+import css from "./Footer.module.css";
+import flower from "../../assets/page/footer/flowers.png";
+import footerBg from "../../assets/page/footer/footer.png";
 
 function Footer() {
   const socialLinks = [
     {
       label: "Facebook",
       icon: <ImFacebook2 />,
-      href: "https://facebook.com", // Replace with actual URL
+      href: "https://www.facebook.com/smalltime.artiste", // Replace with actual URL
     },
     {
       label: "Instagram",
