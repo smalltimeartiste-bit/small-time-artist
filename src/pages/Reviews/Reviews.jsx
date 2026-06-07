@@ -1,15 +1,14 @@
+import Heading from "../../components/Heading/Heading";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import Section from "../../components/Section/SectionContainer";
-import Heading from "../../components/Heading/Heading";
-import css from "./Reviews.module.css";
 import Slider from "react-slick";
-import url from "../../data/url.json";
+import css from "./Reviews.module.css";
 import data from "../../data/reviews.json";
-import { useEffect, useState } from "react";
+import url from "../../data/url.json";
 
 function Reviews() {
-  const [sliderSettings, setSliderSettings] = useState({
-    dots: true,
+  const sliderSettings = {
+    dots: true, // show on laptop/desktop
     infinite: true,
     speed: 400,
     slidesToShow: 3,
@@ -18,45 +17,34 @@ function Reviews() {
     centerPadding: "20px",
     autoplay: true,
     autoplaySpeed: 2000,
-  });
-
-  useEffect(() => {
-    const updateSettings = () => {
-      const width = window.innerWidth;
-      if (width < 640) {
-        // mobile
-        setSliderSettings((prev) => ({
-          ...prev,
-          slidesToShow: 1,
-          centerPadding: "30px",
-        }));
-      } else if (width >= 640 && width < 768) {
-        // small tablet
-        setSliderSettings((prev) => ({
-          ...prev,
-          slidesToShow: 1.5,
-          centerPadding: "20px",
-        }));
-      } else if (width >= 768 && width < 1024) {
-        // tablet
-        setSliderSettings((prev) => ({
-          ...prev,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          dots: false, // hide on tablet/mobile
           slidesToShow: 2.5,
           centerPadding: "20px",
-        }));
-      } else {
-        // desktop
-        setSliderSettings((prev) => ({
-          ...prev,
-          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          dots: false,
+          slidesToShow: 1.5,
           centerPadding: "20px",
-        }));
-      }
-    };
-    updateSettings(); // initial run
-    window.addEventListener("resize", updateSettings);
-    return () => window.removeEventListener("resize", updateSettings);
-  }, []);
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          dots: false,
+          slidesToShow: 1,
+          centerPadding: "30px",
+        },
+      },
+    ],
+  };
+
   return (
     <MainContainer>
       <Section className={css.cont} label={data.label}>
@@ -64,13 +52,13 @@ function Reviews() {
           {data.heading}
           <span>{data.highlight}</span>
         </Heading>
-        <div className={`slider-container ${css.contSlider}`}>
+        <div className={"slider-container " + css.contSlider}>
           <Slider {...sliderSettings}>
             {data.images.map((e, i) => (
               <div key={i} className={css.cardCont}>
                 <img
-                  src={`${url.reviews_url}${e.img}`}
-                  alt={`Reviews by customers`}
+                  src={url.reviews_url + e.img}
+                  alt="Reviews by customers"
                   loading="lazy"
                 />
               </div>
