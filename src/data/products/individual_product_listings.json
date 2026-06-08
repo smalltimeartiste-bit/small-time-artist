@@ -1531,7 +1531,7 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 799,
+      "discounted": 349,
       "excl": "shipping"
     },
     "images": [
@@ -2609,7 +2609,6 @@
     },
     "images": [
       "the-gogh-edit/the-wall-edit/image1.webp",
-      "the-gogh-edit/the-wall-edit/image2.webp",
       "the-gogh-edit/the-wall-edit/image3.webp",
       "the-gogh-edit/the-wall-edit/image4.webp"
     ],
