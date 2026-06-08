@@ -1,20 +1,19 @@
+import CustomButton from "../../components/Buttons/Buttons";
 import Heading from "../../components/Heading/Heading";
+import { Helmet } from "react-helmet-async";
+import HeroImg from "../../assets/page/LandingPage/STA_HeroImg2.png";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import Section from "../../components/Section/SectionContainer";
-import css from "./Landing.module.css";
 import WrapperContainer from "../../components/Wrapper/WrapperContainer";
-import CustomButton from "../../components/Buttons/Buttons";
-
+import css from "./Landing.module.css";
+import decorationLand from "../../assets/decorations/landing.png";
 // assets import
 import flowerTree from "../../assets/decorations/flower_tree.svg";
-import pinkPetals from "../../assets/decorations/pink_petals.svg";
-import glimpseTree from "../../assets/decorations/flower_tree2.svg";
 import glimpseHead from "../../assets/decorations/glimpse_head.svg";
-import HeroImg from "../../assets/page/LandingPage/HeroImg1.png";
-
-import decorationLand from "../../assets/decorations/landing.png";
+import glimpseTree from "../../assets/decorations/flower_tree2.svg";
+import instagramLinks from "../../assets/content/instagram/instagram-links.json";
+import pinkPetals from "../../assets/decorations/pink_petals.svg";
 import { useNavigate } from "react-router";
-import { Helmet } from "react-helmet-async";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -36,16 +35,8 @@ const LandingPage = () => {
     },
   ];
 
-  const imageGallery = [
-    "https://www.instagram.com/p/DVoBS9ZkocQ",
-    "https://www.instagram.com/p/DTxyCIMEo2F",
-    "https://www.instagram.com/p/DS6wImlkkvO",
-    "https://www.instagram.com/p/DUusbu9Evup",
-    "https://www.instagram.com/p/DUM2jw7kpN4",
-    "https://www.instagram.com/p/DTcukiJEuXp",
-    "https://www.instagram.com/p/DTISWIEkgBS",
-    "https://www.instagram.com/p/DK15sdnyDGi",
-  ];
+  const imageGallery = instagramLinks.posts || [];
+  const instagramProfileUrl = instagramLinks.profileUrl;
 
   const handleRedirect = () => {
     navigate("/products");
@@ -94,9 +85,9 @@ const LandingPage = () => {
               Smalltime <span>Artiste</span>
             </Heading>
             <Heading level={2} className={css.heading2}>
-              She Does What She Loves
+              Gift thoughtful.
               <br />
-              She Loves What She Creates
+              Do not think.
             </Heading>
           </div>
           <div className={css.imgCont}>
@@ -179,7 +170,7 @@ const LandingPage = () => {
                   title={`Instagram post ${i + 1}`}
                 />
                 <a
-                  href="https://www.instagram.com/smalltime.artiste?igsh=MWp5YnRnbWp4eHI4aA=="
+                  href={instagramProfileUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={css.instaLinkBtn}

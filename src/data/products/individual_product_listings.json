@@ -5,11 +5,21 @@
     "desc": "Step into a captivating world of vintage charm and delightful nostalgia with our beautifully crafted aesthetic sunshine girl customised phone cases. Each case is designed to not only protect your device but also to reflect your unique personality and style, making it a perfect accessory for anyone who loves to stand out. Embrace the warmth of sunshine and the allure of retro aesthetics with these one-of-a-kind phone cases that are sure to turn heads wherever you go.",
     "specialOffer": true,
     "price": {
-      "original": 700,
-      "discounted": 600
+      "original": 279,
+      "excl": "insert only + shipping"
     },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "1.png",
+      "1.png",
+      "1.png"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -22,14 +32,21 @@
     "desc": "<p><strong>The Custom Edit</strong> is for complete creative freedom. If you have a clear idea, a Pinterest board, a colour palette, or a theme in mind, this is where you share it all. From minimal designs to detailed expressive layouts, we build your phone cover from scratch based on your references and description.</p><p>This option is perfect if you want something truly specific, different, or design-driven.</p><p><strong>Add to Cart</strong>, share your preferences and we'll complete your customised phone case design together on WhatsApp.</p>",
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 659,
+      "excl": "with cover + shipping"
     },
     "images": [
       "frame-your-phone/the-custom-edit-frame-your-phone-rs-605-strikeout-rs-579-plus-shipping/image1.webp",
       "frame-your-phone/the-custom-edit-frame-your-phone-rs-605-strikeout-rs-579-plus-shipping/image2.webp",
       "frame-your-phone/the-custom-edit-frame-your-phone-rs-605-strikeout-rs-579-plus-shipping/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -42,14 +59,21 @@
     "desc": "<p><strong>Celebrate the charm of Kolkata</strong> with doodle-blend phone covers and inserts inspired by the city’s core aesthetics, culture, and heritage. Each design captures Kolkata’s unique soul—its streets, art, and timeless stories—blending them into creative everyday essentials.</p><p><strong>Available with complete phone cover</strong> (specific brand covers may incur extra charges) or <strong>as insert only</strong>.</p><p><em>No repeats, no copies</em>—every phone cover is made uniquely for you.<br>Carry your city’s story in your hands—where culture meets design.</p>",
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/city-souls-kolkata-edition-frame-your-phone/image1.webp",
       "frame-your-phone/city-souls-kolkata-edition-frame-your-phone/image2.webp",
       "frame-your-phone/city-souls-kolkata-edition-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -63,10 +87,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "1.png",
+      "1.png",
+      "1.png"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -80,14 +115,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/the-gogh-edit-frame-your-phone/image1.webp",
       "frame-your-phone/the-gogh-edit-frame-your-phone/image2.webp",
       "frame-your-phone/the-gogh-edit-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -101,7 +143,8 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/mood-and-muse-frame-your-phone/image1.webp",
@@ -109,7 +152,13 @@
       "frame-your-phone/mood-and-muse-frame-your-phone/image3.webp",
       "frame-your-phone/mood-and-muse-frame-your-phone/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -123,10 +172,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "1.png",
+      "1.png",
+      "1.png"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -140,12 +200,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
-      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image1.webp"
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image1.webp",
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image2.webp",
+      "frame-your-phone/mood-and-muse-taylors-version-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -159,14 +228,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/mood-and-muse-rays-scope-frame-your-phone/image1.webp",
       "frame-your-phone/mood-and-muse-rays-scope-frame-your-phone/image2.webp",
       "frame-your-phone/mood-and-muse-rays-scope-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -176,18 +252,25 @@
   "mood-muse-durga-pujo": {
     "id": 8,
     "title": "Mood & Muse (Durga Pujo Edition) | Frame Your Phone",
-    "desc": "<p><strong>Discover aesthetic phone covers and inserts</strong> inspired by the vibrance of Durga Puja. With festive motifs, cultural artistry, and elegant seasonal designs, they\u2019re versatile, stylish, and trend-driven—perfect for rotating your look with every season and mood.</p><p><em>No repeats, no copies</em>—every phone cover is made uniquely for you.</p>",
+    "desc": "<p><strong>Discover aesthetic phone covers and inserts</strong> inspired by the vibrance of Durga Puja. With festive motifs, cultural artistry, and elegant seasonal designs, they’re versatile, stylish, and trend-driven—perfect for rotating your look with every season and mood.</p><p><em>No repeats, no copies</em>—every phone cover is made uniquely for you.</p>",
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/mood-and-muse-durga-pujo-edition-frame-your-phone/image1.webp",
       "frame-your-phone/mood-and-muse-durga-pujo-edition-frame-your-phone/image2.webp",
       "frame-your-phone/mood-and-muse-durga-pujo-edition-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -201,13 +284,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 659,
+      "excl": "with cover + shipping"
     },
     "images": [
       "frame-your-phone/stories-you-carry-frame-your-phone/image1.webp",
-      "frame-your-phone/stories-you-carry-frame-your-phone/image2.webp"
+      "frame-your-phone/stories-you-carry-frame-your-phone/image2.webp",
+      "frame-your-phone/stories-you-carry-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -221,14 +312,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 499
+      "discounted": 499,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/haven-eye-wooden-evil-eye-wall-hang/image1.webp",
       "nestled-nooks/haven-eye-wooden-evil-eye-wall-hang/image2.webp",
       "nestled-nooks/haven-eye-wooden-evil-eye-wall-hang/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -242,14 +340,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 399
+      "discounted": 449,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/breeze-bloomers-balcony-hangs/image1.webp",
       "nestled-nooks/breeze-bloomers-balcony-hangs/image2.webp",
       "nestled-nooks/breeze-bloomers-balcony-hangs/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -263,10 +368,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 499
+      "discounted": 499,
+      "excl": "shipping"
     },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "1.png",
+      "1.png",
+      "1.png"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -280,14 +396,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 599
+      "discounted": 599,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/home-harmony-hand-painted-mdf-wall-decor/image1.webp",
       "nestled-nooks/home-harmony-hand-painted-mdf-wall-decor/image2.webp",
       "nestled-nooks/home-harmony-hand-painted-mdf-wall-decor/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -301,14 +424,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 999
+      "discounted": 999,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/grain-and-grace-wooden-wall-hangs/image1.webp",
       "nestled-nooks/grain-and-grace-wooden-wall-hangs/image2.webp",
       "nestled-nooks/grain-and-grace-wooden-wall-hangs/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -322,14 +452,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 599
+      "discounted": 799,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/name-it-pretty-nameplates/image1.webp",
       "nestled-nooks/name-it-pretty-nameplates/image2.webp",
       "nestled-nooks/name-it-pretty-nameplates/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -343,14 +480,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1499
+      "discounted": 1499,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/keys-and-keeps-painted-wooden-key-holders/image1.webp",
       "nestled-nooks/keys-and-keeps-painted-wooden-key-holders/image2.webp",
       "nestled-nooks/keys-and-keeps-painted-wooden-key-holders/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -364,14 +508,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 299
+      "discounted": 699,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/table-tales-tabletop-art-and-posters/image1.webp",
       "nestled-nooks/table-tales-tabletop-art-and-posters/image2.webp",
       "nestled-nooks/table-tales-tabletop-art-and-posters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -385,14 +536,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1999
+      "discounted": 3599,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/story-walls-custom-wall-art/image1.webp",
       "nestled-nooks/story-walls-custom-wall-art/image2.webp",
       "nestled-nooks/story-walls-custom-wall-art/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -406,14 +564,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 449
+      "discounted": 549,
+      "excl": "shipping"
     },
     "images": [
       "nestled-nooks/painted-keepsakes-acrylic-frames/image1.webp",
       "nestled-nooks/painted-keepsakes-acrylic-frames/image2.webp",
       "nestled-nooks/painted-keepsakes-acrylic-frames/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -427,10 +592,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 659,
+      "excl": "with cover + shipping"
     },
-    "images": ["frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "frame-your-phone/vintage-vibes-frame-your-phone/image1.jpg",
+      "frame-your-phone/vintage-vibes-frame-your-phone/image2.webp",
+      "frame-your-phone/vintage-vibes-frame-your-phone/image3.webp"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -444,14 +620,21 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "original": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/brew-and-you-frame-your-phone/image2.webp",
       "frame-your-phone/brew-and-you-frame-your-phone/image3.webp",
       "frame-your-phone/brew-and-you-frame-your-phone/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -465,14 +648,20 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "discounted": 279,
+      "excl": "insert only + shipping"
     },
     "images": [
       "frame-your-phone/painted-frames-frame-your-phone/image1.webp",
-      "frame-your-phone/painted-frames-frame-your-phone/image2.webp",
       "frame-your-phone/painted-frames-frame-your-phone/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -486,14 +675,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 299
+      "discounted": 299,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image1.webp",
       "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image2.webp",
       "muse-and-memo/canvas-chronicles-hand-painted-canvas-notebooks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -507,14 +703,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 399,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp",
       "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image2.webp",
       "muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -528,7 +731,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 449
+      "discounted": 449,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image1.webp",
@@ -536,7 +740,13 @@
       "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image3.webp",
       "muse-and-memo/wander-notes-travel-friendly-resin-coated-notebooks/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -550,31 +760,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 549
+      "discounted": 549,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/my-muse-memo-to-do-canvas-memo/image1.webp",
       "muse-and-memo/my-muse-memo-to-do-canvas-memo/image2.webp",
       "muse-and-memo/my-muse-memo-to-do-canvas-memo/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
-    "tentativeShippingDate": {
-      "min": 10,
-      "max": 14,
-      "unit": "days"
-    }
-  },
-  "your-story-desk": {
-    "id": 27,
-    "title": "Your Story Desk (Custom To-do canvas memo)",
-    "desc": "<p><strong>Turn your desk into a truly personal masterpiece.</strong></p><p>Our hand-painted desk canvas and memo set is custom-designed using your photo, aesthetic preferences, favourite colours, and themes, creating your to-do productivity energy. Functional yet artistic, it helps you stay organized while keeping your personality at the center of every design.</p><p>Fully customisable — include your image, colours, theme, and personal details.</p><p><em>To explore personalised creations, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp.</em></p>",
-    "buyInfoShow": false,
-    "specialOffer": true,
-    "price": {
-      "discounted": 499
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
     },
-    "images": ["1.png", "1.png", "1.png"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -588,15 +788,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 179
+      "original": 229,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/painted-pause-hand-painted-bookmarks/image1.webp",
       "muse-and-memo/painted-pause-hand-painted-bookmarks/image2.webp",
-      "muse-and-memo/painted-pause-hand-painted-bookmarks/image3.webp",
-      "muse-and-memo/painted-pause-hand-painted-bookmarks/image4.webp"
+      "muse-and-memo/painted-pause-hand-painted-bookmarks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -610,14 +816,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 129
+      "original": 149,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/vintage-keeps-vintage-bookmarks/image1.webp",
       "muse-and-memo/vintage-keeps-vintage-bookmarks/image2.webp",
       "muse-and-memo/vintage-keeps-vintage-bookmarks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -631,14 +844,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 109
+      "original": 129,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image1.webp",
       "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image2.webp",
       "muse-and-memo/to-be-changed-scribble-tales-illustrated-and-quote-bookmarks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -652,7 +872,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "discounted": 249,
+      "excl": "shipping"
     },
     "images": [
       "muse-and-memo/mini-muse-hand-painted-desk-canvases/image1.webp",
@@ -662,7 +883,13 @@
       "muse-and-memo/mini-muse-hand-painted-desk-canvases/image5.webp",
       "muse-and-memo/mini-muse-hand-painted-desk-canvases/image6.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -676,7 +903,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/carry-your-canvas-tote-bags/image1.webp",
@@ -684,7 +912,13 @@
       "hold-it-pretty/carry-your-canvas-tote-bags/image3.webp",
       "hold-it-pretty/carry-your-canvas-tote-bags/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -698,14 +932,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/glow-and-go-painted-pouches/image1.webp",
       "hold-it-pretty/glow-and-go-painted-pouches/image2.webp",
       "hold-it-pretty/glow-and-go-painted-pouches/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -719,14 +960,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 229
+      "discounted": 229,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/ink-and-ideas-painted-pencil-pouches/image1.webp",
       "hold-it-pretty/ink-and-ideas-painted-pencil-pouches/image2.webp",
       "hold-it-pretty/ink-and-ideas-painted-pencil-pouches/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -740,14 +988,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "original": 999,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/wanderlight-travel-pouches/image1.webp",
       "hold-it-pretty/wanderlight-travel-pouches/image2.webp",
       "hold-it-pretty/wanderlight-travel-pouches/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -761,10 +1016,17 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 299
+      "discounted": 299,
+      "excl": "shipping"
     },
     "images": [],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -778,14 +1040,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1099
+      "discounted": 1099,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/tiny-treasure-towers-trinket-drawers/image1.jpg",
       "hold-it-pretty/tiny-treasure-towers-trinket-drawers/image2.jpg",
       "hold-it-pretty/tiny-treasure-towers-trinket-drawers/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -799,7 +1068,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 499
+      "discounted": 499,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/keepsake-keepers-treasure-box/image1.webp",
@@ -807,7 +1077,13 @@
       "hold-it-pretty/keepsake-keepers-treasure-box/image3.webp",
       "hold-it-pretty/keepsake-keepers-treasure-box/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -821,14 +1097,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 199
+      "discounted": 199,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/trinket-tales-jwellery-plates/image1.webp",
       "hold-it-pretty/trinket-tales-jwellery-plates/image2.webp",
       "hold-it-pretty/trinket-tales-jwellery-plates/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -842,14 +1125,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 129
+      "discounted": 129,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/key-charms-key-chains/image1.webp",
       "hold-it-pretty/key-charms-key-chains/image2.webp",
       "hold-it-pretty/key-charms-key-chains/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -863,13 +1153,20 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 549
+      "discounted": 549,
+      "excl": "shipping"
     },
     "images": [
       "hold-it-pretty/carry-your-life-totes/image1.webp",
       "hold-it-pretty/carry-your-life-totes/image2.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -883,14 +1180,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 799
+      "discounted": 1799,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/vows-and-vibes-wedding-and-bridesmaid-hamper/image1.webp",
       "a-little-extra/vows-and-vibes-wedding-and-bridesmaid-hamper/image2.webp",
       "a-little-extra/vows-and-vibes-wedding-and-bridesmaid-hamper/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -904,14 +1208,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1299
+      "discounted": 1499,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/tailor-your-treasure-custom-gift-hamper/image1.webp",
       "a-little-extra/tailor-your-treasure-custom-gift-hamper/image2.webp",
       "a-little-extra/tailor-your-treasure-custom-gift-hamper/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -925,14 +1236,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1099
+      "discounted": 1099,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/born-to-celebrate-birthday-gift-hamper/image1.webp",
       "a-little-extra/born-to-celebrate-birthday-gift-hamper/image2.jpg",
       "a-little-extra/born-to-celebrate-birthday-gift-hamper/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -946,14 +1264,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/pocketful-of-joy-mini-gift-hamper/image1.webp",
       "a-little-extra/pocketful-of-joy-mini-gift-hamper/image2.webp",
       "a-little-extra/pocketful-of-joy-mini-gift-hamper/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -967,14 +1292,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1799
+      "discounted": 1799,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/for-the-muse-of-my-heart-romantic-gift-hamper/image1.webp",
       "a-little-extra/for-the-muse-of-my-heart-romantic-gift-hamper/image2.webp",
       "a-little-extra/for-the-muse-of-my-heart-romantic-gift-hamper/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -988,13 +1320,20 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 999
+      "discounted": 999,
+      "excl": "shipping"
     },
     "images": [
       "a-little-extra/roots-and-gratitude-parents-gift-hamper/image1.jpg",
       "a-little-extra/roots-and-gratitude-parents-gift-hamper/image2.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1008,14 +1347,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 449
+      "discounted": 449,
+      "excl": "shipping"
     },
     "images": [
       "timeless-treasures/keepsake-corners/image1.webp",
       "timeless-treasures/keepsake-corners/image2.webp",
       "timeless-treasures/keepsake-corners/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1029,14 +1375,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "discounted": 899,
+      "excl": "shipping"
     },
     "images": [
       "timeless-treasures/vintage-frames-glass-collection/image1.webp",
       "timeless-treasures/vintage-frames-glass-collection/image2.webp",
       "timeless-treasures/vintage-frames-glass-collection/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1050,14 +1403,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1499
+      "discounted": 1499,
+      "excl": "shipping"
     },
     "images": [
       "timeless-treasures/made-to-frame/image1.webp",
       "timeless-treasures/made-to-frame/image2.webp",
       "timeless-treasures/made-to-frame/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1071,14 +1431,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 449,
+      "excl": "shipping"
     },
     "images": [
       "timeless-treasures/clip-and-cherish/image1.webp",
       "timeless-treasures/clip-and-cherish/image2.webp",
       "timeless-treasures/clip-and-cherish/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1092,14 +1459,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 549
+      "discounted": 549,
+      "excl": "shipping"
     },
     "images": [
       "timeless-treasures/memor-ease-diy-canvas/image1.webp",
       "timeless-treasures/memor-ease-diy-canvas/image2.webp",
       "timeless-treasures/memor-ease-diy-canvas/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1113,14 +1487,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1499
+      "discounted": 1499,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/farewell-frames/image1.webp",
       "paper-whispers/farewell-frames/image2.webp",
       "paper-whispers/farewell-frames/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1134,7 +1515,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 249
+      "discounted": 399,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/birthday-bloom/image1.jpg",
@@ -1149,14 +1531,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 799
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/lovers-lane/image1.webp",
       "paper-whispers/lovers-lane/image2.webp",
       "paper-whispers/lovers-lane/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1170,15 +1559,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 749
+      "discounted": 749,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/make-it-yours/image1.webp",
       "paper-whispers/make-it-yours/image2.webp",
-      "paper-whispers/make-it-yours/image3.webp",
-      "paper-whispers/make-it-yours/image4.webp"
+      "paper-whispers/make-it-yours/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1192,7 +1587,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/cake-story-toppers-handcrafted-cake-toppers/image1.jpg",
@@ -1201,7 +1597,13 @@
       "paper-whispers/cake-story-toppers-handcrafted-cake-toppers/image4.jpg",
       "paper-whispers/cake-story-toppers-handcrafted-cake-toppers/image5.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1215,14 +1617,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 129
+      "discounted": 249,
+      "excl": "shipping"
     },
     "images": [
       "paper-whispers/occasion-notes-special-day-cards/image1.webp",
       "paper-whispers/occasion-notes-special-day-cards/image2.webp",
       "paper-whispers/occasion-notes-special-day-cards/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1236,14 +1645,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 599
+      "original": 1699,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/keepsake-boxes-hand-painted-jewellery-boxes/image1.webp",
       "the-gogh-edit/keepsake-boxes-hand-painted-jewellery-boxes/image2.webp",
       "the-gogh-edit/keepsake-boxes-hand-painted-jewellery-boxes/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1257,14 +1673,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1999
+      "discounted": 3599,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/story-walls-custom-wall-art-installations/image1.webp",
       "the-gogh-edit/story-walls-custom-wall-art-installations/image2.webp",
       "the-gogh-edit/story-walls-custom-wall-art-installations/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1280,11 +1703,21 @@
       "the-gogh-edit/painted-keepsakes-acrylic-frames/image2.webp",
       "the-gogh-edit/painted-keepsakes-acrylic-frames/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
       "unit": "days"
+    },
+    "price": {
+      "discounted": 549,
+      "excl": "shipping"
     }
   },
   "the-gogh-journals": {
@@ -1294,14 +1727,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "original": 699,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/the-gogh-journals-handcrafted-notebooks/image1.webp",
       "the-gogh-edit/the-gogh-journals-handcrafted-notebooks/image2.webp",
       "the-gogh-edit/the-gogh-journals-handcrafted-notebooks/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1315,35 +1755,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 279
+      "original": 279,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/frame-your-phone-phone-cover-inserts/image1.webp",
       "the-gogh-edit/frame-your-phone-phone-cover-inserts/image2.webp",
       "the-gogh-edit/frame-your-phone-phone-cover-inserts/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
-    "tentativeShippingDate": {
-      "min": 10,
-      "max": 14,
-      "unit": "days"
-    }
-  },
-  "starry-sips": {
-    "id": 64,
-    "title": "Starry Sips (Hand-Painted MDF Coasters)",
-    "desc": "<p><strong>A little galaxy for your cup.</strong> Inspired by Van Gogh's timeless \"Starry Night,\" these hand-painted MDF coasters bring dreamy skies and swirling hues to your table. Artistic, elegant, and made to add a touch of night-sky calm to every sip.</p><p>To explore personalised kitchen art, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp for more designs.</p>",
-    "buyInfoShow": false,
-    "specialOffer": true,
-    "price": {
-      "discounted": 899
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
     },
-    "images": [
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp",
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image2.webp",
-      "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image3.webp"
-    ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1357,7 +1783,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "discounted": 899,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/van-gogh-nights-coaster-set-4-pcs-plus-holder/image1.webp",
@@ -1376,11 +1803,21 @@
       "the-gogh-edit/the-gogh-magnetic-charms/image2.webp",
       "the-gogh-edit/the-gogh-magnetic-charms/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
       "unit": "days"
+    },
+    "price": {
+      "original": 149,
+      "excl": "shipping"
     }
   },
   "glow-and-go-gogh": {
@@ -1390,14 +1827,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/glow-and-go-starry-night-painted-pouches/image1.webp",
       "the-gogh-edit/glow-and-go-starry-night-painted-pouches/image2.webp",
       "the-gogh-edit/glow-and-go-starry-night-painted-pouches/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1411,14 +1855,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/starry-brews-the-gogh-edit-hand-painted-bamboo-sippers/image1.webp",
       "the-gogh-edit/starry-brews-the-gogh-edit-hand-painted-bamboo-sippers/image2.webp",
       "the-gogh-edit/starry-brews-the-gogh-edit-hand-painted-bamboo-sippers/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1432,14 +1883,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 399
+      "discounted": 699,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/starry-tables-the-gogh-edit-table-tales-tabletop-art-and-posters/image1.webp",
       "the-gogh-edit/starry-tables-the-gogh-edit-table-tales-tabletop-art-and-posters/image2.webp",
       "the-gogh-edit/starry-tables-the-gogh-edit-table-tales-tabletop-art-and-posters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1453,16 +1911,22 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 349
+      "discounted": 349,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image1.webp",
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image2.webp",
       "old-soul-kitchen/hanging-recipes-kitchen-hangs/image3.webp",
-      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image4.webp",
-      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image5.webp"
+      "old-soul-kitchen/hanging-recipes-kitchen-hangs/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1476,7 +1940,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 245
+      "discounted": 245,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/snapshot-magnets-photo-magnets/image1.webp",
@@ -1484,7 +1949,13 @@
       "old-soul-kitchen/snapshot-magnets-photo-magnets/image3.webp",
       "old-soul-kitchen/snapshot-magnets-photo-magnets/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1498,14 +1969,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 129
+      "original": 149,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/shaped-charms-handcrafted-shape-magnets/image1.webp",
       "old-soul-kitchen/shaped-charms-handcrafted-shape-magnets/image2.webp",
       "old-soul-kitchen/shaped-charms-handcrafted-shape-magnets/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1519,14 +1997,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 299
+      "discounted": 299,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/to-do-tales-to-do-list-magnets/image1.jpg",
       "old-soul-kitchen/to-do-tales-to-do-list-magnets/image2.jpg",
       "old-soul-kitchen/to-do-tales-to-do-list-magnets/image3.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1540,14 +2025,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 149
+      "discounted": 149,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/canvas-charms-painted-canvas-magnets/image1.webp",
       "old-soul-kitchen/canvas-charms-painted-canvas-magnets/image2.webp",
       "old-soul-kitchen/canvas-charms-painted-canvas-magnets/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1561,7 +2053,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 149
+      "original": 179,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/wooden-whispers-painted-wooden-magnets/image1.webp",
@@ -1569,7 +2062,13 @@
       "old-soul-kitchen/wooden-whispers-painted-wooden-magnets/image3.webp",
       "old-soul-kitchen/wooden-whispers-painted-wooden-magnets/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1583,13 +2082,22 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 129
+      "discounted": 129,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image1.webp",
-      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image2.webp"
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image2.webp",
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image3.webp",
+      "old-soul-kitchen/everyday-charm-painted-mdf-magnets/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1603,14 +2111,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 175
+      "original": 549,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/tea-time-tales-tea-inspired-coasters/image1.webp",
       "old-soul-kitchen/tea-time-tales-tea-inspired-coasters/image2.webp",
       "old-soul-kitchen/tea-time-tales-tea-inspired-coasters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1624,36 +2139,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 175
+      "discounted": 175,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/self-love-sips-affirmation-coasters/image1.webp",
       "old-soul-kitchen/self-love-sips-affirmation-coasters/image2.webp",
       "old-soul-kitchen/self-love-sips-affirmation-coasters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
-    "tentativeShippingDate": {
-      "min": 10,
-      "max": 14,
-      "unit": "days"
-    }
-  },
-  "wizarding-brews": {
-    "id": 79,
-    "title": "Wizarding Brews (Harry Potter–Inspired Coasters)",
-    "desc": "<p><strong>Magic, mugs, and a touch of mischief.</strong> Harry Potter–themed coasters that bring Hogwarts to your table. Available in both MDF and resin-coated wooden finishes, they're perfect for Potterheads and collectors alike.</p><p><em>To explore personalised kitchen art, custom hand-painted designs, and exclusive collections, connect with us on WhatsApp for more designs.</em></p>",
-    "buyInfoShow": false,
-    "specialOffer": true,
-    "price": {
-      "discounted": 549
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
     },
-    "images": [
-      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
-      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image2.webp",
-      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image3.webp",
-      "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image4.webp"
-    ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1667,14 +2167,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "discounted": 899,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp",
       "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image2.webp",
       "old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1688,14 +2195,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 549
+      "discounted": 549,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/mountain-muse-mountain-inspired-coasters/image1.webp",
       "old-soul-kitchen/mountain-muse-mountain-inspired-coasters/image2.webp",
       "old-soul-kitchen/mountain-muse-mountain-inspired-coasters/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1709,7 +2223,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 499
+      "discounted": 499,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/everyday-mood-daily-vibe-coasters/image1.webp",
@@ -1717,7 +2232,13 @@
       "old-soul-kitchen/everyday-mood-daily-vibe-coasters/image3.webp",
       "old-soul-kitchen/everyday-mood-daily-vibe-coasters/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1731,7 +2252,8 @@
     "buyInfoShow": true,
     "specialOffer": true,
     "price": {
-      "discounted": 1099
+      "original": 1099,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/love-and-latte-coasters-custom-wooden-set/image1.webp",
@@ -1739,7 +2261,13 @@
       "old-soul-kitchen/love-and-latte-coasters-custom-wooden-set/image3.webp",
       "old-soul-kitchen/love-and-latte-coasters-custom-wooden-set/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1753,14 +2281,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 109
+      "discounted": 109,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/tea-time-tokens-tea-lover-magnets/image1.webp",
       "old-soul-kitchen/tea-time-tokens-tea-lover-magnets/image2.webp",
       "old-soul-kitchen/tea-time-tokens-tea-lover-magnets/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1774,14 +2309,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "discounted": 899,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image1.webp",
       "old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image2.webp",
       "old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1795,7 +2337,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/brewed-charm-hand-painted-bamboo-sippers/image1.webp",
@@ -1809,7 +2352,8 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 2299
+      "discounted": 2299,
+      "excl": "shipping"
     },
     "images": [
       "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image1.webp",
@@ -1817,7 +2361,13 @@
       "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image3.webp",
       "old-soul-kitchen/wizarding-brews-harry-potter-inspired-coasters/image4.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1831,13 +2381,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 899
+      "discounted": 899,
+      "excl": "shipping"
     },
     "images": [
+      "wearable-whimsy/ray-classics-oversized-t-shirts/cover.webp",
       "wearable-whimsy/ray-classics-oversized-t-shirts/image1.jpg",
       "wearable-whimsy/ray-classics-oversized-t-shirts/image2.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1851,14 +2409,22 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
     "images": [
+      "wearable-whimsy/kolkata-classics/cover.webp",
       "wearable-whimsy/kolkata-classics/image1.jpg",
       "wearable-whimsy/kolkata-classics/image2.jpg",
       "wearable-whimsy/kolkata-classics/image3.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1872,10 +2438,20 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
-    "images": ["wearable-whimsy/paw-and-proud/image1.jpg"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "wearable-whimsy/paw-and-proud/cover.webp",
+      "wearable-whimsy/paw-and-proud/image1.jpg"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1889,10 +2465,20 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
-    "images": ["wearable-whimsy/brew-and-bold-coffee/image1.jpg"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "wearable-whimsy/brew-and-bold-coffee/cover.webp",
+      "wearable-whimsy/brew-and-bold-coffee/image1.jpg"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1906,10 +2492,20 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
-    "images": ["wearable-whimsy/celestial-strokes-starry-night/image1.jpg"],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "images": [
+      "wearable-whimsy/celestial-strokes-starry-night/cover.webp",
+      "wearable-whimsy/celestial-strokes-starry-night/image1.jpg"
+    ],
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1923,13 +2519,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
     "images": [
+      "wearable-whimsy/reel-threads-movies-and-series-inspired/cover.webp",
       "wearable-whimsy/reel-threads-movies-and-series-inspired/image1.jpg",
       "wearable-whimsy/reel-threads-movies-and-series-inspired/image2.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1943,13 +2547,21 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 649
+      "discounted": 649,
+      "excl": "shipping"
     },
     "images": [
+      "wearable-whimsy/divine-hues-durga-pujo-classics/cover.webp",
       "wearable-whimsy/divine-hues-durga-pujo-classics/image1.jpg",
       "wearable-whimsy/divine-hues-durga-pujo-classics/image2.jpg"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,
@@ -1963,14 +2575,84 @@
     "buyInfoShow": false,
     "specialOffer": true,
     "price": {
-      "discounted": 1399
+      "original": 1499,
+      "excl": "shipping"
     },
     "images": [
       "the-gogh-edit/starry-sips-the-signature-van-gogh-collection/image1.webp",
       "the-gogh-edit/starry-sips-the-signature-van-gogh-collection/image2.webp",
       "the-gogh-edit/starry-sips-the-signature-van-gogh-collection/image3.webp"
     ],
-    "extraCharges": { "for": ["Gift packing", "note card"], "charge": "50.00" },
+    "extraCharges": {
+      "for": [
+        "Gift packing",
+        "note card"
+      ],
+      "charge": "50.00"
+    },
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
+  },
+  "the-wall-edit": {
+    "id": 95,
+    "title": "The Wall Edit (Mural & Accent Wall Paintings)",
+    "desc": "<p><strong>Some spaces need more than a frame on the wall. They need the wall itself to become something.</strong> The Wall Edit is Smalltime Artiste's mural and accent wall painting service -- hand-painted, made to order, and rooted in the same post-impressionist aesthetic that defines The Gogh Edit collection. Think swirling Starry Night textures, deep cobalt blues, expressive brushwork, and walls that feel like standing inside a painting.</p><p>Every mural is designed around your space, your light, and what you want the room to feel like. Not copied from a reference image, not templated, not rushed. Just paint, intention, and a wall that people will not stop talking about.</p><p>Pricing varies based on wall size and complexity. Currently available in Bengaluru. <strong>Rs. 22,000 onwards.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 22000,
+      "excl": "",
+      "showAbove": true
+    },
+    "images": [
+      "the-gogh-edit/the-wall-edit/image1.webp",
+      "the-gogh-edit/the-wall-edit/image3.webp",
+      "the-gogh-edit/the-wall-edit/image4.webp"
+    ],
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
+  },
+  "the-gogh-post": {
+    "id": 96,
+    "title": "The Gogh Post (Hand-Painted Postcards)",
+    "desc": "<p><strong>A little piece of Starry Night you can hold in your hand, send in an envelope, or keep on your desk forever.</strong> The Gogh Post is a hand-painted Van Gogh inspired postcard -- each one made individually in acrylic and gouache. No two are identical. Currently available as painted originals; printed editions coming soon.</p><p><strong>Rs. 229 per postcard.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 229,
+      "excl": ""
+    },
+    "images": [
+      "the-gogh-edit/the-gogh-post/image1.webp",
+      "the-gogh-edit/the-gogh-post/image2.webp"
+    ],
+    "tentativeShippingDate": {
+      "min": 10,
+      "max": 14,
+      "unit": "days"
+    }
+  },
+  "the-gogh-nook": {
+    "id": 97,
+    "title": "The Gogh Nook (Hand-Painted Mini Shelf)",
+    "desc": "<p><strong>A hand-painted miniature decorative shelf in the visual language of Starry Night.</strong> Place it on a desk, a windowsill, a bookshelf corner and watch it change everything around it. The Gogh Nook holds a small plant, a trinket, a candle, or whatever small object matters to you. Made to order, painted by hand.</p><p><strong>Rs. 2,299.</strong></p>",
+    "buyInfoShow": false,
+    "specialOffer": true,
+    "price": {
+      "discounted": 2299,
+      "excl": ""
+    },
+    "images": [
+      "the-gogh-edit/the-gogh-nook/image1.webp",
+      "the-gogh-edit/the-gogh-nook/image2.webp",
+      "the-gogh-edit/the-gogh-nook/image3.webp"
+    ],
     "tentativeShippingDate": {
       "min": 10,
       "max": 14,

@@ -1,12 +1,19 @@
 {
   "label": "Timeless Treasures",
   "heading": "Timeless Treasures",
-  "sub-heading": "Turn Memories into Masterpieces. A collection of custom keepsakes and heirloom-inspired frames — vintage, rustic, or deeply personal. Each piece is handcrafted and tailored to your story, because the best gifts are the ones that last forever.",
+  "sub-heading": "<em>Turn memories into masterpieces.</em><br><br>The gifts that never get put away. Every piece in this collection is a <strong>handcrafted personalised keepsake</strong> built around your memories, your story and your people. From <strong>custom photo frames and vintage glass frames</strong> to <strong>memory boards, DIY canvases and personalised photo displays</strong> — each one is made to last and made to mean something.<br><br>Perfect as a <strong>unique gift for birthdays, anniversaries, housewarmings or any moment worth remembering.</strong><br><br><em>Prices vary by size, design and personalisation.</em>",
   "products": [
     {
       "id": 1,
       "name": "Keepsake Corners",
       "url": "keepsake-corners",
+      "tags": [
+        "vintage photo frame handmade",
+        "custom painted photo frame",
+        "personalised memory frame India",
+        "nostalgic photo frame gift",
+        "handcrafted frame India"
+      ],
       "cover_img": "timeless-treasures/keepsake-corners/image1.webp",
       "price": [
         {
@@ -21,6 +28,13 @@
       "id": 2,
       "name": "Vintage Frames (Glass Collection)",
       "url": "vintage-frames-glass",
+      "tags": [
+        "glass photo frame India",
+        "custom glass frame",
+        "hand painted glass frame",
+        "elegant photo frame gift",
+        "personalised glass frame"
+      ],
       "cover_img": "timeless-treasures/vintage-frames-glass-collection/image1.webp",
       "price": [
         {
@@ -35,6 +49,13 @@
       "id": 3,
       "name": "Made to Frame",
       "url": "made-to-frame",
+      "tags": [
+        "personalised photo frame India",
+        "custom hand painted frame",
+        "unique photo frame gift",
+        "bespoke memory frame",
+        "made to order photo frame"
+      ],
       "cover_img": "timeless-treasures/made-to-frame/image1.webp",
       "price": [
         {
@@ -49,10 +70,17 @@
       "id": 4,
       "name": "Clip & Cherish",
       "url": "clip-and-cherish",
+      "tags": [
+        "memory board India",
+        "photo display board",
+        "custom clipboard decor",
+        "personalised photo board",
+        "desk memory display gift"
+      ],
       "cover_img": "timeless-treasures/clip-and-cherish/image1.webp",
       "price": [
         {
-          "original": "349",
+          "original": "449",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -63,6 +91,13 @@
       "id": 5,
       "name": "MemorEase (DIY Canvas)",
       "url": "memorease-diy-canvas",
+      "tags": [
+        "DIY canvas India",
+        "blank canvas gift",
+        "personalised art canvas",
+        "custom DIY painting kit",
+        "creative gift for artists India"
+      ],
       "cover_img": "timeless-treasures/memor-ease-diy-canvas/image1.webp",
       "price": [
         {

@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-import { useSearchParams, useNavigate } from "react-router";
+import { useNavigate, useSearchParams } from "react-router";
+
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+import Heading from "../../components/Heading/Heading";
 import { Helmet } from "react-helmet-async";
-import css from "./SearchResults.module.css";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import Section from "../../components/Section/SectionContainer";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import WrapperContainer from "../../components/Wrapper/WrapperContainer";
-import Heading from "../../components/Heading/Heading";
 import baseUrl from "../../data/url.json";
+import css from "./SearchResults.module.css";
 
 // All 12 category slugs — must match the JSON filenames exactly
 const ALL_CATEGORIES = [
@@ -18,8 +19,6 @@ const ALL_CATEGORIES = [
   { slug: "the-gogh-edit", label: "The Gogh Edit" },
   { slug: "nestled-nook", label: "Nestled Nook" },
   { slug: "muse-and-memo", label: "Muse & Memo" },
-  { slug: "pink-parade", label: "Pink Parade" },
-  { slug: "the-bookish-mark", label: "The Bookish Mark" },
   { slug: "wearable-whimpsy", label: "Wearable Whimpsy" },
   { slug: "a-little-extra", label: "A Little Extra" },
   { slug: "hold-it-pretty", label: "Hold It Pretty" },
@@ -62,7 +61,10 @@ function SearchResults() {
           const categoryMatches = cat.label.toLowerCase().includes(q);
           (data.products || []).forEach((product) => {
             const productMatches = product.name.toLowerCase().includes(q);
-            if (productMatches || categoryMatches) {
+            const tagMatches = (product.tags || []).some((tag) =>
+              tag.toLowerCase().includes(q)
+            );
+            if (productMatches || categoryMatches || tagMatches) {
               matched.push({
                 ...product,
                 categorySlug: cat.slug,
@@ -71,6 +73,7 @@ function SearchResults() {
             }
           });
         } catch (err) {
+          console.error(`Failed to load category ${cat.slug}:`, err);
           // silently skip if a category fails to load
         }
       });
@@ -156,7 +159,7 @@ function SearchResults() {
                           <p key={i}>
                             <span>{`Rs. ${_.original}${_.showAbove ? " & above" : ""}`}</span>
                             {_.excl && (
-                              <span className={css.excl}>{` + ${_.excl}`}</span>
+                              <span className={css.excl}>{` (${_.excl})`}</span>
                             )}
                             {_.incl && (
                               <span className={css.incl}>{`- ${_.incl}`}</span>

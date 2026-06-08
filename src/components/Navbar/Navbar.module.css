@@ -39,16 +39,22 @@
 .logo img {
   /* max-height: 80%;
   height: auto; */
-  width: 90px;
+  width: 78px;
   display: block;
   cursor: pointer;
 }
 
-ul {
+.cont ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .navButton {
@@ -71,11 +77,50 @@ ul {
   text-decoration: none;
 }
 
+.searchNavBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1.5px solid #d9c5b2;
+  background-color: var(--navbarButtonBgHover);
+  color: var(--textColorHover);
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+
+  & svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    background-color: #f7efe7;
+    color: var(--textColorHover);
+    border-color: #c8b9a3;
+    transform: scale(1.03);
+
+    & svg * {
+      stroke-width: 2.6px;
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--navbarButtonBgHover);
+    outline-offset: 2px;
+  }
+}
+
 .svg {
   display: none;
 }
 @media (max-width: 767px) {
-  ul {
+  .cont ul {
     display: none;
   }
 
@@ -100,6 +145,18 @@ ul {
   .cont {
     display: flex;
     align-items: center;
+    gap: 8px;
+
+    .searchNavBtn {
+      width: 36px;
+      height: 36px;
+
+      & svg {
+        width: 17px;
+        height: 17px;
+      }
+    }
+
     & .svg {
       display: unset;
       width: 32px;

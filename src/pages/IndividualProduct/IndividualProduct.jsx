@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from "react";
-import MainContainer from "../../components/MainContainer/MainContainer";
-import Section from "../../components/Section/SectionContainer";
-import { Helmet } from "react-helmet-async";
-import WrapperContainer from "../../components/Wrapper/WrapperContainer";
-import Heading from "../../components/Heading/Heading";
+
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import css from "./IndividualProduct.module.css";
-import allListings from "../../data/products/individual_product_listings.json";
-import { useLocation } from "react-router";
-import Loading from "../../components/Loading/Loading";
-import classNames from "classnames";
-import CustomButton from "../../components/Buttons/Buttons";
-import SliderCarousel from "../../components/Slider/Slider";
 import { BsPaperclip } from "react-icons/bs";
 import { CgClose } from "react-icons/cg";
+import CustomButton from "../../components/Buttons/Buttons";
+import Heading from "../../components/Heading/Heading";
+import { Helmet } from "react-helmet-async";
+import Loading from "../../components/Loading/Loading";
+import MainContainer from "../../components/MainContainer/MainContainer";
+import Section from "../../components/Section/SectionContainer";
+import SliderCarousel from "../../components/Slider/Slider";
+import WrapperContainer from "../../components/Wrapper/WrapperContainer";
+import allListings from "../../data/products/individual_product_listings.json";
+import classNames from "classnames";
+import css from "./IndividualProduct.module.css";
+import { useLocation } from "react-router";
 
 function BuyModal(props) {
   const { isOpen, onClose, title } = props;
@@ -155,7 +156,7 @@ function IndividualProduct() {
   }, [productUrl]);
   if (!currListing) return <Loading />;
 
-  const { original, discounted } = currListing?.price || {};
+  const { original, discounted, excl } = currListing?.price || {};
   if (original && discounted) {
     average = parseFloat(100 - (discounted / original) * 100).toFixed(1);
   }
@@ -272,11 +273,6 @@ function IndividualProduct() {
                     />
                   </div>
                   <div>
-                    {currListing?.specialOffer && (
-                      <Heading className={css.specialOffer} level="2">
-                        Special Price
-                      </Heading>
-                    )}
                     <div className={css.pricingCont}>
                       {shouldShowCustomMessage ? (
                         <span className={css.main}>
@@ -296,11 +292,19 @@ function IndividualProduct() {
                               className={css.percentage}
                             >{`${average}%`}</span>
                           )}
+                          {excl && (
+                            <span className={css.priceNote}>{`+ ${excl}`}</span>
+                          )}
                         </>
                       ) : (
-                        <span
-                          className={css.main}
-                        >{`Rs. ${discounted} & above`}</span>
+                        <>
+                          <span
+                            className={css.main}
+                          >{`Rs. ${discounted} & above`}</span>
+                          {excl && (
+                            <span className={css.priceNote}>{`+ ${excl}`}</span>
+                          )}
+                        </>
                       )}
                     </div>
                   </div>

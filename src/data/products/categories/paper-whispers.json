@@ -1,12 +1,20 @@
 {
   "label": "Paper Whispers",
   "heading": "Paper Whisper",
-  "sub-heading": "Because paper speaks louder than words. Discover handcrafted and hand-painted greeting cards for every emotion — from heartfelt celebrations to simple hellos. Each card is custom-made to your story, designed with your preferred palette, message, or even photographs. Prices vary by design, size, and personalization.",
+  "sub-heading": "<em>Because paper speaks louder than words.</em><br><br>A <strong>handmade greeting card</strong> that actually feels like it took thought. Every card in this collection is custom made around your emotion, your message and your moment. Birthdays, farewells, anniversaries, love, celebrations and everything in between. Add a name, a photo, a quote or a colour and we build it around you.<br><br>No two cards are ever the same because no two moments are. DM us on Instagram or WhatsApp to start yours. <em>Prices vary by design, size and personalisation.</em>",
   "products": [
     {
       "id": 1,
       "name": "Farewell Frames",
       "url": "farewell-frames",
+      "tags": [
+        "farewell card handmade",
+        "goodbye card personalised",
+        "custom farewell card India",
+        "colleague farewell gift",
+        "mentor farewell card",
+        "handcrafted goodbye card"
+      ],
       "cover_img": "paper-whispers/farewell-frames/image1.webp",
       "price": [
         {
@@ -21,10 +29,18 @@
       "id": 2,
       "name": "Birthday Bloom",
       "url": "birthday-bloom",
+      "tags": [
+        "hand painted birthday card",
+        "custom birthday card India",
+        "personalised birthday card",
+        "birthday cake topper",
+        "creative birthday gift",
+        "unique birthday card handmade"
+      ],
       "cover_img": "paper-whispers/birthday-bloom/image1.jpg",
       "price": [
         {
-          "original": "249",
+          "original": "399",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -35,10 +51,18 @@
       "id": 3,
       "name": "Lover's Lane",
       "url": "lovers-lane",
+      "tags": [
+        "anniversary card handmade",
+        "love card personalised",
+        "custom romantic card India",
+        "hand painted love card",
+        "anniversary gift card",
+        "couple card handmade"
+      ],
       "cover_img": "paper-whispers/lovers-lane/image1.webp",
       "price": [
         {
-          "original": "799",
+          "original": "349",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -49,6 +73,14 @@
       "id": 4,
       "name": "Make It Yours",
       "url": "make-it-yours",
+      "tags": [
+        "custom greeting card India",
+        "personalised card handmade",
+        "bespoke greeting card",
+        "photo greeting card",
+        "unique card gift India",
+        "made to order card"
+      ],
       "cover_img": "paper-whispers/make-it-yours/image1.webp",
       "price": [
         {
@@ -63,6 +95,14 @@
       "id": 5,
       "name": "Cake Story Toppers (Handcrafted Cake Toppers)",
       "url": "cake-story-toppers",
+      "tags": [
+        "custom cake topper India",
+        "handmade cake topper",
+        "personalised cake topper",
+        "birthday cake topper handcrafted",
+        "farewell cake topper",
+        "milestone cake topper"
+      ],
       "cover_img": "paper-whispers/cake-story-toppers-handcrafted-cake-toppers/image1.jpg",
       "price": [
         {
@@ -77,10 +117,18 @@
       "id": 6,
       "name": "Occasion Notes (Special Day Cards)",
       "url": "occasion-notes",
+      "tags": [
+        "special occasion card",
+        "Womens Day card handmade",
+        "personalised appreciation card",
+        "workplace gift card",
+        "handcrafted occasion card India",
+        "milestone greeting card"
+      ],
       "cover_img": "paper-whispers/occasion-notes-special-day-cards/image1.webp",
       "price": [
         {
-          "original": "129",
+          "original": "249",
           "compared": "",
           "excl": "shipping",
           "showAbove": true

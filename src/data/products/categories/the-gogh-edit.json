@@ -1,19 +1,26 @@
 {
   "label": "The Gogh Edit",
   "heading": "The Gogh Edit",
-  "sub-heading": "Where Art Meets Emotion. Brushes meet brilliance in this Van Gogh–inspired curation. Celebrate art that speaks to the soul with handcrafted pieces echoing Van Gogh's timeless style — from swirling skies to golden hues. Each creation blends artistry, personalization, and craftsmanship, making it perfect for collectors, dreamers, and those who see beauty in every detail.",
+  "sub-heading": "<em>Where art meets emotion.</em><br><br>For everyone who feels things deeply and lives surrounded by beauty. The Gogh Edit is a Van Gogh inspired collection of handcrafted pieces that bring swirling skies, rich colour and expressive brushwork into your everyday life. From <strong>custom phone covers</strong> and <strong>hand painted coasters</strong> to <strong>keepsake boxes, notebooks, pouches and wall art</strong> — every piece is rooted in the soul of post impressionist art and made personal to you.<br><br>Also includes the <strong>Gogh Nook</strong>, a hand painted miniature decorative shelf starting at Rs. 2,299, and the <strong>Gogh Post</strong>, hand painted Van Gogh inspired postcards at Rs. 229 each. Every piece is made to order. DM us on Instagram or WhatsApp to customise yours. <em>Prices vary by product, size, material and personalisation.</em>",
   "products": [
     {
       "id": 1,
       "name": "Keepsake Boxes (Hand-Painted Jewellery Boxes)",
       "url": "keepsake-boxes-gogh",
+      "tags": [
+        "Van Gogh jewellery box",
+        "hand painted keepsake box",
+        "art inspired jewellery box",
+        "custom painted box India",
+        "Starry Night gift box"
+      ],
       "cover_img": "the-gogh-edit/keepsake-boxes-hand-painted-jewellery-boxes/image1.webp",
       "price": [
         {
-          "original": "599",
+          "original": "1699",
           "compared": "",
           "excl": "shipping",
-          "showAbove": true
+          "showAbove": false
         }
       ]
     },
@@ -21,10 +28,17 @@
       "id": 2,
       "name": "Story Walls (Custom Wall Art Installations)",
       "url": "story-walls-gogh",
+      "tags": [
+        "Van Gogh wall art India",
+        "custom wall art",
+        "Starry Night wall decor",
+        "hand painted wall installation",
+        "art inspired home decor"
+      ],
       "cover_img": "the-gogh-edit/story-walls-custom-wall-art-installations/image1.webp",
       "price": [
         {
-          "original": "1999",
+          "original": "3599",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -35,10 +49,16 @@
       "id": 3,
       "name": "Painted Keepsakes (Acrylic Frames)",
       "url": "painted-keepsakes-gogh",
+      "tags": [
+        "Van Gogh acrylic frame",
+        "hand painted photo frame",
+        "art inspired memory frame",
+        "Starry Night frame India"
+      ],
       "cover_img": "the-gogh-edit/painted-keepsakes-acrylic-frames/image1.webp",
       "price": [
         {
-          "original": "449",
+          "original": "549",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
@@ -49,13 +69,20 @@
       "id": 4,
       "name": "The Gogh Journals (Handcrafted Notebooks)",
       "url": "the-gogh-journals",
+      "tags": [
+        "Van Gogh notebook",
+        "Starry Night journal",
+        "hand painted notebook India",
+        "art inspired diary",
+        "custom Van Gogh journal"
+      ],
       "cover_img": "the-gogh-edit/the-gogh-journals-handcrafted-notebooks/image1.webp",
       "price": [
         {
-          "original": "349",
+          "original": "699",
           "compared": "",
           "excl": "shipping",
-          "showAbove": true
+          "showAbove": false
         }
       ]
     },
@@ -63,6 +90,12 @@
       "id": 5,
       "name": "Frame Your Phone (Phone cover/inserts)",
       "url": "frame-your-phone-gogh",
+      "tags": [
+        "Van Gogh phone cover",
+        "Starry Night phone case",
+        "art phone cover India",
+        "custom art phone insert"
+      ],
       "cover_img": "the-gogh-edit/frame-your-phone-phone-cover-inserts/image1.webp",
       "price": [
         {
@@ -77,10 +110,17 @@
       "id": 6,
       "name": "Starry sips (The Signature Van Gogh Collection)",
       "url": "starry-sips-gogh",
+      "tags": [
+        "Van Gogh coaster set",
+        "Starry Night coaster",
+        "hand painted MDF coaster",
+        "art coaster India",
+        "coaster gift set"
+      ],
       "cover_img": "the-gogh-edit/starry-sips-the-signature-van-gogh-collection/image1.webp",
       "price": [
         {
-          "original": "1399",
+          "original": "1499",
           "compared": "",
           "excl": "shipping",
           "showAbove": false
@@ -91,6 +131,12 @@
       "id": 7,
       "name": "Van Gogh Nights (Coaster Set – 4 pcs + Holder)",
       "url": "van-gogh-nights",
+      "tags": [
+        "Van Gogh coaster set with holder",
+        "Starry Night coaster set",
+        "artistic coaster gift",
+        "hand painted coaster set India"
+      ],
       "cover_img": "the-gogh-edit/van-gogh-nights-coaster-set-4-pcs-plus-holder/image1.webp",
       "price": [
         {
@@ -105,13 +151,20 @@
       "id": 8,
       "name": "The Gogh Magnetic Charms | Fridge Magnets",
       "url": "the-gogh-magnetic-charms",
+      "tags": [
+        "Van Gogh fridge magnet",
+        "Starry Night magnet",
+        "art magnet India",
+        "hand painted magnet",
+        "collectible art magnet"
+      ],
       "cover_img": "the-gogh-edit/the-gogh-magnetic-charms/image1.webp",
       "price": [
         {
-          "original": "129",
+          "original": "149",
           "compared": "",
           "excl": "shipping",
-          "showAbove": true
+          "showAbove": false
         }
       ]
     },
@@ -119,6 +172,13 @@
       "id": 9,
       "name": "Glow & Go (Starry Night Painted Pouches)",
       "url": "glow-and-go-gogh",
+      "tags": [
+        "Van Gogh pouch",
+        "Starry Night makeup pouch",
+        "art inspired pouch India",
+        "hand painted travel pouch",
+        "Starry Night gift"
+      ],
       "cover_img": "the-gogh-edit/glow-and-go-starry-night-painted-pouches/image1.webp",
       "price": [
         {
@@ -133,6 +193,13 @@
       "id": 10,
       "name": "Starry Brews (The Gogh Edit | Hand-Painted Bamboo Sippers)",
       "url": "starry-brews",
+      "tags": [
+        "Van Gogh bamboo sipper",
+        "Starry Night coffee sipper",
+        "hand painted sipper India",
+        "eco friendly art gift",
+        "bamboo sipper gift"
+      ],
       "cover_img": "the-gogh-edit/starry-brews-the-gogh-edit-hand-painted-bamboo-sippers/image1.webp",
       "price": [
         {
@@ -147,13 +214,83 @@
       "id": 11,
       "name": "Starry Tables (The Gogh Edit | Table Tales – Tabletop Art & Posters)",
       "url": "starry-tables",
+      "tags": [
+        "Van Gogh tabletop art",
+        "Starry Night desk decor",
+        "art inspired table poster",
+        "hand painted mini canvas",
+        "Starry Night desk gift"
+      ],
       "cover_img": "the-gogh-edit/starry-tables-the-gogh-edit-table-tales-tabletop-art-and-posters/image1.webp",
       "price": [
         {
-          "original": "399",
+          "original": "699",
           "compared": "",
           "excl": "shipping",
           "showAbove": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Wall Edit (Mural & Accent Wall Paintings)",
+      "url": "the-wall-edit",
+      "tags": [
+        "Van Gogh mural",
+        "accent wall painting",
+        "Starry Night wall",
+        "hand painted mural",
+        "custom wall art Bengaluru"
+      ],
+      "cover_img": "the-gogh-edit/the-wall-edit/image1.webp",
+      "price": [
+        {
+          "original": "22000",
+          "compared": "",
+          "excl": "",
+          "showAbove": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Gogh Post (Hand-Painted Postcards)",
+      "url": "the-gogh-post",
+      "tags": [
+        "Van Gogh postcard",
+        "hand painted postcard",
+        "Starry Night postcard",
+        "art postcard India",
+        "collectible art postcard"
+      ],
+      "cover_img": "the-gogh-edit/the-gogh-post/image1.webp",
+      "price": [
+        {
+          "original": "229",
+          "compared": "",
+          "excl": "",
+          "showAbove": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Gogh Nook (Hand-Painted Mini Shelf)",
+      "url": "the-gogh-nook",
+      "tags": [
+        "Van Gogh mini shelf",
+        "hand painted shelf",
+        "Starry Night decor",
+        "miniature shelf decor",
+        "art shelf India"
+      ],
+      "cover_img": "the-gogh-edit/the-gogh-nook/image1.webp",
+      "price": [
+        {
+          "original": "2299",
+          "compared": "",
+          "excl": "",
+          "showAbove": false
         }
       ]
     }

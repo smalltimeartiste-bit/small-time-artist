@@ -1,0 +1,266 @@
+.root {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 24px 20px 70px;
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--subSecondaryBlack);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.meta span:not(:last-child)::after {
+  content: "•";
+  margin-left: 10px;
+}
+
+.title {
+  color: var(--headingText);
+  font-size: 56px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.author {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  color: var(--largeTextColor);
+  margin-bottom: 18px;
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #ddd4c4;
+  margin-bottom: 22px;
+}
+
+.content {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.richContent {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--largeTextColor);
+}
+
+.richContent p,
+.richContent ul,
+.richContent blockquote {
+  margin-bottom: 18px;
+}
+
+.richContent h3 {
+  font-family: "Engraved", serif;
+  font-size: 34px;
+  line-height: 1.25;
+  color: var(--headingText);
+  font-weight: 700;
+  margin: 22px 0 12px;
+}
+
+.richContent ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.richContent li {
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 8px;
+}
+
+.richContent li::before {
+  content: "🐾";
+  position: absolute;
+  left: 0;
+  top: 0.02em;
+  font-size: 17px;
+  line-height: 1;
+  opacity: 0.58;
+  filter: saturate(0.75) brightness(1.15);
+}
+
+.richContent :global(.important) {
+  font-weight: 500;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.quote) {
+  background-color: #f6efe4;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-style: italic;
+  color: var(--primaryBlack);
+}
+
+.richContent :global(.psNote) {
+  margin-top: 10px;
+  padding-top: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: var(--subSecondaryBlack);
+  font-style: italic;
+}
+
+.richContent :global(.blogImageRow) {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 6px 2px 10px;
+  margin: 8px 0 18px;
+}
+
+.richContent :global(.blogImageRow::-webkit-scrollbar) {
+  height: 8px;
+}
+
+.richContent :global(.blogImageRow::-webkit-scrollbar-thumb) {
+  background: #d5c8b3;
+  border-radius: 99px;
+}
+
+.richContent :global(.blogImageCard) {
+  flex: 0 0 min(320px, 82vw);
+  margin: 0;
+  scroll-snap-align: start;
+  position: relative;
+  cursor: zoom-in;
+  overflow: hidden;
+}
+
+.richContent :global(.blogImageCard img) {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid #ddd4c4;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.richContent :global(.blogImageCard:hover img) {
+  transform: scale(1.03);
+}
+
+.richContent :global(.blogImageCard::before) {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: linear-gradient(to top, rgba(30, 24, 18, 0.4), rgba(30, 24, 18, 0));
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.richContent :global(.blogImageCard::after) {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background-color: #f6efe4;
+  border: 1px solid #c8b79d;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.24);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2369553a' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='6'/%3E%3Cline x1='20' y1='20' x2='15.5' y2='15.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+
+.richContent :global(.blogImageCard:hover::before),
+.richContent :global(.blogImageCard:hover::after) {
+  opacity: 1;
+}
+
+.richContent :global(.blogImageCard:hover::after) {
+  transform: translateY(0);
+}
+
+.lightboxOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  animation: lightboxFadeIn 0.18s ease;
+}
+
+@keyframes lightboxFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.lightboxImage {
+  max-width: min(90vw, 1100px);
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 767px) {
+  .root {
+    padding: 18px 10px 50px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .author,
+  .content,
+  .richContent {
+    font-size: 15px;
+  }
+
+  .richContent h3 {
+    font-size: 24px;
+  }
+
+  .richContent li {
+    padding-left: 28px;
+  }
+
+  .richContent li::before {
+    font-size: 15px;
+  }
+
+  .richContent :global(.psNote) {
+    font-size: 14px;
+  }
+}

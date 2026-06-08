@@ -41,9 +41,10 @@
 
 // export default SliderCarousel;
 
-import { useState, useRef, useEffect } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useEffect, useRef, useState } from "react";
+
 import classNames from "classnames";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import css from "./Slider.module.css";
 import url from "../../data/url.json";
 

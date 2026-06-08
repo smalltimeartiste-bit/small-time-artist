@@ -1,6 +1,7 @@
 .heading {
   color: var(--headingText);
   font-size: 84px;
+  margin-top: 32px;
   & span {
     color: var(--pinkText);
   }
@@ -76,11 +77,16 @@
 }
 .card1 {
   grid-row: span 2;
-  & .decorImg,
-  & .cardImg {
+  & .decorImg {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+  }
+  & .cardImg {
+    bottom: 0;
+    height: 80%;
+    width: auto;
+    object-fit: contain;
   }
 }
 .card2 {
@@ -92,6 +98,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 110%;
+    width: auto;
   }
 }
 .card3 {
@@ -102,6 +110,8 @@
   & .cardImg {
     bottom: 0px;
     left: 20px;
+    height: 100%;
+    width: auto;
   }
 }
 .card4 {
@@ -113,6 +123,8 @@
   & .cardImg {
     bottom: 0;
     left: 0;
+    height: 100%;
+    width: auto;
   }
 }
 .card5 {
@@ -123,8 +135,11 @@
   }
 
   & .cardImg {
-    left: 0;
+    right: 0;
     bottom: 0;
+    height: 110%;
+    width: auto;
+    object-fit: contain;
   }
 }
 .card6 {
@@ -138,6 +153,8 @@
   & .cardImg {
     bottom: 0;
     right: 0;
+    height: 65%;
+    width: auto;
   }
 }
 
@@ -150,33 +167,36 @@
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 100%;
+    width: auto;
   }
 }
 
 .card8 {
   & .decorImg {
-    top: 0;
+    bottom: 0;
     right: 0;
   }
 
   & .cardImg {
     left: 0;
     bottom: 0;
+    height: 75%;
+    width: auto;
   }
 }
 
 .card9 {
-  grid-row: span 2;
-  & .decorImg,
-  & .cardImg {
+  grid-column: span 2;
+  & .decorImg {
+    right: 0;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
   }
-
   & .cardImg {
-    left: 0 !important;
-    transform: unset !important;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -189,29 +209,8 @@
   & .cardImg {
     left: 0;
     bottom: 0;
-  }
-}
-
-.card11 {
-  & .decorImg {
-    right: 0;
-    bottom: 0;
-  }
-  & .cardImg {
-    left: 0;
-    bottom: 0;
-    width: 90%;
-  }
-}
-.card12 {
-  grid-column: span 2;
-  & .decorImg {
-    bottom: 0;
-    right: 0;
-  }
-  & .cardImg {
-    left: 0;
-    bottom: 0;
+    height: 150%;
+    width: auto;
   }
 }
 .featuredHeading {
@@ -229,6 +228,7 @@
   }
   .heading {
     font-size: 42px;
+    margin-top: 20px;
 
     & span {
       display: block;
@@ -269,9 +269,7 @@
       "card5 card5"
       "card7 card6"
       "card8 card6"
-      "card9 card10"
-      "card9 card11"
-      "card12 card12";
+      "card9 card10";
   }
   .card {
     & .decorImg {
@@ -351,29 +349,14 @@
   .card8 {
     grid-area: card8;
     & .decorImg {
-      height: 65px;
-    }
-    & .cardImg {
-      height: 100%;
-    }
-  }
-  .card9 {
-    grid-area: card9;
-    & .cardImg {
-      height: 80%;
-    }
-  }
-  .card10 {
-    grid-area: card10;
-    & .decorImg {
       height: 50px;
     }
     & .cardImg {
       height: 95%;
     }
   }
-  .card11 {
-    grid-area: card11;
+  .card9 {
+    grid-area: card9;
     & .decorImg {
       height: 65px;
     }
@@ -383,8 +366,8 @@
       width: 80%;
     }
   }
-  .card12 {
-    grid-area: card12;
+  .card10 {
+    grid-area: card10;
     & .decorImg {
       height: 70px;
     }
@@ -431,6 +414,11 @@
   gap: 1rem;
   padding: 1rem;
   scrollbar-gutter: stable;
+  cursor: grab;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   & .card {
     width: 270px;
@@ -496,167 +484,4 @@
   border-radius: 4px;
 }
 
-/* ═══════════════════════════════════════════
-   🆕 SEARCH BAR + AUTOCOMPLETE DROPDOWN
-   ═══════════════════════════════════════════ */
-
-.searchRow {
-  position: relative;
-  width: 100%;
-  /* margin-bottom: 20px; */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.searchBar {
-  display: flex;
-  align-items: center;
-  background: #fff;
-  border: 1.5px solid #d9c5b2;
-  border-radius: 30px;
-  padding: 12px 20px;
-  gap: 10px;
-  width: 100%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition:
-    border-color 0.2s,
-    box-shadow 0.2s,
-    border-radius 0.15s;
-  box-sizing: border-box;
-  &:focus-within {
-    border-color: #b5896a;
-    box-shadow: 0 2px 14px rgba(181, 137, 106, 0.18);
-  }
-}
-
-.searchBarOpen {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-color: #eee;
-}
-
-.searchIcon {
-  color: #b5896a;
-  font-size: 20px;
-  flex-shrink: 0;
-  cursor: pointer;
-}
-
-.searchInput {
-  border: none;
-  outline: none;
-  width: 100%;
-  font-family: "Geist", sans-serif;
-  font-size: 16px;
-  background: transparent;
-  color: #333;
-  &::placeholder {
-    color: #bbb;
-  }
-}
-
-.clearBtn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #aaa;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  font-size: 17px;
-  flex-shrink: 0;
-  &:hover {
-    color: #666;
-  }
-}
-
-/* ── Dropdown — positioned via inline style (React Portal) ── */
-.dropdown {
-  background: #fff;
-  border: 1.5px solid #b5896a;
-  border-top: none;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  list-style: none;
-  padding: 4px 0 6px;
-  margin: 0;
-  overflow: hidden;
-  /* position + top/left/width come from inline style via JS */
-}
-
-.suggestionItem {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 18px;
-  cursor: pointer;
-  font-family: "Geist", sans-serif;
-  font-size: 14px;
-  color: #333;
-  transition: background 0.12s;
-  &:hover {
-    background: #fdf6f0;
-  }
-}
-
-.suggestionActive {
-  background: #fdf6f0 !important;
-}
-
-.suggestionIcon {
-  color: #b5896a;
-  font-size: 15px;
-  flex-shrink: 0;
-}
-
-.suggestionText {
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  & strong {
-    color: #b5896a;
-    font-weight: 700;
-  }
-}
-
-.suggestionBadge {
-  font-size: 11px;
-  color: #999;
-  background: #f3f3f3;
-  padding: 2px 8px;
-  border-radius: 20px;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.seeAll {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 18px;
-  cursor: pointer;
-  font-family: "Geist", sans-serif;
-  font-size: 13px;
-  color: #b5896a;
-  border-top: 1px solid #f0e8e0;
-  margin-top: 4px;
-  transition: background 0.12s;
-  & strong {
-    font-weight: 700;
-  }
-  &:hover {
-    background: #fdf6f0;
-  }
-}
-
-/* ── Mobile ── */
-@media (max-width: 768px) {
-  .searchRow {
-    width: 100%; /* already full width, no change needed */
-    padding: 0;
-    margin-bottom: 20px;
-  }
-}
+/* Search styles moved to src/components/ProductSearch/ProductSearch.module.css */

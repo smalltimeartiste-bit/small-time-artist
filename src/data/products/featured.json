@@ -1,18 +1,21 @@
 {
   "folderPath": "featured/products",
   "list": [
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image1.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image2.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image3.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image4.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image5.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image6.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image7.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image8.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image9.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image10.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image11.webp" },
-    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/featured/image12.webp" }
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/the-gogh-edit/glow-and-go-starry-night-painted-pouches/image1.webp", "link": "/products/the-gogh-edit/glow-and-go-gogh" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/hold-it-pretty/glow-and-go-painted-pouches/image1.webp", "link": "/products/hold-it-pretty/glow-and-go" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/frame-your-phone/mood-and-muse-rays-scope-frame-your-phone/image1.webp", "link": "/products/frame-your-phone/mood-muse-ray-scope" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/old-soul-kitchen/everyday-charm-painted-mdf-magnets/image1.webp", "link": "/products/old-soul-kitchen/everyday-charm" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/old-soul-kitchen/city-sips-kolkata-coaster-set-6-pcs-painted/image1.webp", "link": "/products/old-soul-kitchen/city-sips" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/old-soul-kitchen/starry-sips-hand-painted-mdf-coasters/image1.webp", "link": "/products/old-soul-kitchen/starry-sips" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/nestled-nooks/keys-and-keeps-painted-wooden-key-holders/image1.webp", "link": "/products/nestled-nook/keys-and-keeps" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/nestled-nooks/painted-keepsakes-acrylic-frames/image1.webp", "link": "/products/nestled-nook/painted-keepsakes" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/hold-it-pretty/trinket-tales-jwellery-plates/image1.webp", "link": "/products/hold-it-pretty/trinket-tales" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/paper-whispers/farewell-frames/image1.webp", "link": "/products/paper-whispers/farewell-frames" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/muse-and-memo/bound-muse-hardbound-and-spiral-notebooks/image1.webp", "link": "/products/muse-and-memo/bound-muse" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/wearable-whimsy/ray-classics-oversized-t-shirts/image1.jpg", "link": "/products/wearable-whimpsy/ray-classics" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/nestled-nooks/breeze-bloomers-balcony-hangs/image1.webp", "link": "/products/nestled-nook/breeze-bloomers" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/frame-your-phone/the-custom-edit-frame-your-phone-rs-605-strikeout-rs-579-plus-shipping/image1.webp", "link": "/products/frame-your-phone/the-custom-edit" },
+    { "image": "https://owccabrtioklxfyhwwec.supabase.co/storage/v1/object/public/SmalltimeArtiste/Images/product-categories/nestled-nooks/table-tales-tabletop-art-and-posters/image1.webp", "link": "/products/nestled-nook/table-tales" }
   ],
   "faq": [
     {
